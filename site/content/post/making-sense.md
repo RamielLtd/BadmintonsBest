@@ -1,5 +1,5 @@
 ---
-title: Making sense of the SCAA’s new Flavor Wheel
+title: Something else
 date: 2016-12-17T15:04:10.000Z
 description: Something else
 image: /img/blog-flavor_wheel.jpg
