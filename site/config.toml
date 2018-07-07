@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://www.badmintonsbest.com/"
 languageCode = "en-us"
 title = "Badmintons Best"
 theme = "hugo-future-imperfect"
