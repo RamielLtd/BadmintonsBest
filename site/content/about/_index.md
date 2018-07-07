@@ -1,29 +1,6 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About Badmintons Best"
+date = "2018-07-07"
 +++
 
-Hugo is a static site engine written in Go.
-
-
-It makes use of a variety of open source projects including:
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+Hi 👋 I'm Liam. I've been playing Badminton for over 15 years and along with my family is my biggest passion in life. If I'm not with family I'm either playing or watching Badminton on a mission to be the best I can be. This site is where I can share what I've learnt from playing, being coached and from watching... Badmintons Best.
