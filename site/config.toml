@@ -4,7 +4,7 @@ title = "Badmintons Best"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = "badmintonsbest"
 googleAnalytics = "UA-110943527-2"
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
@@ -89,19 +89,19 @@ canonifyURLs = true
 [params.intro]
   header    = "Badmintons Best"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "Videos, photos and news and much more that are all things badminton! The best content from the best in the world 🔥 🏸 💯"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "Hi 👋 I'm Liam. I've been playing Badminton for over 15 years and along with my family is my biggest passion in life. If I'm not with family I'm either playing or watching Badminton on a mission to be the best I can be. This site is where I can share what I've learnt from playing, being coached and from watching... Badmintons Best."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
     src       = "/img/main/logo.jpg"
     # Sets Image to be a cirlce
-    circle    = false
+    circle    = true
     # Sets Image to be Future Imperfect's hexagon
-    imperfect = true
-    width     = ""
+    imperfect = false
+    width     = "150"
     alt       = "Badmintons Best"
 
 [params.postAmount]
@@ -129,22 +129,10 @@ canonifyURLs = true
   weight = 3
 
 [[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
-  identifier = "fa fa-list"
-  weight = 4
-
-[[menu.main]]
   name = "Categories"
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
-
-[[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  identifier = "fa fa-envelope-o"
-  weight = 6
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop

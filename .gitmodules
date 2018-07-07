@@ -1,0 +1,6 @@
+[submodule "site/themes/victor-hugo"]
+	path = site/themes/victor-hugo
+	url = https://github.com/netlify/victor-hugo.git
+[submodule "site/themes/hugo-future-imperfect"]
+	path = site/themes/hugo-future-imperfect
+	url = https://github.com/jpescador/hugo-future-imperfect.git

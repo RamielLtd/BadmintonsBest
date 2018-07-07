@@ -1,16 +1,18 @@
----
-title: Which Badminton Racquet is Best for Me
-linktitle: Which Badminton Racquet is Best for Me
-categories:
-  - racquets
-date: 2018-07-06T23:25:43.767Z
-description: >-
-  The best way to find the racquet which is best for you is based on a number of
-  factors including; physical strength and attributes, playing ability, play
-  style and price and feel. Looking at these six things in combination let’s see
-  how we can pick the best racquet for you.
----
-# Which Badminton Racquet is Best for Me
++++
+author = ""
+categories = ["Q&A"]
+date = "2018-07-07"
+description = "I’ve played with the same badminton racquets for over 12 years, it wasn’t until I broke one of only two racquets I had (a Yonex Armortec 900 Power) that I realised I might need to get some more but after 12 years with the same racquets how was I going to be able to pick a new one right for me?"
+featured = ""
+featuredalt = ""
+featuredpath = ""
+linktitle = "Which Badminton Racquet is Best for Me?"
+title = "Which Badminton Racquet is Best for Me?"
+type = "post"
+
++++
+
+# Which Badminton Racquet is Best for Me?
 
 I’ve played with the same badminton racquets for over 12 years, it wasn’t until I broke one of only two racquets I had (a Yonex Armortec 900 Power) that I realised I might need to get some more but after 12 years with the same racquets how was I going to be able to pick a new one right for me?
 
@@ -22,11 +24,11 @@ The biggest reason why physical strength matters in racquet selection has nothin
 
 The purpose of designing racquets this way works like this; the more flexible the racquet the easier it is to get the racquet to bend when you play a shot. The bend in the racquet allows the racquet to recoil and generate more power, it acts sort of like a whip.
 
-So flexible racquets make it easier to get the power for players who are either beginner level or simply lack the physical power to get the bend in a stiffer racquet, however this does have a downside. The racquet has a natural limit for players who are much stronger and those players will find after a certain point the racquet won’t give them more power no matter how much effort they exert which is why there are stiffer racquets. 
+So flexible racquets make it easier to get the power for players who are either beginner level or simply lack the physical power to get the bend in a stiffer racquet, however this does have a downside. The racquet has a natural limit for players who are much stronger and those players will find after a certain point the racquet won’t give them more power no matter how much effort they exert which is why there are stiffer racquets.
 
 Stiff and extra stiff racquets are more suited to advanced and physically stronger players who have the technique and the power to get the stiffer racquets to bend. A stiffer racquet will recoil with greater force because it takes a greater force to bend it. Imagine a tree sapling and a old oak tree on a windy day, the sapling will bend easily in the wind without much effort but the oak tree won’t budge at all.
 
-A trait about racquets not often talked about is the racquets weight and grip size. These both relate to a players physical attributes rather than his strength. Players with greater racquet control tend to go for racquets with smaller grip sizes for more refined touch and feel but this can be difficult for beginners or if you have big hands so might be better suited to a racquet with a slightly bigger grip size. 
+A trait about racquets not often talked about is the racquets weight and grip size. These both relate to a players physical attributes rather than his strength. Players with greater racquet control tend to go for racquets with smaller grip sizes for more refined touch and feel but this can be difficult for beginners or if you have big hands so might be better suited to a racquet with a slightly bigger grip size.
 
 The same racquet can also come in different weights and based on the player it might be better to have a lighter version say if you don't have a particularly strong wrist or if you play more doubles and need shorter sharper shots which will be easier with a lighter racquet.
 
@@ -34,7 +36,7 @@ The same racquet can also come in different weights and based on the player it m
 
 Your level of playing ability relates to your experience and playing level in badminton. If you’re a beginner you’ll be more suited to pick an all round racquet that is easy to play with to build on basic skills and fundamentals.
 
-If your an intermediate that has a moderate amount of experience and plays at a decent level you’ll more likely need something above the all round level of racquets that presents a bit more of a challenge to master. 
+If your an intermediate that has a moderate amount of experience and plays at a decent level you’ll more likely need something above the all round level of racquets that presents a bit more of a challenge to master.
 
 If your an advanced player you’re more likely to know how you play, your level of play and need something that provides a real challenge to play with but once mastered provides you better control, more responsiveness and accuracy in your shots and generate more power.
 
