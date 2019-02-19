@@ -12,8 +12,6 @@ type = "post"
 
 +++
 
-# Which Badminton Racquet is Best for Me?
-
 I’ve played with the same badminton racquets for over 12 years, it wasn’t until I broke one of only two racquets I had (a Yonex Armortec 900 Power) that I realised I might need to get some more but after 12 years with the same racquets how was I going to be able to pick a new one right for me?
 
 **The best way to find the racquet which is best for you is based on a number of factors including; physical strength and attributes, playing ability, play style and price and feel. Looking at these six things in combination let’s see how we can pick the best racquet for you.**

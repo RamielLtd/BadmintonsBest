@@ -12,8 +12,6 @@ type = "post"
 
 +++
 
-# What is a Split Step? The Secret to Speed in Badminton
-
 Everyone I’ve ever met in badminton always asks the question; “how can I get faster” or “how can I go faster to the shuttle” and I really believe that one of the keys to great speed in badminton is practising footwork. A lot of coaches go over the various movements that get you to the shuttle in a certain way, either by moving backwards, forwards or sideways, slow and fast movements etc. One of the key technique which isn’t given enough focus is the split step. So what is it and how can it help to learn this technique?
 
 **The badminton split step, also known as the split drop, is the technique of widening your stance to get ready for the next shot from the opponent. It’s a short, sharp and precise movement that widens your stance and gets your centre of gravity lower. Doing the split step allows you to change direction easier and get continuous fluid footwork. It’s an essential piece of footwork so let’s look into this vital technique in more detail.**

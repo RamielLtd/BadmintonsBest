@@ -12,8 +12,6 @@ type = "post"
 
 +++
 
-# 5 Reasons Badminton Will Help You Lose Weight
-
 Everybody wants to be trim, everybody wants to stay in shape but not everybody enjoys going to the gym, I believe the best answer is finding a sport you love is the best way to get in shape as you’ll enjoy getting a sweat on more and it won’t feel like such a chore.
 
 **Playing Badminton is a great way to lose weight as it ticks a number of boxes that the best trainers recommend to lose weight. Playing Badminton a couple of times a week can dramatically improve your weight loss progress so let’s look at five reasons why playing Badminton will help you lose weight.**

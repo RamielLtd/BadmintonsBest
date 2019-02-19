@@ -12,8 +12,6 @@ type = "post"
 
 +++
 
-# How to Hit a Killer Badminton Smash! How the Best do it
-
 Probably the most asked question, the most search topic and the thing the majority of people fixate on when they first start playing badminton. It’s definitely the most exciting shot to play and watch in the sport, there really isn’t anything else quite like it. Seeing some of the greats play this iconic shot is jaw-dropping to say the least but how do they do it? What’s the key to a killer smash?
 
 Look at the best smashers in the game like Lin Dan, Fu Haifeng, Goh V Shem, Tan Boon Heong to name a few, you start to see patterns in how they approach and execute the shot. **Good footwork to get right behind the shuttle, power through the legs and jump to get up and meet the shuttle at the highest point possible, hit the shuttle just in front of your body line and push the shuttle down to get a steep angle, placement is as crucial as power but both are needed and finally keep a fluid motion and pronate the arm to get the last second whip-like snap to power through the shuttle. These are just the components of the smash, you need to practise all of this and then some. Mastering each of these elements of the shot and you’ll be killer on court.** Having highlighted all of that, let’s go into more detail on each point step by step.

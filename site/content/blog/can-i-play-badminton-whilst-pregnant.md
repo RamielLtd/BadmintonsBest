@@ -12,8 +12,6 @@ type = "post"
 
 +++
 
-# Can I Play Badminton Whilst Pregnant?
-
 Fun fact, I once had the honour of training and playing with the Olympic silver medalists Gail Emms and Nathan Robertson, true story. At the time Gail Emms was expecting her first child which would turn out to be a boy and despite being heavily pregnant at the time was still able and willing to do the group training session I was attending alongside Nathan. Despite being very heavily pregnant she managed to do the training session helping other and managed a shortened mixed game at the end playing against Nathan and each of them playing with someone from the session. Obviously being an Olympian level athlete and previous world champion to boot, a short match for fun should be no problem, right? You can still play Badminton while pregnant, right?
 
 **The answer is that you probably shouldn’t. You can still play keeping it at a very social and casual way but anything more could put yourself and the baby at risk. Badminton is a high paced sport that requires agility, speed and a lot of explosive movement. All doctors and health professionals will recommend avoiding high-intensity exercise and sports where you could either fall or come into any type of collision be it person or object. So you might still be able to play but it’s best avoided. Let’s look at in a little more detail why you probably shouldn’t be playing Badminton whilst pregnant and what you can do instead to keep you fit, healthy and safe for you and your baby-to-be.**

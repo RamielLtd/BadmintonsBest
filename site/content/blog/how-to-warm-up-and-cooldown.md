@@ -12,8 +12,6 @@ type = "post"
 
 +++
 
-# How to Warm-Up and Cooldown Properly to Avoid Injury?
-
 I was out playing badminton the other night at the badminton league club I play for just for a general practice, I have been playing as much recently so was feeling a bit rusty going on to have a knock up to warm-up. I thought about that and actually, I've always been taught to do a full dynamic warm-up properly before getting onto court and to do a cooldown afterwards. All the coaches I've ever been too always instructed and insisted on that for the simple fact that it's necessary to decrease the risk of picking up an injury. So how do you warm-up properly and cooldown properly?
 
 **The simple answer is that you need to do a full body warm-up that uses dynamic stretching exercises and should probably take around 5-10 minutes before playing and then a full body cooldown that uses static stretching and should last roughly the same amount of time.**
