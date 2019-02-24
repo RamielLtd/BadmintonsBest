@@ -58,4 +58,4 @@ Just because we like to play to improve and get better at the sport doesn't mean
 
 **What is a Badminton net made out of?** Badminton nets are normally made out of nylon but have been made out of vinyl and polyethylene before that. Even the tape that runs along the top of the net is made from nylon.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I've missed anything out or have other advice around the split step please leave feedback and share your help with other below. Thanks again for reading.
+If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
