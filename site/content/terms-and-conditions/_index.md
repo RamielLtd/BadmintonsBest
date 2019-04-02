@@ -1,6 +1,6 @@
 +++
 title = "Terms and Conditions for Ramiel Ltd Introduction"
-date = "2019-04-02"
+date = "2019-04-01"
 +++
 
 These Website Standard Terms and Conditions written on this webpage shall manage your use of our website, Badmintons Best accessible at https://www.badmintonsbest.com.

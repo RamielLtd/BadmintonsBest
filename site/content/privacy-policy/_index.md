@@ -1,6 +1,6 @@
 +++
 title = "Privacy Policy of Ramiel Ltd"
-date = "2019-04-02"
+date = "2019-04-01"
 +++
 
 Ramiel Ltd operates the https://www.badmintonsbest.com website, which provides the SERVICE.
