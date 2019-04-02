@@ -92,6 +92,8 @@ canonifyURLs = true
   paragraph = "Videos, photos and news and much more that are all things badminton! The best content from the best in the world 🔥 🏸 💯"
 
   about     = "Hi 👋 I'm Liam. I've been playing Badminton for over 15 years and along with my family is my biggest passion in life. If I'm not with family I'm either playing or watching Badminton on a mission to be the best I can be. This site is where I can share what I've learnt from playing, being coached and from watching... Badmintons Best."
+  legal     = "This site is owned and operated by Ramiel Ltd. Ramiel Ltd is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. Ramiel Ltd is compensated for referring traffic and business to these companies. Copyright © Ramiel Ltd"
+  # Ramiel Ltd also participates in affiliate programs with Bluehost, Clickbank, CJ, ShareASale, and other sites.
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
