@@ -136,6 +136,18 @@ canonifyURLs = true
   identifier = "fa fa-sitemap"
   weight = 5
 
+[[menu.main]]
+  name = "Terms and Conditions"
+  url = "/terms-and-conditions/"
+  identifier = ""
+  weight = 6
+
+[[menu.main]]
+  name = "Privacy Policy"
+  url = "/privacy-policy/"
+  identifier = ""
+  weight = 7
+
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
