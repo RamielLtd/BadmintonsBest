@@ -1,0 +1,11 @@
+{
+  "main": {
+    "js": "main.js"
+  },
+  "": {
+    "eot": "fonts/academicons.eot",
+    "svg": "fonts/academicons.svg",
+    "ttf": "fonts/academicons.ttf",
+    "woff": "fonts/academicons.woff"
+  }
+}
