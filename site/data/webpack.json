@@ -1,11 +1,9 @@
 {
   "main": {
-    "js": "main.js"
+    "css": "main.0da00.css",
+    "js": "main.0da00.js"
   },
   "": {
-    "eot": "fonts/academicons.eot",
-    "svg": "fonts/academicons.svg",
-    "ttf": "fonts/academicons.ttf",
-    "woff": "fonts/academicons.woff"
+    "": "fonts/.keep"
   }
 }
