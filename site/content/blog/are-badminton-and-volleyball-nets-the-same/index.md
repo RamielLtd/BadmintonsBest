@@ -1,8 +1,9 @@
 +++
 author = ""
-categories = ["Q&A"]
+categories = ["Common Questions"]
 date = "2019-02-22"
 description = "The Badminton club which I play for uses a school's sports hall as a venue. I turned up for practice one night and saw something I've never seen since. Someone had turned up early and set up the nets ready for people to play when they got there. But this person used Volleyball nets mistakenly with the Badminton posts instead of the actual Badminton nets. The results were strange, to say the least. So are Badminton and Volleyball nets the same?"
+images = ["images/featured.jpg"]
 featured = "images/featured.jpg"
 featuredalt = "Badminton net"
 linktitle = "Are Badminton and Volleyball Nets the Same?"

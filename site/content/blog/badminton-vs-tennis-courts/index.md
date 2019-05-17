@@ -1,6 +1,6 @@
 +++
 author = ""
-categories = ["Q&A"]
+categories = ["Common Questions", "Beginners Info"]
 date = "2019-02-27"
 description = "Some sports can share venues, you see it all the time. Football stadiums can host rugby matches and netball matches can be played at basketball venues. These are just two examples of how sports venues can be multi-use. People know there are differences between all of these sports and that just because they can be played at the same venue doesn't mean the court or field setup is the same. They're not the same. So the question is; are Badminton and Tennis courts the same?"
 featured = ""

@@ -1,8 +1,9 @@
 +++
 author = ""
-categories = ["Q&A"]
+categories = ["Common Questions"]
 date = "2019-03-16"
 description = "Throughout sport, you always see shared trends in athletes who are at the top of the sport. In basketball and volleyball you see a lot of the best players are tall, commonly at least six feet tall. In other sports, it's more desirable to be shorter and more compact like racing jockeys. So naturally, there must be traits that are desirable for Badminton? So do you have to be tall to play Badminton?"
+images = ["images/featured.jpg"]
 featured = "images/featured.jpg"
 featuredalt = "Measuring tape"
 linktitle = "Do You Have to be Tall to Play Badminton?"

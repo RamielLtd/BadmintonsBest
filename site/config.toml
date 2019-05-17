@@ -112,41 +112,50 @@ canonifyURLs = true
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  identifier = "fa fa-home"
-  weight = 1
+# [[menu.main]]
+#   name = "Recommended Gear"
+#   url = "/recommended-gear/"
+#   weight = 1
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
-  identifier = "fa fa-id-card-o"
+  name = "The Blog"
+  url = "/blog/"
   weight = 2
 
 [[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  identifier = "fa fa-newspaper-o"
-  weight = 3
+  name = "Beginners Guide"
+  url = "/categories/beginners-info/"
+  weight = 2
 
 [[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  identifier = "fa fa-sitemap"
-  weight = 5
+  name = "About Us"
+  url = "/about"
+  weight = 4
 
-[[menu.main]]
-  name = "Terms and Conditions"
-  url = "/terms-and-conditions/"
-  identifier = ""
-  weight = 6
-
-[[menu.main]]
-  name = "Privacy Policy"
-  url = "/privacy-policy/"
-  identifier = ""
-  weight = 7
+# [[menu.main]]
+#   name = "Beginners Guide"
+#   url = ""
+#   weight = 2
+#
+# [[menu.main]]
+#   name = "The Rules"
+#   url = ""
+#   weight = 3
+#
+# [[menu.main]]
+#   name = "Shots"
+#   url = ""
+#   weight = 4
+#
+# [[menu.main]]
+#   name = "Footwork"
+#   url = ""
+#   weight = 3
+#
+# [[menu.main]]
+#   name = "Training and Drills"
+#   url = ""
+#   weight = 3
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop

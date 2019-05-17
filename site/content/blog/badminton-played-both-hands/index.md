@@ -1,6 +1,6 @@
 +++
 author = ""
-categories = ["Q&A"]
+categories = ["Common Questions", "Beginners Info"]
 date = "2019-03-23"
 description = "It's a rarity in itself to be ambidextrous. I don't think I've ever met someone who is coordinated with both hands. Things like writing and drawing etc people only do it with one hand. Their left or right. Be some gifted people can do them with both hands. So what if those people played a sport like Badminton, Tennis or Squash? Could they play with either hand? Another question would then be. Can Badminton be played with both hands?"
 featured = ""

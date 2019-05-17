@@ -1,8 +1,9 @@
 +++
 author = ""
-categories = ["Q&A"]
+categories = ["Common Questions"]
 date = "2019-03-18"
 description = "I've never taken my Badminton equipment on holiday. I've never travelled with my Badminton equipment by any others mean other than driving. International players have to take their equipment wherever they go. I can imagine being a little nervous ever letting your bag out of sight. Our equipment becomes very personal and we like to have it close at all times. So, can a Badminton racquet be taken on a flight as hand luggage?"
+images = ["images/featured.jpg"]
 featured = "images/featured.jpg"
 featuredalt = "Passengers boarding airplane"
 linktitle = "Is a Badminton Racquet Allowed in Flight? [All Major Airlines]"

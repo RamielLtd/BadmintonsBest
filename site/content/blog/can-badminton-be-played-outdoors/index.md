@@ -1,8 +1,9 @@
 +++
 author = ""
-categories = ["Q&A"]
+categories = ["Common Questions"]
 date = "2019-03-06"
 description = "I used to play Badminton outside, at least what I thought was Badminton. I used to play with a kids set that had plastic shuttles, simple racquets and a popup net. I used to with my brother and sister in the summertime. Looking back now it's not really the Badminton we know and love is it? But it does bring up an interesting question. Can Badminton be played outdoors?"
+images = ["images/featured.jpg"]
 featured = "images/featured.jpg"
 featuredalt = "Racquet and shuttles on grass"
 linktitle = "Can Badminton be Played Outdoors?"

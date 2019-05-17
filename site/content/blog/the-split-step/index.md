@@ -1,6 +1,6 @@
 +++
 author = ""
-categories = ["Q&A"]
+categories = ["Common Questions", "Beginners Info"]
 date = "2018-12-04"
 description = "Everyone I’ve ever met in badminton always asks the question; “how can I get faster” or “how can I go faster to the shuttle” and I really believe that one of the keys to great speed in badminton is practising footwork. A lot of coaches go over the various movements that get you to the shuttle in a certain way, either by travelling backwards, forwards or sideways, slow and fast movements etc. One of the key technique which isn’t given enough focus is the split step. So what is it and how can it help to learn this technique?"
 featured = ""

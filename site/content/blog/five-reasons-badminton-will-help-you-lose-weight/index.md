@@ -1,6 +1,6 @@
 +++
 author = ""
-categories = ["Q&A"]
+categories = ["Common Questions"]
 date = "2018-07-10"
 description = "Everybody wants to be trim, everybody wants to stay in shape but not everybody enjoys going to the gym, I believe the best answer is finding a sport you love is the best way to get in shape as you’ll enjoy getting a sweat on more and it won’t feel like such a chore."
 featured = ""
