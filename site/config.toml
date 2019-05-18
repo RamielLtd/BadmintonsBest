@@ -12,6 +12,7 @@ enableRobotsTXT = true
 canonifyURLs = true
 
 [params]
+  googleTagManager = "GTM-56G6NL6"
   # Sets the meta tag description
   description          = "Videos, photos and news and much more that are all things badminton! The best content from the best in the world 🔥 🏸 💯"
   # Sets the navbarTitle that appears in the top left of the navigation bar
