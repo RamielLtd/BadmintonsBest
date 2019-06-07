@@ -1,8 +1,8 @@
 +++
 linktitle = "Best Badminton Accessories"
 title = "The 11 Best Badminton Accessories Everyone Should Have"
-date = "2019-05-28"
-description = "You don’t need a lot of equipment when playing Badminton regularly, but there are a few items that are always good to have on hand when needed. I find that a lot of players don’t carry even a couple of these items off the list. They’re practical and when anybody needs some I can always share."
+date = "2019-06-07"
+description = "You don’t need a lot of equipment when playing Badminton regularly, but there are a few items that are always good to have on hand when needed. I find that a lot of players don’t carry even a couple of these items off the list. They’re practical and when anybody needs some I can always share. These are 11 accessories and gadgets I recommend anyone who plays Badminton to have in their bag."
 
 images = ["images/featured.jpg"]
 featured = "images/featured.jpg"

@@ -1,7 +1,7 @@
 +++
 linktitle = "Best Badminton Shuttlecocks"
 title = "The Best and Only Shuttlecocks You’ll Ever Need"
-date = "2019-05-28"
+date = "2019-06-07"
 description = ""
 
 images = ["images/featured.jpg"]

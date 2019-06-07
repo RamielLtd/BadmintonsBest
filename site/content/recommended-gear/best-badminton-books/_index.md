@@ -1,8 +1,8 @@
 +++
 linktitle = "Best Books for Badminton"
 title = "9 Essential Books You Need to Improve at Badminton"
-date = "2019-05-28"
-description = ""
+date = "2019-06-07"
+description = "Self-improvement in Badminton is a big topic for me. You need to do a lot of work on the court with technique, tactical and physical training. But there is a lot you can do off the court to improve yourself both as a Badminton player and as a well-rounded person. I read a lot of books and make great use of Audible on my commutes to work. I’ve learnt a lot from just reading books from various authors and industries. These are the nine books I recommend Badminton players have to help them improve at Badminton."
 
 images = ["images/featured.jpg"]
 featured = "images/featured.jpg"
