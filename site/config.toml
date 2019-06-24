@@ -14,7 +14,7 @@ canonifyURLs = true
 [params]
   googleTagManager = "GTM-56G6NL6"
   # Sets the meta tag description
-  description          = "Videos, photos and news and much more that are all things badminton! The best content from the best in the world 🔥 🏸 💯"
+  description          = "Learning from the best, realise your true potential 🔥 🏸 💯"
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Badmintons Best"
   # Sets where "View More Posts" links
@@ -90,7 +90,7 @@ canonifyURLs = true
 [params.intro]
   header    = "Badmintons Best"
 
-  paragraph = "Learning from Badmintons best, helping you improve 🔥 🏸 💯"
+  paragraph = "Learning from the best, realise your true potential 🔥 🏸 💯"
 
   about     = "Hi 👋 I'm Liam. I've been playing Badminton for over 15 years and along with my family is my biggest passion in life. If I'm not with family I'm either playing or watching Badminton on a mission to be the best I can be. This site is where I can share what I've learnt from playing, being coached and from watching... Badmintons Best."
   legal     = "This site is owned and operated by Ramiel Ltd. Ramiel Ltd is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. Ramiel Ltd is compensated for referring traffic and business to these companies. Copyright © Ramiel Ltd"
