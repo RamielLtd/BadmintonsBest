@@ -28,7 +28,7 @@ It’s the smallest bag on this list and the cheapest. It’s the size of the av
 
 ## Yonex Team 4926 6 Racket Bag (Red) - The Best Middleground Bag
 
-The next bag on this list is more the traditional design of a racquet bag. It holds up to six Badminton racquets, has a small side compartment for accessories, a large compartment for clothes, shoes and shuttlecocks. The only thing this bag lacks is a dedicated shoe compartment but if you get this shoe bag (/recommended-gear/best-badminton-accessories#sports-shoe-bag) from our Best Badminton Accessories (/recommended-gear/best-badminton-accessories/) list then it’s not a problem.
+The next bag on this list is more the traditional design of a racquet bag. It holds up to six Badminton racquets, has a small side compartment for accessories, a large compartment for clothes, shoes and shuttlecocks. The only thing this bag lacks is a dedicated shoe compartment but if you get this shoe bag (/recommended-gear/best-badminton-accessories/#sports-shoe-bag) from our Best Badminton Accessories (/recommended-gear/best-badminton-accessories/) list then it’s not a problem.
 
 With a single handle and a shoulder strap handle, it’s easy to carry. A more spacious bag for those who need to carry a bit more with them. More suited to regular players with more racquets and equipment. It’s a great price for a bag with plenty of space to holds racquets and everything else. Find it [here on Direct Badminton](https://www.directbadminton.co.uk/deptproduct/badminton/bags-rackets/yonex-team-4926-6-racket-bag-(red)?ProductID=34376) for £31.99.
 

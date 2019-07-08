@@ -15,9 +15,9 @@ I’ve also bought from multiple brands so I know how the same product from two 
 
 Please note, these recommendations are from my own personal experience. I’ve tried or owned all the items on these lists so the recommendations are genuine. Some of these recommendations are budget-friendly and some are indulgences but they’re what I believe provides the best value for money.
 
-- [Best Badminton Racquets](best-badminton-racquets)
-- [Best Badminton Shuttlecocks](best-shuttlecocks)
-- [Best Badminton Accessories](best-badminton-accessories)
-- [Best Badminton Bags](best-badminton-bags)
-- [Best Badminton Shoes](best-badminton-shoes)
-- [Best Books for Badminton](best-badminton-books)
+- [Best Badminton Racquets](/recommended-gear/best-badminton-racquets/)
+- [Best Badminton Shuttlecocks](/recommended-gear/best-shuttlecocks/)
+- [Best Badminton Accessories](/recommended-gear/best-badminton-accessories/)
+- [Best Badminton Bags](/recommended-gear/best-badminton-bags/)
+- [Best Badminton Shoes](/recommended-gear/best-badminton-shoes/)
+- [Best Books for Badminton](/recommended-gear/best-badminton-books/)
