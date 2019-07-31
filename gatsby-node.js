@@ -1,10 +1,18 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+const toKebabCase = str =>
+  str &&
+  str
+    .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
+    .map(x => x.toLowerCase())
+    .join('-');
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
+  const categoryTemplate = path.resolve("src/templates/category.js")
   const result = await graphql(
     `
       {
@@ -19,6 +27,7 @@ exports.createPages = async ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                categories
               }
             }
           }
@@ -40,11 +49,35 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: post.node.fields.slug,
-      component: blogPost,
+      component: blogPostTemplate,
       context: {
         slug: post.node.fields.slug,
         previous,
         next,
+      },
+    })
+  })
+
+  // Create categories page
+  let categories = []
+
+  // Iterate through each post, putting all found categories into `categories`
+  posts.forEach(post => {
+    if (post.node.frontmatter.categories) {
+      categories = categories.concat(post.node.frontmatter.categories)
+    }
+  })
+
+  // Eliminate duplicate categories
+  categories = [...new Set(categories)]
+
+  // Make category pages
+  categories.forEach(category => {
+    createPage({
+      path: `/categories/${toKebabCase(category)}/`,
+      component: categoryTemplate,
+      context: {
+        category,
       },
     })
   })
