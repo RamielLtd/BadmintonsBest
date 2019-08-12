@@ -1,16 +1,12 @@
+const kebabCase = require(`lodash/kebabCase`)
+
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
-
-const toKebabCase = str =>
-  str &&
-  str
-    .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-    .map(x => x.toLowerCase())
-    .join('-');
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
+  const pageTemplate = path.resolve(`./src/templates/page.js`)
   const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
   const categoryTemplate = path.resolve("src/templates/category.js")
   const result = await graphql(
@@ -40,18 +36,18 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors
   }
 
-  // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+  // Create markdown pages.
+  const pages = result.data.allMarkdownRemark.edges
 
-  posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
+  pages.forEach((page, index) => {
+    const previous = index === pages.length - 1 ? null : pages[index + 1].node
+    const next = index === 0 ? null : pages[index - 1].node
 
     createPage({
-      path: post.node.fields.slug,
-      component: blogPostTemplate,
+      path: page.node.fields.slug,
+      component: (page.node.frontmatter.type === 'blog') ? blogPostTemplate : pageTemplate,
       context: {
-        slug: post.node.fields.slug,
+        slug: page.node.fields.slug,
         previous,
         next,
       },
@@ -61,10 +57,10 @@ exports.createPages = async ({ graphql, actions }) => {
   // Create categories page
   let categories = []
 
-  // Iterate through each post, putting all found categories into `categories`
-  posts.forEach(post => {
-    if (post.node.frontmatter.categories) {
-      categories = categories.concat(post.node.frontmatter.categories)
+  // Iterate through each page, putting all found categories into `categories`
+  pages.forEach(page => {
+    if (page.node.frontmatter.categories) {
+      categories = categories.concat(page.node.frontmatter.categories)
     }
   })
 
@@ -74,7 +70,7 @@ exports.createPages = async ({ graphql, actions }) => {
   // Make category pages
   categories.forEach(category => {
     createPage({
-      path: `/categories/${toKebabCase(category)}/`,
+      path: `/categories/${kebabCase(category)}/`,
       component: categoryTemplate,
       context: {
         category,
