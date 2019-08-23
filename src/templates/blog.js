@@ -6,29 +6,28 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-class CategoryTemplate extends React.Component {
+class BlogTemplate extends React.Component {
   render() {
-    const { category } = this.props.pageContext
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
-    const { edges, totalCount } = this.props.data.allMarkdownRemark
-    const categoryHeader = `${totalCount} post${
-      totalCount === 1 ? "" : "s"
-      } category with "${category}"`
+    const posts = this.props.data.allMarkdownRemark.edges
+
+    const { currentPage, numPages } = this.props.pageContext
+    const isFirst = currentPage === 1
+    const isLast = currentPage === numPages
+    const prevPage = currentPage - 1 === 1 ? "/blog" : `/blog/page/${(currentPage - 1).toString()}`
+    const nextPage = `/blog/page/${(currentPage + 1).toString()}`
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title={siteTitle}
-          description={siteDescription}
-        />
+        <SEO title={siteTitle} description={siteDescription} />
         <h1
           style={{
             marginTop: rhythm(1),
             marginBottom: 0,
           }}
         >
-          {categoryHeader}
+          Blog
         </h1>
         <hr
           style={{
@@ -39,31 +38,32 @@ class CategoryTemplate extends React.Component {
 
         <div>
           <ul>
-            {edges.map(({ node }) => {
-              const { slug } = node.fields
-              const { title } = node.frontmatter
-              return (
-                <li key={slug}>
-                  <Link to={slug}>{title}</Link>
-                </li>
-              )
+            {posts.map(({ node }) => {
+              const title = node.frontmatter.title || node.fields.slug
+              return <li key={node.fields.slug}>{title}</li>
             })}
           </ul>
-          {/*
-              This links to a page that does not yet exist.
-              We'll come back to it!
-            */}
-          <Link to="/categories">All Categories</Link>
         </div>
+
+        {!isFirst && (
+          <Link to={prevPage} rel="prev">
+            ← Previous Page
+          </Link>
+        )}
+        {!isLast && (
+          <Link to={nextPage} rel="next">
+            Next Page →
+          </Link>
+        )}
       </Layout>
     )
   }
 }
 
-export default CategoryTemplate
+export default BlogTemplate
 
 export const pageQuery = graphql`
-  query BlogPostByCategory($category: String) {
+  query Blogs($skip: Int!, $limit: Int!, $type: String) {
     site {
       siteMetadata {
         title
@@ -71,11 +71,11 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { categories: { in: [$category] } } }
+      limit: $limit
+      skip: $skip
+      filter: { frontmatter: { type: { eq: $type } } }
     ) {
-      totalCount
       edges {
         node {
           fields {

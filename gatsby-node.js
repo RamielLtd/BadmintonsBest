@@ -24,6 +24,7 @@ exports.createPages = async ({ graphql, actions }) => {
               frontmatter {
                 title
                 categories
+                type
               }
             }
           }
@@ -36,6 +37,25 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors
   }
 
+  // Create blog-list pages
+  const blogs = result.data.allMarkdownRemark.edges.filter(item => item.node.frontmatter.type === 'blog')
+
+  const blogsPerPage = 6
+  const numPages = Math.ceil(blogs.length / blogsPerPage)
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/blog` : `/blog/page/${i + 1}`,
+      component: path.resolve("./src/templates/blog.js"),
+      context: {
+        limit: blogsPerPage,
+        skip: i * blogsPerPage,
+        numPages,
+        currentPage: i + 1,
+        type: 'blog'
+      },
+    })
+  })
+
   // Create markdown pages.
   const pages = result.data.allMarkdownRemark.edges
 
@@ -45,6 +65,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: page.node.fields.slug,
+      // Swap template based of field value
       component: (page.node.frontmatter.type === 'blog') ? blogPostTemplate : pageTemplate,
       context: {
         slug: page.node.fields.slug,

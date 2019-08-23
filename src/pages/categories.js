@@ -1,23 +1,41 @@
 import React from "react"
-import PropTypes from "prop-types"
-// Utilities
-import kebabCase from "lodash/kebabCase"
-// Components
-import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
-const CategoriesPage = ({
-  data: {
-    allMarkdownRemark: { group },
-    site: {
-      siteMetadata: { title },
-    },
-  },
-}) => (
-  <div>
-    <Helmet title={title} />
-    <div>
-      <h1>Categories</h1>
-      <ul>
+import kebabCase from "lodash/kebabCase"
+
+import Bio from "../components/bio"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
+
+class CategoriesPage extends React.Component {
+  render() {
+    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteDescription = this.props.data.site.siteMetadata.description
+    const { group } = this.props.data.allMarkdownRemark
+
+    return (
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title={siteTitle}
+          description={siteDescription}
+        />
+        <h1
+          style={{
+            marginTop: rhythm(1),
+            marginBottom: 0,
+          }}
+        >
+          Categories
+        </h1>
+        <hr
+          style={{
+            marginBottom: rhythm(1),
+          }}
+        />
+        <Bio />
+
+        <div>
+        <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
             <Link to={`/categories/${kebabCase(tag.fieldValue)}/`}>
@@ -26,27 +44,14 @@ const CategoriesPage = ({
           </li>
         ))}
       </ul>
-    </div>
-  </div>
-)
-CategoriesPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      group: PropTypes.arrayOf(
-        PropTypes.shape({
-          fieldValue: PropTypes.string.isRequired,
-          totalCount: PropTypes.number.isRequired,
-        }).isRequired
-      ),
-    }),
-    site: PropTypes.shape({
-      siteMetadata: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-      }),
-    }),
-  }),
+        </div>
+      </Layout>
+    )
+  }
 }
+
 export default CategoriesPage
+
 export const pageQuery = graphql`
   query {
     site {
