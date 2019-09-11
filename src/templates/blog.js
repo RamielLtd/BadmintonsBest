@@ -15,11 +15,14 @@ class BlogTemplate extends React.Component {
     const { currentPage, numPages } = this.props.pageContext
     const isFirst = currentPage === 1
     const isLast = currentPage === numPages
-    const prevPage = currentPage - 1 === 1 ? "/blog" : `/blog/page/${(currentPage - 1).toString()}`
+    const prevPage =
+      currentPage - 1 === 1
+        ? "/blog"
+        : `/blog/page/${(currentPage - 1).toString()}`
     const nextPage = `/blog/page/${(currentPage + 1).toString()}`
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location}>
         <SEO title={siteTitle} description={siteDescription} />
         <h1
           style={{

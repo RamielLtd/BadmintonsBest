@@ -14,7 +14,7 @@ class CategoriesPage extends React.Component {
     const { group } = this.props.data.allMarkdownRemark
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location}>
         <SEO
           title={siteTitle}
           description={siteDescription}

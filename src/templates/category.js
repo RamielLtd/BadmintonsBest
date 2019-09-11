@@ -17,7 +17,7 @@ class CategoryTemplate extends React.Component {
       } category with "${category}"`
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location}>
         <SEO
           title={siteTitle}
           description={siteDescription}

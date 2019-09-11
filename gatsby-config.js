@@ -9,8 +9,27 @@ module.exports = {
       facebook: `BadmintonsBest`,
       twitter: `BadmintonsBest`,
     },
+    menu: [
+      {
+        text: `Recommended Gear`,
+        link: `/recommended-gear`,
+      },
+      {
+        text: `Beginners Guide`,
+        link: `/categories/beginners-info`,
+      },
+      {
+        text: `The Blog`,
+        link: `/blog`,
+      },
+      {
+        text: `About Us`,
+        link: `/about-us`,
+      },
+    ]
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
