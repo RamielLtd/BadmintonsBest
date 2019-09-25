@@ -4,8 +4,10 @@ export const MIDGROUND = "0"
 export const FOREGROUND = "10"
 
 // Colours
-export const BLUE = "#374479"
-export const GREEN = "#3b7e63"
+export const BLUE = "#4b6cb7"
+export const DARK_BLUE = "#29395d"
+export const GREEN = "#237A57"
+export const DARK_GREEN = "#093028"
 export const RED = "#d1372d"
 export const MENU_LINK_COLOUR = "white"
 

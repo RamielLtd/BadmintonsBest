@@ -1,10 +1,16 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+
+import Constrain from "../components/constrain"
+import Box from "../components/box"
+import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
+import MainContent from "../components/layouts/main-content"
+import SideBar from "../components/layouts/sidebar"
+import ContentHeader from "../components/content-header"
 
 class BlogTemplate extends React.Component {
   render() {
@@ -24,40 +30,56 @@ class BlogTemplate extends React.Component {
     return (
       <Layout location={this.props.location}>
         <SEO title={siteTitle} description={siteDescription} />
-        <h1
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: 0,
-          }}
-        >
-          Blog
-        </h1>
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <Bio />
+        <Constrain>
+          <Box>
+            <ContentHeader>
+              <h1
+                style={{
+                  marginTop: rhythm(1),
+                  marginBottom: 0,
+                }}
+              >
+                Blog
+              </h1>
+            </ContentHeader>
+            <RightSideBarLayout>
+              <MainContent>
+                {posts.map(({ node }) => {
+                  const title = node.frontmatter.title || node.fields.slug
+                  return (
+                    <div key={node.fields.slug}>
+                      <h3>
+                        <Link
+                          style={{ boxShadow: `none` }}
+                          to={node.fields.slug}
+                        >
+                          {title}
+                        </Link>
+                      </h3>
+                      <p
+                        dangerouslySetInnerHTML={{
+                          __html: node.frontmatter.description || node.excerpt,
+                        }}
+                      />
+                    </div>
+                  )
+                })}
 
-        <div>
-          <ul>
-            {posts.map(({ node }) => {
-              const title = node.frontmatter.title || node.fields.slug
-              return <li key={node.fields.slug}>{title}</li>
-            })}
-          </ul>
-        </div>
-
-        {!isFirst && (
-          <Link to={prevPage} rel="prev">
-            ← Previous Page
-          </Link>
-        )}
-        {!isLast && (
-          <Link to={nextPage} rel="next">
-            Next Page →
-          </Link>
-        )}
+                {!isFirst && (
+                  <Link to={prevPage} rel="prev">
+                    ← Previous Page
+                  </Link>
+                )}
+                {!isLast && (
+                  <Link to={nextPage} rel="next">
+                    Next Page →
+                  </Link>
+                )}
+              </MainContent>
+              <SideBar></SideBar>
+            </RightSideBarLayout>
+          </Box>
+        </Constrain>
       </Layout>
     )
   }
@@ -85,7 +107,9 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            date(formatString: "MMMM DD, YYYY")
             title
+            description
           }
         }
       }

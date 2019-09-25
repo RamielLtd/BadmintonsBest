@@ -2,10 +2,18 @@ import Typography from "typography"
 import wordpress2015Theme from "typography-theme-wordpress-2015"
 import { MOBILE_MEDIA_QUERY } from "typography-breakpoint-constants"
 
+import { BLUE, DARK_BLUE } from "../constants/css-vars"
+
 wordpress2015Theme.overrideThemeStyles = () => {
   return {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
+    },
+    a: {
+      color: BLUE,
+    },
+    "a:visited": {
+      color: DARK_BLUE,
     },
     "ul, ol": {
       listStyle: `disc inside`,
@@ -45,3 +53,4 @@ if (process.env.NODE_ENV !== `production`) {
 export default typography
 export const rhythm = typography.rhythm
 export const scale = typography.scale
+export const CONSTRAIN = rhythm(36)

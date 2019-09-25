@@ -8,25 +8,29 @@ module.exports = {
       instagram: `badmintonsbest`,
       facebook: `BadmintonsBest`,
       twitter: `BadmintonsBest`,
+      youtube: `UCszQfT2se87xk2TqrS7xHEQ`,
+    },
+    contact: {
+      email: `info@badmintonsbest.com`,
     },
     menu: [
       {
         text: `Recommended Gear`,
-        link: `/recommended-gear`,
+        link: `/recommended-gear/`,
       },
       {
         text: `Beginners Guide`,
-        link: `/categories/beginners-info`,
+        link: `/categories/beginners-info/`,
       },
       {
         text: `The Blog`,
-        link: `/blog`,
+        link: `/blog/`,
       },
       {
         text: `About Us`,
-        link: `/about-us`,
+        link: `/about/`,
       },
-    ]
+    ],
   },
   plugins: [
     `gatsby-plugin-emotion`,
@@ -66,21 +70,29 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: `${__dirname}/content/assets`,
+        },
+      },
+    },
     `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-56G6NL6",
-  
+
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: false,
-  
+
         // datalayer to be set before GTM is loaded
         // should be an object or a function that is executed in the browser
         // Defaults to null
         defaultDataLayer: { platform: "gatsby" },
-  
+
         // Specify optional GTM environment details.
         gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
         gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
@@ -90,8 +102,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `badmintonsbest`
-      }
+        shortname: `badmintonsbest`,
+      },
     },
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
@@ -115,6 +127,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
   ],
 }

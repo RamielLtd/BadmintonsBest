@@ -1,11 +1,17 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import kebabCase from "lodash/kebabCase"
+import { rhythm } from "../utils/typography"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+
+import Constrain from "../components/constrain"
+import Box from "../components/box"
+import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
+import MainContent from "../components/layouts/main-content"
+import SideBar from "../components/layouts/sidebar"
+import ContentHeader from "../components/content-header"
 
 class CategoriesPage extends React.Component {
   render() {
@@ -15,36 +21,35 @@ class CategoriesPage extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <SEO
-          title={siteTitle}
-          description={siteDescription}
-        />
-        <h1
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: 0,
-          }}
-        >
-          Categories
-        </h1>
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <Bio />
-
-        <div>
-        <ul>
-        {group.map(tag => (
-          <li key={tag.fieldValue}>
-            <Link to={`/categories/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
-        </div>
+        <SEO title={siteTitle} description={siteDescription} />
+        <Constrain>
+          <Box>
+            <ContentHeader>
+              <h1
+                style={{
+                  marginTop: rhythm(1),
+                  marginBottom: 0,
+                }}
+              >
+                Categories
+              </h1>
+            </ContentHeader>
+            <RightSideBarLayout>
+              <MainContent>
+                <ul>
+                  {group.map(tag => (
+                    <li key={tag.fieldValue}>
+                      <Link to={`/categories/${kebabCase(tag.fieldValue)}/`}>
+                        {tag.fieldValue} ({tag.totalCount})
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </MainContent>
+              <SideBar></SideBar>
+            </RightSideBarLayout>
+          </Box>
+        </Constrain>
       </Layout>
     )
   }
@@ -66,4 +71,4 @@ export const pageQuery = graphql`
       }
     }
   }
-  `
+`

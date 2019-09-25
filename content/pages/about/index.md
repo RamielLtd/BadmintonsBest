@@ -3,7 +3,7 @@ title: "About Badmintons Best"
 date: "2018-07-07"
 ---
 
-Hi fellow Badminton fan, I’m Liam. I’m the owner and face of the brand BadmintonsBest! Welcome and thank you for visiting.
+Hi fellow Badminton fan, I’m Liam. I’m the creator and face of the brand BadmintonsBest! Welcome and thank you for visiting.
 
 I've been playing Badminton for over 17 years. Second only to my family, Badminton is my biggest passion in life. If I'm not with family I'm either playing or watching Badminton with the mission to be the best I can be. This site is where I can share what I've learnt from playing, being coached and from watching... Badmintons Best.
 

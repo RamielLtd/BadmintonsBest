@@ -6,33 +6,24 @@
  */
 
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, Link } from "gatsby"
 import styled from "@emotion/styled"
-import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
-import {
-  BLUE,
-  RED,
-  GREEN,
-  FOREGROUND,
-  MENU_LINK_COLOUR,
-  BREAKPOINTS,
-} from "../constants/css-vars"
+import { GREEN, DARK_GREEN, BREAKPOINTS } from "../constants/css-vars"
+import Constrain from "./constrain"
 
 const FooterElement = styled("footer")`
-  padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
+  padding: ${rhythm(1)} 0;
 
-  background-color: ${BLUE};
+  background: ${GREEN};
+  background: -webkit-linear-gradient(to left, ${DARK_GREEN}, ${GREEN});
+  background: linear-gradient(to left, ${DARK_GREEN}, ${GREEN});
   color: white;
-`
 
-const FooterWrapper = styled("section")`
-  margin: 0 auto;
-  max-width: ${rhythm(36)};
-
-  & + & {
-    margin-top: ${rhythm(1.5)};
+  @media ${BREAKPOINTS.MEDIUM} {
+    padding-top: ${rhythm(2)};
+    padding-bottom: ${rhythm(2)};
   }
 `
 
@@ -71,44 +62,64 @@ const FooterSection = styled("div")`
 
 const FooterLink = styled(Link)`
   color: white;
+
+  &:visited {
+    color: white;
+  }
+`
+
+const FooterExternalLink = styled("a")`
+  color: white;
+
+  &:visited {
+    color: white;
+  }
 `
 
 const Footer = () => {
   const data = useStaticQuery(graphql`
-    query FooterQuery {
-      logo: file(absolutePath: { regex: "/badmintonsbest-logo.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
+    query SocialQuery {
       site {
         siteMetadata {
-          title
-          menu {
-            text
-            link
+          social {
+            facebook
+            instagram
+            twitter
+            youtube
+          }
+          contact {
+            email
           }
         }
       }
     }
   `)
 
-  const { menu, title } = data.site.siteMetadata
+  const { social, contact } = data.site.siteMetadata
+
   return (
     <FooterElement>
-      <FooterWrapper>
+      <Constrain
+        style={{
+          padding: `0 ${rhythm(1 / 2)}`,
+        }}
+      >
         <FooterSections>
           <FooterSection>
             <h3>About</h3>
             <p>
-              Hi 👋 I'm Liam. I've been playing Badminton for over 15 years and
-              along with my family is my biggest passion in life. If I'm not
-              with family I'm either playing or watching Badminton on a mission
-              to be the best I can be. This site is where I can share what I've
-              learnt from playing, being coached and from watching... Badmintons
-              Best.
+              Hi{" "}
+              <span role="img" aria-label="waving hand">
+                👋
+              </span>{" "}
+              I'm Liam. I've been playing Badminton for over 15 years and along
+              with my family is my biggest passion in life. If I'm not with
+              family I'm either playing or watching Badminton on a mission to be
+              the best I can be. This site is where I can share what I've learnt
+              from playing, being coached and from watching... Badmintons Best.
+            </p>
+            <p>
+              <FooterLink to="/about-us">Read more</FooterLink>
             </p>
           </FooterSection>
 
@@ -138,24 +149,55 @@ const Footer = () => {
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <FooterLink to="/terms-and-conditions">
-                  Terms and Conditions
-                </FooterLink>
+                <FooterExternalLink
+                  href={`https://youtube.com/${social.youtube}`}
+                >
+                  YouTube
+                </FooterExternalLink>
               </li>
               <li>
-                <FooterLink to="/privacy-policy">Privacy Policy</FooterLink>
+                <FooterExternalLink
+                  href={`https://instagram.com/${social.instagram}`}
+                >
+                  Instagram
+                </FooterExternalLink>
+              </li>
+              <li>
+                <FooterExternalLink
+                  href={`https://twitter.com/${social.twitter}`}
+                >
+                  Twitter
+                </FooterExternalLink>
+              </li>
+              <li>
+                <FooterExternalLink
+                  href={`https://facebook.com/${social.twitter}`}
+                >
+                  Facebook
+                </FooterExternalLink>
+              </li>
+              <li>
+                <FooterExternalLink href={`mailto:${contact.email}`}>
+                  Email
+                </FooterExternalLink>
               </li>
             </ul>
           </FooterSection>
         </FooterSections>
-      </FooterWrapper>
-      <FooterWrapper style={{ textAlign: `center` }}>
+      </Constrain>
+      <Constrain
+        style={{
+          textAlign: `center`,
+          marginTop: rhythm(1.5),
+          padding: `0 ${rhythm(1 / 2)}`,
+        }}
+      >
         © {new Date().getFullYear()} Badmintons Best, Built with
         {` `}
         <a style={{ color: `white` }} href="https://www.gatsbyjs.org">
           Gatsby
         </a>
-      </FooterWrapper>
+      </Constrain>
     </FooterElement>
   )
 }
