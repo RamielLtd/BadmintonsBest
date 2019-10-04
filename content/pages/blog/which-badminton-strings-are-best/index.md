@@ -3,7 +3,7 @@ author: ""
 categories: ["Common Questions"]
 date: "2018-07-23"
 description: "In recent years I’ve changed a lot about how I play badminton and I’ve also learnt a lot more about the games and the things that make up the game. One of the things I’ve learnt more about is about strings for badminton racquets. It’s not often talked about as most people never end up changing the strings they use for their racquets because they take their stringers recommendation, which is definitely not a bad thing. I, however, wanted to learn more about the types of strings and which ones were best for me."
-featured: "images/featured.jpg"
+featured: "./images/featured.jpg"
 featuredalt: "Fu Haifeng leaping to smash"
 title: "Which Badminton Strings are Best?"
 type: "blog"

@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions", "Beginners Info"]
 date: "2019-04-10"
 description: "The short serve, especially in doubles, is a key technique everyone should learn. A good short serve can give you an advantage from the start of the rally. Here we'll be talking mainly about the backhand serve in relation to doubles. To learn how to improve the forehand short serve then click here to our article covering that question. So how do you improve a short serve in Badminton?"
-featured: ""
-featuredalt: ""
 title: "How to Improve a Short Serve in Badminton (7 Steps)"
 type: "blog"
 ---

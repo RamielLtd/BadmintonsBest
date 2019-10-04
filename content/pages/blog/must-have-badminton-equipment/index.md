@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions"]
 date: "2019-06-26"
 description: "You need equipment with any sport. Without equipment, you can’t play, unfortunately. Badminton equipment is widely available and affordable. There are very good basics sets on Amazon for people just getting started and there are online retailers that provide more professional equipment for players who want to get serious. So, what are the essential pieces of equipment for Badminton?"
-featured: ""
-featuredalt: ""
 title: "5 Must-Have Equipment You Need for Badminton"
 type: "blog"
 ---

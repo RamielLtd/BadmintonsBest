@@ -1,9 +1,10 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Box from "../components/box"
+import Excerpt from "../components/excerpt"
 
 class BlogIndex extends React.Component {
   render() {
@@ -21,21 +22,7 @@ class BlogIndex extends React.Component {
         <Box>Howdy</Box>
         <Box>
           {posts.map(({ node }) => {
-            const title = node.frontmatter.title || node.fields.slug
-            return (
-              <div key={node.fields.slug}>
-                <h3>
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </div>
-            )
+            return <Excerpt key={node.fields.slug} type="blog" node={node} />
           })}
         </Box>
       </Layout>

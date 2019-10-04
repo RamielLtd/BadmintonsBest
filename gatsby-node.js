@@ -3,6 +3,18 @@ const kebabCase = require(`lodash/kebabCase`)
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+exports.sourceNodes = ({ actions }) => {
+  const { createTypes } = actions
+  createTypes(`
+    type Frontmatter @infer {
+      featured: File @fileByRelativePath
+    }
+    type MarkdownRemark implements Node @infer {
+      frontmatter: Frontmatter
+    }
+  `)
+}
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -38,7 +50,9 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create blog-list pages
-  const blogs = result.data.allMarkdownRemark.edges.filter(item => item.node.frontmatter.type === 'blog')
+  const blogs = result.data.allMarkdownRemark.edges.filter(
+    item => item.node.frontmatter.type === "blog"
+  )
 
   const blogsPerPage = 6
   const numPages = Math.ceil(blogs.length / blogsPerPage)
@@ -51,7 +65,7 @@ exports.createPages = async ({ graphql, actions }) => {
         skip: i * blogsPerPage,
         numPages,
         currentPage: i + 1,
-        type: 'blog'
+        type: "blog",
       },
     })
   })
@@ -66,7 +80,8 @@ exports.createPages = async ({ graphql, actions }) => {
     createPage({
       path: page.node.fields.slug,
       // Swap template based of field value
-      component: (page.node.frontmatter.type === 'blog') ? blogPostTemplate : pageTemplate,
+      component:
+        page.node.frontmatter.type === "blog" ? blogPostTemplate : pageTemplate,
       context: {
         slug: page.node.fields.slug,
         previous,

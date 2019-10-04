@@ -4,8 +4,8 @@ title: "The Best Badminton Gear - Tried and Tested Recommendations"
 date: "2019-05-22"
 description: "Over the years of playing Badminton, I’ve bought, used and tried a lot of different Badminton gear. Everything including racquets, shuttlecocks, shoes, clothing, bags, grips, strings. You name it and I’ve probably tried it. My preferences in equipment have changed as I’ve grown up with the sport so I know what suits beginners and what suits more advanced players."
 
-images: ["images/featured.jpg"]
-featured: "images/featured.jpg"
+images: ["./images/featured.jpg"]
+featured: "./images/featured.jpg"
 featuredalt: "Badminton gear"
 ---
 

@@ -4,8 +4,8 @@ title: "The 5 Best Badminton Racquets 2019 (For Singles and Doubles)"
 date: "2019-06-07"
 description: "There are plenty of articles out there listing the best Badminton racquets out now. You'll find they all list 10-20 racquets as recommendations, that's a lot to sift through. Truth is there isn't normally a massive difference between a lot of racquets, only seasoned professionals can really tell the difference. This is my list of top recommended racquets, the best of the best. If you're at more of a beginner level you'll want to look at my list for best racquets for beginners. So which are the best Badminton racquets you can buy right now?"
 
-images: ["images/featured.jpg"]
-featured: "images/featured.jpg"
+images: ["./images/featured.jpg"]
+featured: "./images/featured.jpg"
 featuredalt: "Badminton racquets"
 ---
 

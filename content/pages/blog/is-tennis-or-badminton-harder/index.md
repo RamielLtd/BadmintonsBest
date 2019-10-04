@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions"]
 date: "2019-06-13"
 description: "Tennis and Badminton are often compared to one another in various ways. They’re both racquet sports, they both require great speed and agility, to play well you need to have good hand-eye coordination and so on. Like many sports, they’re easy to start but difficult to master. So is Tennis or Badminton harder?"
-featured: ""
-featuredalt: ""
 title: "Is Tennis or Badminton Harder? (The Answer Will Surprise You)"
 type: "blog"
 ---

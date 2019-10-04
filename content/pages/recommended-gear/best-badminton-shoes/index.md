@@ -4,8 +4,8 @@ title: "Top 7 Best Badminton Shoes 2019 (Every Budget Buyers Guide)"
 date: "2019-06-07"
 description: "Badminton shoes, for me, are the most important piece of kit you need for Badminton. It’s vital to get a good pair of quality shoes for safety and comfort. Your shoes will provide much-needed protection for your feet, legs and joints from all the pressure and impact they take from running, jumping and twisting whilst playing. So here are the seven best Badminton shoes for any player on any budget."
 
-images: ["images/featured.jpg"]
-featured: "images/featured.jpg"
+images: ["./images/featured.jpg"]
+featured: "./images/featured.jpg"
 featuredalt: "Badminton shoes"
 ---
 

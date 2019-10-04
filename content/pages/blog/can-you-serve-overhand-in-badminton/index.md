@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions", "Beginners Info"]
 date: "2019-03-07"
 description: "It's the default in Tennis and you can even see it done in squash and table tennis. Serving overhand in other racquet sports is normally legal. A good serve can be all the difference in racquet sports. Most people picking up a racquet for the first time will naturally look to serve underarm in Badminton. It feels natural, the shuttlecock has to go over the net so it makes sense to serve underarm. But it begs to question, can you serve overhand in Badminton?"
-featured: ""
-featuredalt: ""
 title: "Can You Serve Overhand in Badminton?"
 type: "blog"
 ---

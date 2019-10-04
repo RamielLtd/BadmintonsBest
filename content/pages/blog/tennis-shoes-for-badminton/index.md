@@ -3,7 +3,7 @@ author: ""
 categories: ["Common Questions"]
 date: "2019-03-24"
 description: "When I first started out playing Badminton, I played for fun, purely recreational. As soon as I started to get better and my father started taking me to a coach, we were advised I get a proper set of Badminton shoes. All sports have specialised footwear designed for the needs of that sport. I was just using my normal trainers for playing Badminton. So can you wear Tennis shoes for Badminton?"
-featured: "images/featured.jpg"
+featured: "./images/featured.jpg"
 featuredalt: "Two people in tennis shoes"
 title: "Can you Wear Tennis Shoes for Badminton?"
 type: "blog"

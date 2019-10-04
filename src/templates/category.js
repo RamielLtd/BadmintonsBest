@@ -12,6 +12,8 @@ import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
 import MainContent from "../components/layouts/main-content"
 import SideBar from "../components/layouts/sidebar"
 import ContentHeader from "../components/content-header"
+import Adspot from "../components/adspot"
+import Excerpt from "../components/excerpt"
 
 class CategoryTemplate extends React.Component {
   render() {
@@ -44,27 +46,14 @@ class CategoryTemplate extends React.Component {
             <RightSideBarLayout>
               <MainContent>
                 {edges.map(({ node }) => {
-                  const title = node.frontmatter.title || node.fields.slug
                   return (
-                    <div key={node.fields.slug}>
-                      <h3>
-                        <Link
-                          style={{ boxShadow: `none` }}
-                          to={node.fields.slug}
-                        >
-                          {title}
-                        </Link>
-                      </h3>
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html: node.frontmatter.description || node.excerpt,
-                        }}
-                      />
-                    </div>
+                    <Excerpt key={node.fields.slug} type="blog" node={node} />
                   )
                 })}
               </MainContent>
-              <SideBar></SideBar>
+              <SideBar>
+                <Adspot slug="sidebar-unit" />
+              </SideBar>
             </RightSideBarLayout>
           </Box>
         </Constrain>

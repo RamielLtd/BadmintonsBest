@@ -4,8 +4,8 @@ title: "The Best and Only Shuttlecocks You’ll Ever Need"
 date: "2019-06-07"
 description: ""
 
-images: ["images/featured.jpg"]
-featured: "images/featured.jpg"
+images: ["./images/featured.jpg"]
+featured: "./images/featured.jpg"
 featuredalt: "Yonex shuttlecocks"
 ---
 

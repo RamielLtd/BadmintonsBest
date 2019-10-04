@@ -12,6 +12,7 @@ import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
 import MainContent from "../components/layouts/main-content"
 import SideBar from "../components/layouts/sidebar"
 import ContentHeader from "../components/content-header"
+import Adspot from "../components/adspot"
 
 class CategoriesPage extends React.Component {
   render() {
@@ -46,7 +47,9 @@ class CategoriesPage extends React.Component {
                   ))}
                 </ul>
               </MainContent>
-              <SideBar></SideBar>
+              <SideBar>
+                <Adspot slug="sidebar-unit" />
+              </SideBar>
             </RightSideBarLayout>
           </Box>
         </Constrain>

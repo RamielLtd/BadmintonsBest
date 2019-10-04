@@ -3,7 +3,7 @@ author: ""
 categories: ["Common Questions"]
 date: "2019-05-12"
 description: "A lot of players, especially less experienced players, ask me this or similar questions. They want to improve their smash to feel like they can win more points. I understand the jump smash in Badminton is exciting. When you hit a jump smash just right it feels really good. Even better if you manage to win the point. Unfortunately, there is a lot of misinformation out there regarding strings and tension. So which is the best Badminton string for smashing?"
-featured: "images/featured.jpg"
+featured: "./images/featured.jpg"
 featuredalt: ""
 title: "Which Badminton String is Best for Smashing?"
 type: "blog"

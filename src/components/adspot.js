@@ -3,15 +3,28 @@ import styled from "@emotion/styled"
 
 const AdspotContainer = styled("div")`
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+
+  &[data-adspot="sidebar-unit"] {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &[data-adspot="leaderboard-top-unit"] {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &[data-adspot="in-content-ad-unit"] {
+    float: right;
+    margin: 0 0 1rem 1rem;
+  }
 `
 
 class Adspot extends React.Component {
   render() {
-    const { id } = this.props
+    const { slug } = this.props
 
-    return <AdspotContainer data-adspot={id} />
+    return <AdspotContainer data-adspot={slug} />
   }
 }
 

@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions", "Beginners Info"]
 date: "2018-07-07"
 description: "I’ve played with the same badminton racquets for over 12 years, it wasn’t until I broke one of only two racquets I had (a Yonex Armortec 900 Power) that I realised I might need to get some more but after 12 years with the same racquets how was I going to be able to pick a new one right for me?"
-featured: ""
-featuredalt: ""
 title: "Which Badminton Racquet is Best for Me?"
 type: "blog"
 ---

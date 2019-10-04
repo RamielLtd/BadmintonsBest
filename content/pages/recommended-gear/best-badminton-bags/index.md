@@ -4,8 +4,8 @@ title: "The Best Badminton Bags to Suit any Player"
 date: "2019-06-07"
 description: "You need a good quality Badminton bag if you play regularly. Playing Badminton requires having a pair of shoes, racquets, spare clothes and socks, shuttlecocks and other bits and bobs. That’s a lot of stuff to carry around. Fortunately, if you get a good bag you’ll be able to carry all of that around without any trouble. My Badminton bag is my pride and joy. Having said that, some Badminton bags are not cheap. Not everyone can spend a lot of money just for a bag. So here are the four Badminton bags I’d recommend to suit any budget and any player."
 
-images: ["images/featured.jpg"]
-featured: "images/featured.jpg"
+images: ["./images/featured.jpg"]
+featured: "./images/featured.jpg"
 featuredalt: "Badminton bags"
 ---
 

@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions"]
 date: "2018-08-07"
 description: "Probably the most asked question, the most search topic and the thing the majority of people fixate on when they first start playing badminton. It’s definitely the most exciting shot to play and watch in the sport, there really isn’t anything else quite like it. Seeing some of the greats play this iconic shot is jaw-dropping to say the least but how do they do it? What’s the key to a killer smash?"
-featured: ""
-featuredalt: ""
 title: "How to Hit a Killer Badminton Smash! How the Best do it"
 type: "blog"
 ---

@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions"]
 date: "2019-05-17"
 description: "I'll admit, before writing this article I'd never heard of the term “gutting” in Badminton before. Without an explanation, it's hard to take a guess at what it could mean. So, what is gutting in Badminton?"
-featured: ""
-featuredalt: ""
 title: "What is Gutting in Badminton?"
 type: "blog"
 ---

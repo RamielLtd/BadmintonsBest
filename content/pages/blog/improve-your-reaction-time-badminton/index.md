@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions", "Beginners Info"]
 date: "2019-02-19"
 description: "You see it all the time on the world stage for badminton. Elite level players are capable of defending smashes of over 350kmph. They're capable of picking up deceptive shots when wrong-footed. They're capable of incredible feats of speed and agility! The best elite players are able to keep up with the pace of the game thanks to stupidly fast reaction times. So how do you improve your reaction time in Badminton?"
-featured: ""
-featuredalt: ""
 title: "How to Improve Your Reaction Time in Badminton"
 type: "blog"
 ---

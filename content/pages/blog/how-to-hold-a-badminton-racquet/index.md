@@ -3,8 +3,6 @@ author: ""
 categories: ["Common Questions", "Beginners Info"]
 date: "2018-07-16"
 description: "I’ve been playing for a long time but every now and then I practice something and when it’s not working consistently I come back to the basics and see if there is anything I’m doing wrong there that might be hindering me practicing or playing a certain shot. One of the basics which is often overlooked is how you hold the racquet or your “grip”. I had a habit of letting the handle of the racquet turn too much in my grip, I was holding it too loose, and as a result, I wasn’t getting power or accuracy in some shots because when I hit the shuttle it was never with a consistent grip."
-featured: ""
-featuredalt: ""
 title: "How to Hold a Badminton Racquet - The Correct Badminton Grip"
 type: "blog"
 ---

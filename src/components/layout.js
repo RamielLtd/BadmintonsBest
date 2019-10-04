@@ -4,6 +4,7 @@ import styled from "@emotion/styled"
 
 import Menu from "./menu"
 import Footer from "./footer"
+import Adspot from "./adspot"
 
 const SiteContainer = styled("div")``
 const Main = styled("div")``
@@ -16,7 +17,10 @@ class Layout extends React.Component {
       <SiteContainer>
         <Global styles={css``} />
         <Menu />
-        <Main>{children}</Main>
+        <Main>
+          <Adspot slug="leaderboard-top-unit" />
+          {children}
+        </Main>
         <Footer />
       </SiteContainer>
     )

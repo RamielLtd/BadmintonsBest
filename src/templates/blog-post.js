@@ -13,6 +13,7 @@ import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
 import MainContent from "../components/layouts/main-content"
 import SideBar from "../components/layouts/sidebar"
 import ContentHeader from "../components/content-header"
+import Adspot from "../components/adspot"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -38,6 +39,8 @@ class BlogPostTemplate extends React.Component {
             </ContentHeader>
             <RightSideBarLayout>
               <MainContent>
+                <Adspot slug="in-content-ad-unit" />
+
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
                 <hr
@@ -79,7 +82,9 @@ class BlogPostTemplate extends React.Component {
 
                 <Bio />
               </MainContent>
-              <SideBar></SideBar>
+              <SideBar>
+                <Adspot slug="sidebar-unit" />
+              </SideBar>
             </RightSideBarLayout>
           </Box>
         </Constrain>
