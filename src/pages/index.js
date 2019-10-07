@@ -5,6 +5,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Box from "../components/box"
 import Excerpt from "../components/excerpt"
+import Adspot from "../components/adspot"
+import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
+import MainContent from "../components/layouts/main-content"
+import SideBar from "../components/layouts/sidebar"
 
 class BlogIndex extends React.Component {
   render() {
@@ -19,11 +23,23 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location}>
         <SEO title={`${siteMetadata.description}`} />
-        <Box>Howdy</Box>
+        <Box theme="hero">
+          <h1>{siteMetadata.title}</h1>
+          <p>{siteMetadata.description}</p>
+        </Box>
         <Box>
-          {posts.map(({ node }) => {
-            return <Excerpt key={node.fields.slug} type="blog" node={node} />
-          })}
+          <RightSideBarLayout>
+            <MainContent>
+              {posts.map(({ node }) => {
+                return (
+                  <Excerpt key={node.fields.slug} type="blog" node={node} />
+                )
+              })}
+            </MainContent>
+            <SideBar>
+              <Adspot slug="sidebar-unit" />
+            </SideBar>
+          </RightSideBarLayout>
         </Box>
       </Layout>
     )
