@@ -1,11 +1,11 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
-import { rhythm } from "../utils/typography"
+import Img from "gatsby-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
 
 import Constrain from "../components/constrain"
 import Box from "../components/box"
@@ -19,6 +19,9 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const { previous, next } = this.props.pageContext
+    const featuredImgFluid = post.frontmatter.featured
+      ? post.frontmatter.featured.childImageSharp.fluid
+      : false
 
     return (
       <Layout location={this.props.location}>
@@ -39,6 +42,15 @@ class BlogPostTemplate extends React.Component {
             </ContentHeader>
             <RightSideBarLayout>
               <MainContent>
+                {featuredImgFluid && (
+                  <Img
+                    style={{
+                      marginBottom: rhythm(1),
+                    }}
+                    fluid={featuredImgFluid}
+                  />
+                )}
+
                 <Adspot slug="in-content-ad-unit" />
 
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -111,6 +123,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featured {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

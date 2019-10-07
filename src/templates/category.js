@@ -86,6 +86,13 @@ export const pageQuery = graphql`
           frontmatter {
             title
             description
+            featured {
+              childImageSharp {
+                fluid(maxWidth: 800, maxHeight: 500) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
