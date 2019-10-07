@@ -8,7 +8,7 @@ const RightSideBarLayout = styled("div")`
     display: flex;
     flex-direction: row;
     flex-wrap: no-wrap;
-    margin-left: -${rhythm(1.5)};
+    margin-left: -${rhythm(2.5)};
   }
 `
 

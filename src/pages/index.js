@@ -3,6 +3,9 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import About from "../components/content/about"
+
 import Box from "../components/box"
 import Excerpt from "../components/excerpt"
 import Adspot from "../components/adspot"
@@ -38,6 +41,7 @@ class BlogIndex extends React.Component {
             </MainContent>
             <SideBar>
               <Adspot slug="sidebar-unit" />
+              <About />
             </SideBar>
           </RightSideBarLayout>
         </Box>
@@ -72,7 +76,7 @@ export const pageQuery = graphql`
             description
             featured {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 500) {
+                fluid(maxWidth: 800, maxHeight: 500, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid
                 }
               }

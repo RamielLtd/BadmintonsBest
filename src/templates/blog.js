@@ -1,9 +1,11 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+
+import ButtonLink from "../components/ui/button-link"
+import About from "../components/content/about"
 
 import Constrain from "../components/constrain"
 import Box from "../components/box"
@@ -13,6 +15,7 @@ import SideBar from "../components/layouts/sidebar"
 import ContentHeader from "../components/content-header"
 import Adspot from "../components/adspot"
 import Excerpt from "../components/excerpt"
+import Pagination from "../components/ui/paginaton"
 
 class BlogTemplate extends React.Component {
   render() {
@@ -37,7 +40,7 @@ class BlogTemplate extends React.Component {
             <ContentHeader>
               <h1
                 style={{
-                  marginTop: rhythm(1),
+                  marginTop: 0,
                   marginBottom: 0,
                 }}
               >
@@ -52,19 +55,30 @@ class BlogTemplate extends React.Component {
                   )
                 })}
 
-                {!isFirst && (
-                  <Link to={prevPage} rel="prev">
-                    ← Previous Page
-                  </Link>
-                )}
-                {!isLast && (
-                  <Link to={nextPage} rel="next">
-                    Next Page →
-                  </Link>
-                )}
+                <Pagination>
+                  {!isFirst && (
+                    <ButtonLink
+                      to={prevPage}
+                      className="pagination-link"
+                      rel="prev"
+                    >
+                      ← Newer Posts
+                    </ButtonLink>
+                  )}
+                  {!isLast && (
+                    <ButtonLink
+                      to={nextPage}
+                      className="pagination-link"
+                      rel="next"
+                    >
+                      Older Posts →
+                    </ButtonLink>
+                  )}
+                </Pagination>
               </MainContent>
               <SideBar>
                 <Adspot slug="sidebar-unit" />
+                <About />
               </SideBar>
             </RightSideBarLayout>
           </Box>
@@ -101,7 +115,7 @@ export const pageQuery = graphql`
             description
             featured {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 500) {
+                fluid(maxWidth: 800, maxHeight: 500, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid
                 }
               }

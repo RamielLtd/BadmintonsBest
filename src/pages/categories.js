@@ -1,10 +1,11 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import kebabCase from "lodash/kebabCase"
-import { rhythm } from "../utils/typography"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import About from "../components/content/about"
 
 import Constrain from "../components/constrain"
 import Box from "../components/box"
@@ -28,7 +29,7 @@ class CategoriesPage extends React.Component {
             <ContentHeader>
               <h1
                 style={{
-                  marginTop: rhythm(1),
+                  marginTop: 0,
                   marginBottom: 0,
                 }}
               >
@@ -49,6 +50,7 @@ class CategoriesPage extends React.Component {
               </MainContent>
               <SideBar>
                 <Adspot slug="sidebar-unit" />
+                <About />
               </SideBar>
             </RightSideBarLayout>
           </Box>

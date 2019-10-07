@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
+import About from "../components/content/about"
+
 import Constrain from "../components/constrain"
 import Box from "../components/box"
 import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
@@ -29,7 +31,7 @@ class PageTemplate extends React.Component {
             <ContentHeader>
               <h1
                 style={{
-                  marginTop: rhythm(1),
+                  marginTop: 0,
                   marginBottom: 0,
                 }}
               >
@@ -50,6 +52,7 @@ class PageTemplate extends React.Component {
               </MainContent>
               <SideBar>
                 <Adspot slug="sidebar-unit" />
+                <About />
               </SideBar>
             </RightSideBarLayout>
           </Box>

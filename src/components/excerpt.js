@@ -2,8 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 import styled from "@emotion/styled"
+import { rhythm } from "../utils/typography"
 
-const ExcerptContainer = styled("div")``
+const ExcerptContainer = styled("div")`
+  & + & {
+    margin-top: ${rhythm(2)};
+  }
+`
 
 class Excerpt extends React.Component {
   render() {
@@ -15,8 +20,23 @@ class Excerpt extends React.Component {
 
     return (
       <ExcerptContainer>
-        {featuredImgFluid && <Img fluid={featuredImgFluid} />}
-        <h2>
+        {featuredImgFluid && (
+          <Link
+            style={{
+              boxShadow: `none`,
+              display: `block`,
+              marginBottom: rhythm(1),
+            }}
+            to={node.fields.slug}
+          >
+            <Img fluid={featuredImgFluid} />
+          </Link>
+        )}
+        <h2
+          style={{
+            marginTop: 0,
+          }}
+        >
           <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
             {title}
           </Link>
@@ -24,6 +44,9 @@ class Excerpt extends React.Component {
         <p
           dangerouslySetInnerHTML={{
             __html: node.frontmatter.description || node.excerpt,
+          }}
+          style={{
+            marginBottom: 0,
           }}
         />
       </ExcerptContainer>

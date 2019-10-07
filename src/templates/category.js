@@ -1,10 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import { rhythm } from "../utils/typography"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import About from "../components/content/about"
 
 import Constrain from "../components/constrain"
 import Box from "../components/box"
@@ -33,7 +33,7 @@ class CategoryTemplate extends React.Component {
             <ContentHeader>
               <h1
                 style={{
-                  marginTop: rhythm(1),
+                  marginTop: 0,
                 }}
               >
                 {categoryHeader}
@@ -53,6 +53,7 @@ class CategoryTemplate extends React.Component {
               </MainContent>
               <SideBar>
                 <Adspot slug="sidebar-unit" />
+                <About />
               </SideBar>
             </RightSideBarLayout>
           </Box>
@@ -88,7 +89,7 @@ export const pageQuery = graphql`
             description
             featured {
               childImageSharp {
-                fluid(maxWidth: 800, maxHeight: 500) {
+                fluid(maxWidth: 800, maxHeight: 500, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid
                 }
               }

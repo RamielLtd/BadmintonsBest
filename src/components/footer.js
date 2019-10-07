@@ -42,7 +42,7 @@ const FooterSection = styled("div")`
   }
 
   @media ${BREAKPOINTS.MEDIUM} {
-    flex: 1 1 ${100 / 3}%;
+    flex: 1 1 0;
     margin-top: 0;
     padding-left: ${rhythm(1.5)};
 
@@ -105,24 +105,6 @@ const Footer = () => {
         }}
       >
         <FooterSections>
-          <FooterSection>
-            <h3>About</h3>
-            <p>
-              Hi{" "}
-              <span role="img" aria-label="waving hand">
-                👋
-              </span>{" "}
-              I'm Liam. I've been playing Badminton for over 15 years and along
-              with my family is my biggest passion in life. If I'm not with
-              family I'm either playing or watching Badminton on a mission to be
-              the best I can be. This site is where I can share what I've learnt
-              from playing, being coached and from watching... Badmintons Best.
-            </p>
-            <p>
-              <FooterLink to="/about-us">Read more</FooterLink>
-            </p>
-          </FooterSection>
-
           <FooterSection>
             <h3>Legal Information</h3>
             <p>

@@ -6,7 +6,7 @@ import { BREAKPOINTS } from "../../constants/css-vars"
 const MainContent = styled("main")`
   @media ${BREAKPOINTS.MEDIUM} {
     flex: 1 1 70%;
-    padding-left: ${rhythm(1.5)};
+    padding-left: ${rhythm(2.5)};
   }
 `
 
