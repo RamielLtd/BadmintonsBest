@@ -1,13 +1,15 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Disqus } from "gatsby-plugin-disqus"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 import About from "../components/content/about"
+import Bio from "../components/bio"
+import RelatedContent from "../components/content/related-content"
 
 import Constrain from "../components/constrain"
 import Box from "../components/box"
@@ -19,11 +21,18 @@ import Adspot from "../components/adspot"
 
 class BlogPostTemplate extends React.Component {
   render() {
+    const siteUrl = this.props.data.site.siteMetadata.siteUrl
     const post = this.props.data.markdownRemark
-    const { previous, next } = this.props.pageContext
+    const slug = post.fields.slug
+    const categories = post.frontmatter.categories
     const featuredImgFluid = post.frontmatter.featured
       ? post.frontmatter.featured.childImageSharp.fluid
       : false
+    const disqusConfig = {
+      url: `${siteUrl + this.props.location.pathname}`,
+      identifier: post.id,
+      title: post.title,
+    }
 
     return (
       <Layout location={this.props.location}>
@@ -52,49 +61,36 @@ class BlogPostTemplate extends React.Component {
                     fluid={featuredImgFluid}
                   />
                 )}
-
                 <Adspot slug="in-content-ad-unit" />
-
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
-
                 <hr
                   style={{
-                    marginBottom: rhythm(1),
+                    marginTop: rhythm(1.5),
+                    marginBottom: rhythm(1.5),
                   }}
                 />
-
-                <ul
-                  style={{
-                    display: `flex`,
-                    flexWrap: `wrap`,
-                    justifyContent: `space-between`,
-                    listStyle: `none`,
-                    padding: 0,
-                  }}
-                >
-                  <li>
-                    {previous && (
-                      <Link to={previous.fields.slug} rel="prev">
-                        ← {previous.frontmatter.title}
-                      </Link>
-                    )}
-                  </li>
-                  <li>
-                    {next && (
-                      <Link to={next.fields.slug} rel="next">
-                        {next.frontmatter.title} →
-                      </Link>
-                    )}
-                  </li>
-                </ul>
-
-                <hr
-                  style={{
-                    marginBottom: rhythm(1),
-                  }}
-                />
-
                 <Bio />
+                {categories.length > 0 && (
+                  <>
+                    <hr
+                      style={{
+                        marginTop: rhythm(1.5),
+                        marginBottom: rhythm(1.5),
+                      }}
+                    />
+                    <RelatedContent
+                      tags={categories}
+                      currentArticleSlug={slug}
+                    />
+                  </>
+                )}
+                <hr
+                  style={{
+                    marginTop: rhythm(1.5),
+                    marginBottom: rhythm(1.5),
+                  }}
+                />
+                <Disqus config={disqusConfig} />
               </MainContent>
               <SideBar>
                 <Adspot slug="sidebar-unit" />
@@ -116,16 +112,21 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        categories
         featured {
           childImageSharp {
             fluid(maxWidth: 800) {

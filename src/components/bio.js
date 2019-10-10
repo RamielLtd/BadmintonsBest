@@ -35,7 +35,6 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
       }}
     >
       <Image
@@ -51,7 +50,7 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
+      <p style={{ marginBottom: 0 }}>
         Written by <strong>{author}</strong> who lives in Manchester, England.
         Working as a Software Engineer but moonlighting as a dad, Badminton
         player and creator of BadmintonsBest.
