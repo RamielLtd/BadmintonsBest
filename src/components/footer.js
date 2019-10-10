@@ -31,7 +31,7 @@ const FooterSections = styled("div")`
   @media ${BREAKPOINTS.MEDIUM} {
     display: flex;
     flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     margin-left: -${rhythm(1.5)};
   }
 `

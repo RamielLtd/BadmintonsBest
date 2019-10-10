@@ -79,7 +79,7 @@ class BlogPostTemplate extends React.Component {
                       }}
                     />
                     <RelatedContent
-                      tags={categories}
+                      categories={categories}
                       currentArticleSlug={slug}
                     />
                   </>
@@ -129,7 +129,7 @@ export const pageQuery = graphql`
         categories
         featured {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxWidth: 700) {
               ...GatsbyImageSharpFluid
             }
           }

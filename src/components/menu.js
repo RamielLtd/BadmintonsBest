@@ -59,7 +59,7 @@ const MenuWrapper = styled("header")`
 const MenuLogo = styled("a")`
   display: flex;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   align-items: center;
 
   line-height: 1;
@@ -162,7 +162,7 @@ const MenuNavigationList = styled("ul")`
   @media ${BREAKPOINTS.MEDIUM} {
     display: flex;
     flex-direction: row;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     padding: 0;
 
     white-space: nowrap;

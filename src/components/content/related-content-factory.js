@@ -12,7 +12,7 @@ export class RelatedContentFactory {
     this.currentArticleSlug = currentArticleSlug
     // (3.) Set default values
     this.maxArticles = 3
-    this.category = null
+    this.categories = []
     this.tags = []
   }
 
@@ -22,8 +22,8 @@ export class RelatedContentFactory {
     return this
   }
 
-  setCategory(aCategory) {
-    this.category = aCategory
+  setCategories(categoriesArray) {
+    this.categories = categoriesArray
     return this
   }
 
@@ -33,26 +33,9 @@ export class RelatedContentFactory {
   }
 
   getArticles() {
-    const {
-      // category,
-      tags,
-      articles,
-      maxArticles,
-    } = this
+    const { categories, tags, articles, maxArticles } = this
     // (5.) We use an Identity Map to keep track of score
     const identityMap = {}
-
-    if (!!tags === false || tags.length === 0) {
-      console.error("RelatedContentFactory: Tags not provided, use setTags().")
-      return []
-    }
-
-    // if (!!category === false) {
-    //   console.error(
-    //     "RelatedContentFactory: Category not provided, use setCategory()."
-    //   )
-    //   return []
-    // }
 
     function getSlug(article) {
       return article.node.fields.slug
@@ -69,21 +52,23 @@ export class RelatedContentFactory {
     }
 
     // // (7.) For category matches, we add 2 points
-    // function addCategoryPoints(article, category) {
-    //   const categoryPoints = 2
-    //   const slug = getSlug(article)
+    function addCategoriesPoints(article, categories) {
+      const categoryPoints = 2
+      const slug = getSlug(article)
 
-    //   if (article.category === category) {
-    //     identityMap[slug].points += categoryPoints
-    //   }
-    // }
+      article.node.frontmatter.categories.forEach(aCategory => {
+        if (includes(categories, aCategory)) {
+          identityMap[slug].points += categoryPoints
+        }
+      })
+    }
 
     // (8.) For tags matches, we add 1 point
     function addTagsPoints(article, tags) {
       const tagPoint = 1
       const slug = getSlug(article)
 
-      article.tags.forEach(aTag => {
+      article.node.frontmatter.tags.forEach(aTag => {
         if (includes(tags, aTag)) {
           identityMap[slug].points += tagPoint
         }
@@ -97,10 +82,14 @@ export class RelatedContentFactory {
     // (6.) Map over all articles, add to map and add points
     for (let article of articles) {
       addToMap(article)
-      // addCategoryPoints(article, category)
-      article.node.frontmatter.tags &&
-        article.node.frontmatter.tags.length > 0 &&
+
+      if (categories && categories.length > 0) {
+        addCategoriesPoints(article, categories)
+      }
+
+      if (tags && tags.length > 0) {
         addTagsPoints(article, tags)
+      }
     }
 
     // (9.) Convert the identity map to an array

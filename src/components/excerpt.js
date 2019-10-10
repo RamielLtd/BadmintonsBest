@@ -12,7 +12,7 @@ const ExcerptContainer = styled("div")`
 
 class Excerpt extends React.Component {
   render() {
-    const { node } = this.props
+    const { node, variant } = this.props
     const title = node.frontmatter.title || node.fields.slug
     const featuredImgFluid = node.frontmatter.featured
       ? node.frontmatter.featured.childImageSharp.fluid
@@ -32,15 +32,27 @@ class Excerpt extends React.Component {
             <Img fluid={featuredImgFluid} />
           </Link>
         )}
-        <h2
-          style={{
-            marginTop: 0,
-          }}
-        >
-          <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-            {title}
-          </Link>
-        </h2>
+        {variant && variant === "mini" ? (
+          <h4
+            style={{
+              marginTop: 0,
+            }}
+          >
+            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+              {title}
+            </Link>
+          </h4>
+        ) : (
+          <h2
+            style={{
+              marginTop: 0,
+            }}
+          >
+            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+              {title}
+            </Link>
+          </h2>
+        )}
         <p
           dangerouslySetInnerHTML={{
             __html: node.frontmatter.description || node.excerpt,

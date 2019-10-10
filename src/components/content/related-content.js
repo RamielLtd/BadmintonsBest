@@ -1,15 +1,51 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-// import { getPostsFromQuery } from "../../utils/blog"
+import styled from "@emotion/styled"
+
 import Excerpt from "../excerpt"
 import { RelatedContentFactory } from "./related-content-factory"
+import { rhythm } from "../../utils/typography"
+import { BREAKPOINTS } from "../../constants/css-vars"
+
+const RelatedContentContainer = styled("section")``
+
+const ExcerptsContainer = styled("div")`
+  @media ${BREAKPOINTS.SMALL} {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: -${rhythm(1)};
+
+    & > * {
+      flex: 1 1 50%;
+      margin: 0 !important;
+      padding-left: ${rhythm(1)};
+    }
+  }
+`
 
 const RelatedContent = ({ articles }) => (
-  <section className="similar-articles">
-    {articles.map((article, i) => (
-      <Excerpt type="blog" node={article.article.node} key={i} />
-    ))}
-  </section>
+  <RelatedContentContainer>
+    <h3
+      style={{
+        marginTop: 0,
+      }}
+    >
+      Related Content
+    </h3>
+    <ExcerptsContainer>
+      {articles.map((article, i) => (
+        <Excerpt
+          type="blog"
+          node={article.article.node}
+          variant="mini"
+          key={i}
+        />
+      ))}
+    </ExcerptsContainer>
+  </RelatedContentContainer>
 )
 
 // (1.) Query for articles
@@ -32,6 +68,13 @@ export default props => (
                 title
                 description
                 categories
+                featured {
+                  childImageSharp {
+                    fluid(maxWidth: 700, maxHeight: 465, cropFocus: CENTER) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
             }
           }
@@ -39,7 +82,7 @@ export default props => (
       }
     `}
     render={data => {
-      const { currentArticleSlug, tags } = props
+      const { currentArticleSlug, categories = [], tags = [] } = props
 
       // (2.) Marshall the response into articles
       const articles = data.posts
@@ -49,8 +92,8 @@ export default props => (
         articles,
         currentArticleSlug
       )
-        .setMaxArticles(4)
-        // .setCategory(category)
+        .setMaxArticles(2)
+        .setCategories(categories)
         .setTags(tags)
         .getArticles()
 
