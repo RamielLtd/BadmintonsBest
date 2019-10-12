@@ -20,6 +20,7 @@ class CategoryTemplate extends React.Component {
     const { category } = this.props.pageContext
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
+    const url = this.props.location.href
     const { edges, totalCount } = this.props.data.allMarkdownRemark
     const categoryHeader = `${totalCount} Post${
       totalCount === 1 ? "" : "s"
@@ -27,7 +28,7 @@ class CategoryTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <SEO title={siteTitle} description={siteDescription} />
+        <SEO title={siteTitle} description={siteDescription} url={url} />
         <Constrain>
           <Box>
             <ContentHeader>
@@ -86,6 +87,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            date
             description
             featured {
               childImageSharp {

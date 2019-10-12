@@ -19,11 +19,12 @@ class CategoriesPage extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
+    const url = this.props.location.href
     const { group } = this.props.data.allMarkdownRemark
 
     return (
       <Layout location={this.props.location}>
-        <SEO title={siteTitle} description={siteDescription} />
+        <SEO title={siteTitle} description={siteDescription} url={url} />
         <Constrain>
           <Box>
             <ContentHeader>

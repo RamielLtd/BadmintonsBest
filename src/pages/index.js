@@ -22,10 +22,11 @@ class BlogIndex extends React.Component {
       },
     } = this.props
     const posts = data.allMarkdownRemark.edges
+    const url = this.props.location.href
 
     return (
       <Layout location={this.props.location}>
-        <SEO title={`${siteMetadata.description}`} />
+        <SEO title={`${siteMetadata.description}`} url={url} />
         <Box theme="hero">
           <h1>{siteMetadata.title}</h1>
           <p>{siteMetadata.description}</p>

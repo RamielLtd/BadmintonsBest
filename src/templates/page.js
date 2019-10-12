@@ -19,12 +19,18 @@ import Adspot from "../components/adspot"
 class PageTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    const url = this.props.location.href
+    const dateModified = post.parent.mtime
+    const datePublished = post.frontmatter.date
 
     return (
       <Layout location={this.props.location}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          dateModified={dateModified}
+          datePublished={datePublished}
+          url={url}
         />
         <Constrain>
           <Box>
@@ -79,6 +85,12 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
+        date(formatString: "YYYY-MM-DD")
+      }
+      parent {
+        ... on File {
+          mtime(formatString: "YYYY-MM-DD")
+        }
       }
     }
   }

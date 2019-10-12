@@ -10,7 +10,18 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({
+  dateModified,
+  datePublished,
+  description,
+  keywords,
+  lang,
+  meta,
+  title,
+  schemaType,
+  url,
+  wordCount,
+}) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,6 +30,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -26,6 +38,9 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+
+  const copyrightYear = new Date(dateModified).getFullYear()
+  const articleSection = url.split("/")[3]
 
   return (
     <Helmet
@@ -68,21 +83,64 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      {/* inline script elements */}
+      <script type="application/ld+json">{`
+        {
+          "@context" : "http://schema.org",
+          "@type" : "${schemaType}",
+          "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "${site.siteMetadata.siteUrl}"
+          },
+          "articleSection" : "${articleSection}",
+          "name" : "${title}",
+          "headline" : "${title}",
+          "description" : "${metaDescription}",
+          "inLanguage" : "${lang}",
+          "author" : "${site.siteMetadata.author}",
+          "creator" : "${site.siteMetadata.author}",
+          "publisher": "${site.siteMetadata.title}",
+          "accountablePerson" : "${site.siteMetadata.author}",
+          "copyrightHolder" : "${site.siteMetadata.title}",
+          "copyrightYear" : "${copyrightYear}",
+          "datePublished": "${datePublished}",
+          "dateModified" : "${dateModified}",
+          "url" : "${url}",
+          ${wordCount ? `"wordCount" : "${wordCount}",` : ""}
+          "keywords" : [${keywords.join(", ")}]
+        }
+      `}</script>
+    </Helmet>
   )
 }
 
+const now = new Date()
+let defaultDate =
+  now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + now.getDate()
+
 SEO.defaultProps = {
+  dateModified: defaultDate,
+  datePublished: defaultDate,
+  description: ``,
+  keywords: [],
   lang: `en`,
   meta: [],
-  description: ``,
+  schemaType: `WebPage`,
+  wordCount: null,
 }
 
 SEO.propTypes = {
+  dateModified: PropTypes.string,
+  datePublished: PropTypes.string,
   description: PropTypes.string,
+  keywords: PropTypes.arrayOf(PropTypes.string),
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  schemaType: PropTypes.string,
+  url: PropTypes.string.isRequired,
+  wordCount: PropTypes.number,
 }
 
 export default SEO

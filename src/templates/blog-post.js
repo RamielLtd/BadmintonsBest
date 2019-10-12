@@ -24,7 +24,10 @@ class BlogPostTemplate extends React.Component {
     const siteUrl = this.props.data.site.siteMetadata.siteUrl
     const post = this.props.data.markdownRemark
     const slug = post.fields.slug
+    const url = this.props.location.href
     const categories = post.frontmatter.categories
+    const dateModified = post.parent.mtime
+    const datePublished = post.frontmatter.date
     const featuredImgFluid = post.frontmatter.featured
       ? post.frontmatter.featured.childImageSharp.fluid
       : false
@@ -39,6 +42,9 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          dateModified={dateModified}
+          datePublished={datePublished}
+          url={url}
         />
         <Constrain>
           <Box>
@@ -133,6 +139,11 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+        }
+      }
+      parent {
+        ... on File {
+          mtime(formatString: "YYYY-MM-DD")
         }
       }
     }
