@@ -22,6 +22,7 @@ class BlogTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
     const posts = this.props.data.allMarkdownRemark.edges
+    const url = this.props.location.href
 
     const { currentPage, numPages } = this.props.pageContext
     const isFirst = currentPage === 1
@@ -34,7 +35,7 @@ class BlogTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location}>
-        <SEO title={siteTitle} description={siteDescription} />
+        <SEO title={siteTitle} description={siteDescription} url={url} />
         <Constrain>
           <Box>
             <ContentHeader>
