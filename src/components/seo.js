@@ -40,7 +40,7 @@ function SEO({
   const metaDescription = description || site.siteMetadata.description
 
   const copyrightYear = new Date(dateModified).getFullYear()
-  const articleSection = url.split("/")[3]
+  const articleSection = url.split("/")[3] || ""
 
   return (
     <Helmet
