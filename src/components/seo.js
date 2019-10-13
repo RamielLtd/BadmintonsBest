@@ -93,7 +93,11 @@ function SEO({
               "@type": "WebPage",
               "@id": "${site.siteMetadata.siteUrl}"
           },
-          "articleSection" : "${articleSection}",
+          ${
+            schemaType === "BlogPosting"
+              ? `"articleSection" : "${articleSection}",`
+              : ""
+          }
           "name" : "${title}",
           "headline" : "${title}",
           "description" : "${metaDescription}",

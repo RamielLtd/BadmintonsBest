@@ -44,6 +44,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
           dateModified={dateModified}
           datePublished={datePublished}
+          schemaType="BlogPosting"
           url={url}
         />
         <Constrain>
