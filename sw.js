@@ -26,31 +26,27 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-6da58479e3154f2a73d1.js"
+    "url": "webpack-runtime-a6551a2161ff6922e52e.js"
   },
   {
-    "url": "app-827e9ae124e3811a78ec.js"
+    "url": "app-531da31b8db6e217a0a1.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-56b989a983daa774f2f8.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "5c5dff536856696a80b5162d437dbc84"
+    "revision": "2e3faa34d5e74239e5152887ac71d1c7"
   },
   {
-    "url": "0-9575f7a4c555c1b88b2b.js"
+    "url": "0-9033108ef02ad0a864e1.js"
   },
   {
-    "url": "component---src-pages-404-js-1257f9c7dcda371e6b6b.js"
+    "url": "component---src-pages-404-js-5af4babb6470b6767f37.js"
   },
   {
     "url": "page-data/404.html/page-data.json",
-    "revision": "824cf8696fcd379a836bd1bc0114866e"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "34f61c6d3f700e63edc90c315e257d2b"
+    "revision": "2d0fdae4b39c4e5adfc276360b514454"
   },
   {
     "url": "manifest.webmanifest",
@@ -76,7 +72,7 @@ const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
   return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      const offlineShell = `/BadmintonsBest/offline-plugin-app-shell-fallback/index.html`
+      const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
       const cacheName = workbox.core.cacheNames.precache
 
       return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
@@ -148,7 +144,7 @@ const messageApi = {
 
     pathnames = pathnames.map(({ pathname, includesPrefix }) => {
       if (!includesPrefix) {
-        return `/BadmintonsBest${pathname}`
+        return `${pathname}`
       } else {
         return pathname
       }
