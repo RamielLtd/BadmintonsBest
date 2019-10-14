@@ -134,7 +134,10 @@ function SEO({
           "publisher": {
             "@type": "Organization",
             "name": "${site.siteMetadata.title}",
-            "logo": "${imageFullLogo}"
+            "logo": {
+              "@type": "ImageObject",
+              "url": "${imageFullLogo}"
+            }
           },
           "accountablePerson" : "${site.siteMetadata.author}",
           "copyrightHolder" : "${site.siteMetadata.title}",
