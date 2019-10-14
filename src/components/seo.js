@@ -23,9 +23,16 @@ function SEO({
   url,
   wordCount,
 }) {
-  const { site } = useStaticQuery(
+  const { logo, site } = useStaticQuery(
     graphql`
       query {
+        logo: file(absolutePath: { regex: "/badmintonsbest-logo-full.png/" }) {
+          childImageSharp {
+            fixed(width: 1200) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
         site {
           siteMetadata {
             title
@@ -77,6 +84,7 @@ function SEO({
   const copyrightYear = new Date(dateModified).getFullYear()
   const articleSection = url ? url.split("/")[3] : ""
 
+  const imageFullLogo = `${site.siteMetadata.siteUrl}${logo.childImageSharp.fixed.src}`
   let imageFullSrc = null
   if (image) {
     imageFullSrc = `${site.siteMetadata.siteUrl}${image.src}`
@@ -123,7 +131,11 @@ function SEO({
           "inLanguage" : "${lang}",
           "author" : "${site.siteMetadata.author}",
           "creator" : "${site.siteMetadata.author}",
-          "publisher": "${site.siteMetadata.title}",
+          "publisher": {
+            "@type": "Organization",
+            "name": "${site.siteMetadata.title}",
+            "logo": "${imageFullLogo}"
+          },
           "accountablePerson" : "${site.siteMetadata.author}",
           "copyrightHolder" : "${site.siteMetadata.title}",
           "copyrightYear" : "${copyrightYear}",
