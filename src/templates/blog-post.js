@@ -30,7 +30,10 @@ class BlogPostTemplate extends React.Component {
     const datePublished = post.frontmatter.date
     const featuredImgFluid = post.frontmatter.featured
       ? post.frontmatter.featured.childImageSharp.fluid
-      : false
+      : null
+    const featuredImgFluidSocial = post.frontmatter.featuredSocial
+      ? post.frontmatter.featuredSocial.childImageSharp.fluid
+      : null
     const disqusConfig = {
       url: `${siteUrl + this.props.location.pathname}`,
       identifier: post.id,
@@ -44,6 +47,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
           dateModified={dateModified}
           datePublished={datePublished}
+          image={featuredImgFluidSocial}
           schemaType="BlogPosting"
           url={url}
         />
@@ -137,6 +141,13 @@ export const pageQuery = graphql`
         featured {
           childImageSharp {
             fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        featuredSocial: featured {
+          childImageSharp {
+            fluid(maxWidth: 1200, maxHeight: 675, cropFocus: CENTER) {
               ...GatsbyImageSharpFluid
             }
           }

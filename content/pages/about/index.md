@@ -1,6 +1,7 @@
 ---
 title: "About Badmintons Best"
 date: "2018-07-07"
+schemaType: "AboutPage"
 ---
 
 Hi fellow Badminton fan, I’m Liam. I’m the creator and face of the brand BadmintonsBest! Welcome and thank you for visiting.

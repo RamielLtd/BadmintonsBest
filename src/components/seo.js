@@ -14,6 +14,7 @@ function SEO({
   dateModified,
   datePublished,
   description,
+  image,
   keywords,
   lang,
   meta,
@@ -38,9 +39,59 @@ function SEO({
   )
 
   const metaDescription = description || site.siteMetadata.description
+  let additionalMeta = [
+    {
+      name: `description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:title`,
+      content: title,
+    },
+    {
+      property: `og:description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:type`,
+      content: `website`,
+    },
+    {
+      name: `twitter:card`,
+      content: `summary`,
+    },
+    {
+      name: `twitter:creator`,
+      content: site.siteMetadata.author,
+    },
+    {
+      name: `twitter:title`,
+      content: title,
+    },
+    {
+      name: `twitter:description`,
+      content: metaDescription,
+    },
+  ]
 
   const copyrightYear = new Date(dateModified).getFullYear()
   const articleSection = url ? url.split("/")[3] : ""
+
+  let imageFullSrc = null
+  if (image) {
+    imageFullSrc = `${site.siteMetadata.siteUrl}${image.src}`
+    const imageProps = [
+      {
+        property: `twitter:image`,
+        content: imageFullSrc,
+      },
+      {
+        property: `og:image`,
+        content: imageFullSrc,
+      },
+    ]
+    additionalMeta = imageProps.concat(additionalMeta)
+  }
 
   return (
     <Helmet
@@ -49,40 +100,7 @@ function SEO({
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
+      meta={additionalMeta.concat(meta)}
     >
       {/* inline script elements */}
       <script type="application/ld+json">{`
@@ -101,6 +119,7 @@ function SEO({
           "name" : "${title}",
           "headline" : "${title}",
           "description" : "${metaDescription}",
+          ${image ? `"image": "${imageFullSrc}",` : ""}
           "inLanguage" : "${lang}",
           "author" : "${site.siteMetadata.author}",
           "creator" : "${site.siteMetadata.author}",
@@ -127,6 +146,7 @@ SEO.defaultProps = {
   dateModified: defaultDate,
   datePublished: defaultDate,
   description: ``,
+  image: null,
   keywords: [],
   lang: `en`,
   meta: [],
@@ -138,6 +158,7 @@ SEO.propTypes = {
   dateModified: PropTypes.string,
   datePublished: PropTypes.string,
   description: PropTypes.string,
+  image: PropTypes.shape({}),
   keywords: PropTypes.arrayOf(PropTypes.string),
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),

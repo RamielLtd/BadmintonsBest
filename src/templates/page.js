@@ -22,6 +22,7 @@ class PageTemplate extends React.Component {
     const url = this.props.location.href
     const dateModified = post.parent.mtime
     const datePublished = post.frontmatter.date
+    const schemaType = post.frontmatter.schemaType
 
     return (
       <Layout location={this.props.location}>
@@ -30,6 +31,7 @@ class PageTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
           dateModified={dateModified}
           datePublished={datePublished}
+          schemaType={schemaType}
           url={url}
         />
         <Constrain>
@@ -86,6 +88,7 @@ export const pageQuery = graphql`
         title
         description
         date(formatString: "YYYY-MM-DD")
+        schemaType
       }
       parent {
         ... on File {

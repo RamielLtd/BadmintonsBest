@@ -4,10 +4,19 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.sourceNodes = ({ actions }) => {
-  const { createTypes } = actions
+  const { createFieldExtension, createTypes } = actions
+  createFieldExtension({
+    name: "schemaType",
+    extend() {
+      return {
+        resolve: source => source.schemaType || "WebPage",
+      }
+    },
+  })
   createTypes(`
     type Frontmatter @infer {
       featured: File @fileByRelativePath
+      schemaType: String @schemaType
     }
     type MarkdownRemark implements Node @infer {
       frontmatter: Frontmatter
