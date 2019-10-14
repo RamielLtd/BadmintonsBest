@@ -1,7 +1,8 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
+import ButtonLink from "../ui/button-link"
 import { rhythm } from "../../utils/typography"
 
 const About = () => {
@@ -44,7 +45,7 @@ const About = () => {
         coached and from watching... Badmintons Best.
       </p>
       <p>
-        <Link to="/about">Read more</Link>
+        <ButtonLink to="/about">Read more</ButtonLink>
       </p>
     </div>
   )
