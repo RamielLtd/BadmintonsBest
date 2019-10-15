@@ -7,6 +7,11 @@ const AdspotContainer = styled("div")`
   &[data-adspot="sidebar-unit"] {
     margin-right: auto;
     margin-left: auto;
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+    }
   }
 
   &[data-adspot="leaderboard-top-unit"] {
