@@ -4,10 +4,11 @@ title: "The Best and Only Shuttlecocks You’ll Ever Need"
 date: "2019-06-07"
 description: ""
 
-images: ["./images/featured.jpg"]
 featured: "./images/featured.jpg"
 featuredalt: "Yonex shuttlecocks"
 ---
+
+![Feathers of a shuttlecock](./images/featured.jpg)
 
 This article might ruffle a few feathers (pun intended) in the Badminton community, but I only recommend one kind of shuttlecock. I’ve played with a lot of different shuttlecock brands over the years and have found only a few that are worth what you pay for them, cheap or expensive. Unless you play only for leisure and have no interest in competitive play I wouldn’t even recommend plastic nylon shuttlecocks.
 
