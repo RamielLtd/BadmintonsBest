@@ -19,6 +19,9 @@ wordpress2015Theme.overrideThemeStyles = () => {
       listStyle: `disc inside`,
       marginLeft: 0,
     },
+    "li > p": {
+      display: `inline`,
+    },
     [MOBILE_MEDIA_QUERY]: {
       "ul, ol": {
         marginLeft: 0,
