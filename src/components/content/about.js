@@ -38,11 +38,13 @@ const About = () => {
         <span role="img" aria-label="waving hand">
           👋
         </span>{" "}
-        I'm Liam. I've been playing Badminton for over 15 years and along with
-        my family is my biggest passion in life. If I'm not with family I'm
-        either playing or watching Badminton on a mission to be the best I can
-        be. This site is where I can share what I've learnt from playing, being
-        coached and from watching... Badmintons Best.
+        I'm Liam. I've been playing Badminton for over 17 years. Second only to
+        my family, Badminton is my biggest passion in life. If I'm not with
+        family I'm either playing or watching Badminton with the mission to be
+        the best I can be. I'm a qualified Badminton coach with a UKCC Level 2
+        Certificate from Badminton England. This site is where I can share what
+        I've learnt from playing, coaching and from watching the best in the
+        world! BadmintonsBest.
       </p>
       <p>
         <ButtonLink to="/about">Read more</ButtonLink>

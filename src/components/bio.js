@@ -53,7 +53,7 @@ const Bio = () => {
       <p style={{ marginBottom: 0 }}>
         Written by <strong>{author}</strong> who lives in Manchester, England.
         Working as a Software Engineer but moonlighting as a dad, Badminton
-        player and creator of BadmintonsBest.
+        player/coach and creator of BadmintonsBest.
       </p>
     </div>
   )
