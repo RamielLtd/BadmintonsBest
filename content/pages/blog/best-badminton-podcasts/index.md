@@ -50,7 +50,7 @@ They founded their brand Volant Wear back in 2018 with the aim of producing the 
 
 After founding their brand they also started The Badminton Podcast. Less than six months old at the time of writing and they have nearly 30 episodes already! Their podcast episodes range from 40-60 minutes but are regularly around 55 minutes long. Their value proposition is this:
 
-_The podcast for badminton players, by badminton players, where we celebrate local heroes, interview players from all walks of life and push you to grow as a player and a person._
+>The podcast for badminton players, by badminton players, where we celebrate local heroes, interview players from all walks of life and push you to grow as a player and a person.
 
 Their podcast delivers interviews with Badminton players we know and loves like Hans Kristen Vittinghus and Gronya Sommerville but they don’t just stop with interviewing players, they interview coaches, Badminton YouTube creators and high profile business executives that happen to be big Badminton fans.
 
