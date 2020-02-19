@@ -2,7 +2,7 @@
 author: ""
 categories: ["Common Questions", "Podcasts"]
 date: "2020-02-19"
-description: "You’re new to Badminton, you’ve just started playing at a local club and you’re not sure what to wear. If you’ve done any other sports of any kind chances are you have the majority of what you need to wear to play Badminton. It’s great for new starters as they can get started with the sport quickly. So, what do you wear to play Badminton?"
+description: "The trend for podcasts has been growing year on year without any signs of slowing down. People can listen to the news, educational content and discussions around almost any industry or hobby. They’re free and accessible to anyone with a smartphone or computer. So what are the best Badminton podcasts out there?"
 featured: "./images/featured.jpg"
 featuredalt: "A smartphone with earphones wrapped around"
 featured_attribute: "Photo by William Iven on Unsplash - https://unsplash.com/photos/TMOeGZw9NY4"
