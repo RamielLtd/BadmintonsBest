@@ -13,7 +13,6 @@ import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
 import MainContent from "../components/layouts/main-content"
 import SideBar from "../components/layouts/sidebar"
 import ContentHeader from "../components/content-header"
-import Adspot from "../components/adspot"
 import Excerpt from "../components/excerpt"
 import Pagination from "../components/ui/paginaton"
 
@@ -78,7 +77,6 @@ class BlogTemplate extends React.Component {
                 </Pagination>
               </MainContent>
               <SideBar>
-                <Adspot slug="sidebar-unit" />
                 <About />
               </SideBar>
             </RightSideBarLayout>

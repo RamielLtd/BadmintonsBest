@@ -17,7 +17,6 @@ import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
 import MainContent from "../components/layouts/main-content"
 import SideBar from "../components/layouts/sidebar"
 import ContentHeader from "../components/content-header"
-import Adspot from "../components/adspot"
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -72,7 +71,6 @@ class BlogPostTemplate extends React.Component {
                     fluid={featuredImgFluid}
                   />
                 )}
-                <Adspot slug="in-content-ad-unit" />
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />
                 <hr
                   style={{
@@ -104,7 +102,6 @@ class BlogPostTemplate extends React.Component {
                 <Disqus config={disqusConfig} />
               </MainContent>
               <SideBar>
-                <Adspot slug="sidebar-unit" />
                 <About />
               </SideBar>
             </RightSideBarLayout>

@@ -8,7 +8,6 @@ import About from "../components/content/about"
 
 import Box from "../components/box"
 import Excerpt from "../components/excerpt"
-import Adspot from "../components/adspot"
 import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
 import MainContent from "../components/layouts/main-content"
 import SideBar from "../components/layouts/sidebar"
@@ -41,7 +40,6 @@ class BlogIndex extends React.Component {
               })}
             </MainContent>
             <SideBar>
-              <Adspot slug="sidebar-unit" />
               <About />
             </SideBar>
           </RightSideBarLayout>
