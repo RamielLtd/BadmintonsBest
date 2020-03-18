@@ -10,8 +10,8 @@ const About = () => {
     query AboutQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 350, height: 350) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth: 350, maxHeight: 350, cropFocus: CENTER) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -29,7 +29,7 @@ const About = () => {
     <div style={{}}>
       <h3 style={{ marginTop: 0 }}>About</h3>
       <Image
-        fixed={data.avatar.childImageSharp.fixed}
+        fluid={data.avatar.childImageSharp.fluid}
         alt={author}
         style={{ marginBottom: rhythm(1) }}
       />
