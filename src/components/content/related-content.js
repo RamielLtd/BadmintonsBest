@@ -53,7 +53,7 @@ export default props => (
   <StaticQuery
     query={graphql`
       query RelatedContent {
-        posts: allMarkdownRemark(
+        posts: allMdx(
           sort: { fields: [frontmatter___date], order: DESC }
           filter: { frontmatter: { type: { eq: "blog" } } }
           limit: 1000

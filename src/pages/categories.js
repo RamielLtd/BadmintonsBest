@@ -19,7 +19,7 @@ class CategoriesPage extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
     const url = this.props.location.href
-    const { group } = this.props.data.allMarkdownRemark
+    const { group } = this.props.data.allMdx
 
     return (
       <Layout location={this.props.location}>
@@ -68,7 +68,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(limit: 2000) {
+    allMdx(limit: 2000) {
       group(field: frontmatter___categories) {
         fieldValue
         totalCount

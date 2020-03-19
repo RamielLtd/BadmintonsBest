@@ -18,7 +18,7 @@ exports.sourceNodes = ({ actions }) => {
       featured: File @fileByRelativePath
       schemaType: String @schemaType
     }
-    type MarkdownRemark implements Node @infer {
+    type Mdx implements Node @infer {
       frontmatter: Frontmatter
     }
   `)
@@ -33,7 +33,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(
     `
       {
-        allMarkdownRemark(
+        allMdx(
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -59,7 +59,7 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create blog-list pages
-  const blogs = result.data.allMarkdownRemark.edges.filter(
+  const blogs = result.data.allMdx.edges.filter(
     item => item.node.frontmatter.type === "blog"
   )
 
@@ -80,7 +80,7 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   // Create markdown pages.
-  const pages = result.data.allMarkdownRemark.edges
+  const pages = result.data.allMdx.edges
 
   pages.forEach((page, index) => {
     const previous = index === pages.length - 1 ? null : pages[index + 1].node
@@ -127,7 +127,7 @@ exports.createPages = async ({ graphql, actions }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
-  if (node.internal.type === `MarkdownRemark`) {
+  if (node.internal.type === `Mdx`) {
     const value = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,

@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Disqus } from "gatsby-plugin-disqus"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -21,7 +22,7 @@ import ContentHeader from "../components/content-header"
 class BlogPostTemplate extends React.Component {
   render() {
     const siteUrl = this.props.data.site.siteMetadata.siteUrl
-    const post = this.props.data.markdownRemark
+    const post = this.props.data.mdx
     const slug = post.fields.slug
     const url = this.props.location.href
     const categories = post.frontmatter.categories
@@ -71,7 +72,7 @@ class BlogPostTemplate extends React.Component {
                     fluid={featuredImgFluid}
                   />
                 )}
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                <MDXRenderer>{post.body}</MDXRenderer>
                 <hr
                   style={{
                     marginTop: rhythm(1.5),
@@ -123,10 +124,10 @@ export const pageQuery = graphql`
         siteUrl
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
-      html
+      body
       fields {
         slug
       }

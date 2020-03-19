@@ -20,7 +20,7 @@ class BlogIndex extends React.Component {
         site: { siteMetadata },
       },
     } = this.props
-    const posts = data.allMarkdownRemark.edges
+    const posts = data.allMdx.edges
     const url = this.props.location.href
 
     return (
@@ -59,7 +59,7 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(
+    allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "blog" } } }
     ) {

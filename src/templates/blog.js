@@ -20,7 +20,7 @@ class BlogTemplate extends React.Component {
   render() {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
-    const posts = this.props.data.allMarkdownRemark.edges
+    const posts = this.props.data.allMdx.edges
     const url = this.props.location.href
 
     const { currentPage, numPages } = this.props.pageContext
@@ -97,7 +97,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    allMarkdownRemark(
+    allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip

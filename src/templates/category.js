@@ -20,7 +20,7 @@ class CategoryTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
     const url = this.props.location.href
-    const { edges, totalCount } = this.props.data.allMarkdownRemark
+    const { edges, totalCount } = this.props.data.allMdx
     const categoryHeader = `${totalCount} Post${
       totalCount === 1 ? "" : "s"
     } Category with "${category}"`
@@ -72,7 +72,7 @@ export const pageQuery = graphql`
         author
       }
     }
-    allMarkdownRemark(
+    allMdx(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { categories: { in: [$category] } } }
