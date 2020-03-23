@@ -13,11 +13,11 @@ import Image from "gatsby-image"
 import { CONSTRAIN, rhythm } from "../utils/typography"
 import {
   BREAKPOINTS,
-  GREEN,
-  DARK_GREEN,
+  BRAND_SECONDARY,
   BACKGROUND,
   MIDGROUND,
   FOREGROUND,
+  MENU_BACKGROUND_COLOUR,
   MENU_LINK_COLOUR,
 } from "../constants/css-vars"
 
@@ -37,7 +37,7 @@ const MenuWrapper = styled("header")`
   margin-right: auto;
   padding: ${rhythm(1 / 2)};
 
-  background-color: ${GREEN};
+  background-color: ${MENU_BACKGROUND_COLOUR};
 
   &:before {
     position: absolute;
@@ -50,7 +50,7 @@ const MenuWrapper = styled("header")`
     width: 100vw;
     height: 100%;
 
-    background-color: ${GREEN};
+    background-color: ${MENU_BACKGROUND_COLOUR};
 
     content: "";
   }
@@ -87,6 +87,10 @@ const MenuToggle = styled("a")`
     display: none;
   }
 
+  &[href="#menu-navigation"] > svg {
+    fill: ${MENU_LINK_COLOUR};
+  }
+
   > svg {
     position: absolute;
     top: 50%;
@@ -98,7 +102,7 @@ const MenuToggle = styled("a")`
     height: 100%;
     padding: ${rhythm(0.4)};
 
-    fill: ${MENU_LINK_COLOUR};
+    fill: ${MENU_BACKGROUND_COLOUR};
   }
 `
 
@@ -113,9 +117,7 @@ const MenuNavigation = styled("nav")`
   width: 100vw;
   min-height: 100vh;
 
-  background: ${GREEN};
-  background: -webkit-linear-gradient(to left, ${DARK_GREEN}, ${GREEN});
-  background: linear-gradient(to left, ${DARK_GREEN}, ${GREEN});
+  background: ${BRAND_SECONDARY};
 
   opacity: 0;
   transform: translate3d(${rhythm(2)}, 0, 0);
@@ -192,10 +194,18 @@ const MenuNavigationLink = styled(Link)`
   outline: none;
   text-decoration: none;
 
-  color: ${MENU_LINK_COLOUR};
+  color: ${MENU_BACKGROUND_COLOUR};
 
   &:visited {
+    color: ${MENU_BACKGROUND_COLOUR};
+  }
+
+  @media ${BREAKPOINTS.MEDIUM} {
     color: ${MENU_LINK_COLOUR};
+
+    &:visited {
+      color: ${MENU_LINK_COLOUR};
+    }
   }
 `
 

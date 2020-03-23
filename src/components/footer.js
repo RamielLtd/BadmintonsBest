@@ -10,15 +10,13 @@ import { useStaticQuery, Link } from "gatsby"
 import styled from "@emotion/styled"
 
 import { rhythm } from "../utils/typography"
-import { GREEN, DARK_GREEN, BREAKPOINTS } from "../constants/css-vars"
+import { BRAND_SECONDARY, BREAKPOINTS } from "../constants/css-vars"
 import Constrain from "./constrain"
 
 const FooterElement = styled("footer")`
   padding: ${rhythm(1)} 0;
 
-  background: ${GREEN};
-  background: -webkit-linear-gradient(to left, ${DARK_GREEN}, ${GREEN});
-  background: linear-gradient(to left, ${DARK_GREEN}, ${GREEN});
+  background: ${BRAND_SECONDARY};
   color: white;
 
   @media ${BREAKPOINTS.MEDIUM} {

@@ -5,13 +5,21 @@ import styled from "@emotion/styled"
 import Constrain from "./constrain"
 
 import { rhythm } from "../utils/typography"
-import { BLUE, DARK_BLUE, BREAKPOINTS } from "../constants/css-vars"
+import {
+  BRAND_PRIMARY,
+  BRAND_SECONDARY,
+  BREAKPOINTS,
+} from "../constants/css-vars"
 
 const Container = styled("div")`
   &.hero {
-    background: ${BLUE};
-    background: -webkit-linear-gradient(to top, ${DARK_BLUE}, ${BLUE});
-    background: linear-gradient(to top, ${DARK_BLUE}, ${BLUE});
+    background: ${BRAND_PRIMARY};
+    background: -webkit-linear-gradient(
+      to right,
+      ${BRAND_PRIMARY},
+      ${BRAND_SECONDARY}
+    );
+    background: linear-gradient(to right, ${BRAND_PRIMARY}, ${BRAND_SECONDARY});
     color: white;
   }
 `

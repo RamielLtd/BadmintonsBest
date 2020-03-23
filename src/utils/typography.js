@@ -2,7 +2,7 @@ import Typography from "typography"
 import wordpress2015Theme from "typography-theme-wordpress-2015"
 import { MOBILE_MEDIA_QUERY } from "typography-breakpoint-constants"
 
-import { BLUE, DARK_BLUE } from "../constants/css-vars"
+import { BRAND_PRIMARY, BRAND_SECONDARY } from "../constants/css-vars"
 
 wordpress2015Theme.overrideThemeStyles = () => {
   return {
@@ -10,10 +10,10 @@ wordpress2015Theme.overrideThemeStyles = () => {
       boxShadow: `none`,
     },
     a: {
-      color: BLUE,
+      color: BRAND_PRIMARY,
     },
     "a:visited": {
-      color: DARK_BLUE,
+      color: BRAND_SECONDARY,
     },
     "ul, ol": {
       listStyle: `disc inside`,

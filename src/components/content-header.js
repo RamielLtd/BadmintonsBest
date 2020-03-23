@@ -1,7 +1,7 @@
 import styled from "@emotion/styled"
 
 import { rhythm } from "../utils/typography"
-import { GREEN } from "../constants/css-vars"
+import { BRAND_PRIMARY } from "../constants/css-vars"
 
 const ContentHeader = styled("header")`
   position: relative;
@@ -19,7 +19,7 @@ const ContentHeader = styled("header")`
     width: 10em;
     max-width: 100%;
 
-    background-color: ${GREEN};
+    background-color: ${BRAND_PRIMARY};
 
     content: "";
     opacity: 0.5;
