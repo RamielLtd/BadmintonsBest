@@ -6,6 +6,8 @@ schemaType: "AboutPage"
 
 Hi fellow Badminton fan, I’m Liam. I’m the creator and face of the brand BadmintonsBest! Welcome and thank you for visiting.
 
+![Liam Walsh, BadmintonsBest](./images/main-profile-shot.jpg)
+
 I've been playing Badminton for over 17 years. Second only to my family, Badminton is my biggest passion in life. If I'm not with family I'm either playing or watching Badminton with the mission to be the best I can be. I'm a qualified Badminton coach with a UKCC Level 2 Certificate from Badminton England. This site is where I can share what I've learnt from playing, coaching and from watching the best in the world! BadmintonsBest.
 
 I started off playing when I was 11 years old. My mother was the person who got me started with Badminton. She used to take me to our local recreation centre to play socially on a Wednesday night. The people there were so encouraging and supportive that I improved very quickly. My mother realised I was fast outgrowing the beginner standard and that’s where my father came in. I’ve always enjoyed improving and seeing myself grow. My father found my first coach and just like that I became immersed in the Badminton world.
