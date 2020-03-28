@@ -40,7 +40,9 @@ It’s a head heavy racquet with an extra stiff shaft so it’s ideal for single
 * Hard to control without practice and good technique
 * Can be fatiguing to play with
 
-I’ve played with this racquet now for about four years, it was difficult to get used to at first. After practice and playing with it for a couple of months I started to see how much power and speed I could get in my shots with good technique. It’s an incredible racquet, there isn’t any other racquet like it. If you love hitting big smashes and speedy shots then this racquet is for you. You can buy it from various Badminton retailers or find it [here on Amazon](https://www.amazon.co.uk/Yonex-Voltric-Badminton-Racket-Strung/dp/B00IMWQR3C/ref=sr_1_1?crid=YG7896DM1G05&keywords=yonex+voltric+z+force+2&qid=1559768439&s=gateway&sprefix=yonex+voltric+z+for%2Caps%2C137&sr=8-1).
+I’ve played with this racquet now for about four years, it was difficult to get used to at first. After practice and playing with it for a couple of months I started to see how much power and speed I could get in my shots with good technique. It’s an incredible racquet, there isn’t any other racquet like it. If you love hitting big smashes and speedy shots then this racquet is for you. You can buy it from various Badminton retailers or find it <a href="https://www.amazon.com/Yonex-Voltric-Badminton-Racket-Strung/dp/B00IU87SI6/ref=as_li_ss_tl?crid=3EQQVUMR09I1D&dchild=1&keywords=yonex+z+force+2&qid=1585424813&sprefix=yonex+z+force,aps,215&sr=8-1&th=1&psc=1&linkCode=ll1&tag=badmintonsbes-20&linkId=952cbfb3525c9b8530adcec1c716864b&language=en_US" rel="nofollow">here on Amazon</a>.
+
+<a href="https://www.amazon.com/Yonex-Voltric-Badminton-Racket-Strung/dp/B00IU87SI6/ref=as_li_ss_il?crid=3EQQVUMR09I1D&dchild=1&keywords=yonex+z+force+2&qid=1585424813&sprefix=yonex+z+force,aps,215&sr=8-1&th=1&psc=1&linkCode=li3&tag=badmintonsbes-20&linkId=926e6fb2f971e688adac29cb3c7f8b45&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00IU87SI6&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=badmintonsbes-20&language=en_US" /></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=badmintonsbes-20&language=en_US&l=li3&o=1&a=B00IU87SI6" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## Yonex Arcsaber 11 (The Best All Round Doubles Racquet)
 
@@ -58,7 +60,9 @@ A even balanced racquet with a large head shape this racquet is easy to control 
 
 * Lacking next-level kind of power for smashes
 
-Yonex Arcsaber 11 is a classic, it’s a great all rounder which makes it suitable for doubles where you need a little bit of everything. You can’t really go wrong with this racquet, it’s an all-rounder for a reason and suitable for most. You can find it [here on Amazon](https://www.amazon.co.uk/Yonex-ArcSaber-Badminton-Racket-Color/dp/B07659LK2X/ref=sr_1_1?keywords=yonex+arcsaber+11&qid=1559771776&s=gateway&sr=8-1).
+Yonex Arcsaber 11 is a classic, it’s a great all rounder which makes it suitable for doubles where you need a little bit of everything. You can’t really go wrong with this racquet, it’s an all-rounder for a reason and suitable for most. You can find it <a href="https://www.amazon.com/Yonex-Arcsaber-Badminton-Racket-Strung/dp/B075FF13K3/ref=as_li_ss_tl?dchild=1&keywords=yonex+arcsaber+11&qid=1585424884&sr=8-1&th=1&psc=1&linkCode=ll1&tag=badmintonsbes-20&linkId=5e7c48fab127a0e9777feb98920db1d9&language=en_US" rel="nofollow">here on Amazon</a>.
+
+<a href="https://www.amazon.com/Yonex-Arcsaber-Badminton-Racket-Strung/dp/B075FF13K3/ref=as_li_ss_il?dchild=1&keywords=yonex+arcsaber+11&qid=1585424884&sr=8-1&th=1&psc=1&linkCode=li3&tag=badmintonsbes-20&linkId=270c0ef0827567619d9200a4f6f9a8ba&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B075FF13K3&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=badmintonsbes-20&language=en_US" /></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=badmintonsbes-20&language=en_US&l=li3&o=1&a=B075FF13K3" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## Yonex Duora 10 (The Best All Round Racquet, Singles and Doubles)
 
@@ -77,7 +81,9 @@ Like the Voltric Z Force 2, this was an incredibly popular racquet with top play
 
 * Easy power but feels limited compared to heavier, stiffer racquets
 
-I’ve played with this racquet before and you don’t need to play with it long to realise why so many people loved this racquet and still do. Although top players may have moved on this is still overall one of the best racquets you can buy. Still easily available you can find it [here on Amazon](https://www.amazon.co.uk/Yonex-Badminton-Racket-Color-Orange/dp/B075ZD2XXQ/ref=sr_1_1?keywords=yonex+duora+10&qid=1559770267&s=gateway&sr=8-1).
+I’ve played with this racquet before and you don’t need to play with it long to realise why so many people loved this racquet and still do. Although top players may have moved on this is still overall one of the best racquets you can buy. Still easily available you can find it <a href="https://www.amazon.com/Yonex-Badminton-Racket-Unstrung-Strung/dp/B075FHZFN2/ref=as_li_ss_tl?dchild=1&keywords=yonex+duora+10&qid=1585424928&sr=8-1&th=1&psc=1&linkCode=ll1&tag=badmintonsbes-20&linkId=385bea0bffe41f544329d76953c4c72f&language=en_US" rel="nofollow">here on Amazon</a>.
+
+<a href="https://www.amazon.com/Yonex-Badminton-Racket-Unstrung-Strung/dp/B075FHZFN2/ref=as_li_ss_il?dchild=1&keywords=yonex+duora+10&qid=1585424928&sr=8-1&th=1&psc=1&linkCode=li3&tag=badmintonsbes-20&linkId=60510191dc33bb9157c4d2e282a6ee9d&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B075FHZFN2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=badmintonsbes-20&language=en_US" /></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=badmintonsbes-20&language=en_US&l=li3&o=1&a=B075FHZFN2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 ## Victor Jetspeed S10 (The Fastest Doubles Racquet)
 
@@ -95,7 +101,7 @@ All top men's doubles players they favoured the sheer speed this racquet has. A 
 
 * Smaller head frame, more chance to mishit the shuttle
 
-Nobody can argue this is still a top racquet even in 2019. Most would still favour playing with this racquet despite its age and get incredible results with it. I’d recommend this to anybody who focuses on playing doubles. If it’s good enough for the best and is easy to play with, why not? You can find it [here on Amazon](https://www.amazon.co.uk/Victor-JS-10-White-Black-Blue/dp/B00WGX668E/ref=sr_1_1?crid=2OQ1GD01T9TQL&keywords=victor+jetspeed+s10&qid=1559771431&s=gateway&sprefix=victor+jetspee%2Caps%2C138&sr=8-1).
+Nobody can argue this is still a top racquet even in 2019. Most would still favour playing with this racquet despite its age and get incredible results with it. I’d recommend this to anybody who focuses on playing doubles. If it’s good enough for the best and is easy to play with, why not? You can find it <a href="https://www.amazon.com/s/ref=as_li_ss_tl?k=victor+jetspeed+10&ref=nb_sb_noss&linkCode=ll2&tag=badmintonsbes-20&linkId=d6f7134ea7dfa7d4c636f332189f513b&language=en_US" rel="nofollow">here on Amazon</a>.
 
 ## Li-Ning N7II (Another Great All Round Racquet, Easiest to Play With)
 
@@ -114,7 +120,7 @@ Famously Zhang Nan used this racquet and he’s one of the best mens and mixed d
 
 * Has power but is limited by the flexible shaft
 
-I’d say out of this list that this is the easiest to recommend. This racquet has everything and is coupled with a beautiful design. With so much quality it’s an easy buy. Find it [here on Racketline](https://www.racketline.co.uk/badminton-c1/badminton-rackets-c5/li-ning-n7ii-ultra-sharp-turbo-n7-ii-wh-racket-p3868).
+I’d say out of this list that this is the easiest to recommend. This racquet has everything and is coupled with a beautiful design. With so much quality it’s an easy buy. Find it <a href="https://www.racketline.co.uk/badminton-c1/badminton-rackets-c5/li-ning-n7ii-ultra-sharp-turbo-n7-ii-wh-racket-p3868" rel="nofollow">here on Racketline</a>.
 
 ## Related questions
 

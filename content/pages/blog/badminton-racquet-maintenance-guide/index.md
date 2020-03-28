@@ -107,7 +107,7 @@ Synthetic grips can last at longer then towel grips without smelling and getting
 
 It’s best to replace these grips when they start to go smooth. They definitely need to be replaced if you see the synthetic material starting to rub away. At this point, the rough underlay will start to irritate your skin.
 
-If you prefer using synthetic grips instead of towel grips, I recommend the [Yonex Supergrap Overgrip](https://www.amazon.co.uk/Yonex-Super-Grap-Overgrip-Black/dp/B001FRJKEO/ref=sr_1_1?crid=3UFZSXX8ZGFOI&dchild=1&keywords=yonex+supergrap+overgrip&qid=1579377672&sprefix=yonex+supergrap%2Caps%2C257&sr=8-1) to go over your existing grip. They’re very thin so they won’t add much bulk to your existing grip
+If you prefer using synthetic grips instead of towel grips, I recommend the <a href="https://www.amazon.com/gp/product/B0002SY2Q8/ref=as_li_tl?ie=UTF8&tag=badmintonsbes-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0002SY2Q8&linkId=7dbf17a2f540a99431b439eaefe4462d" rel="nofollow">Yonex Supergrap Overgrip</a> to go over your existing grip. They’re very thin so they won’t add much bulk to your existing grip
 
 ## Badminton Racquet Paint Repair
 
