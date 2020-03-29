@@ -26,9 +26,9 @@ The reveal of AirBadminton was accompanied by a promotional event in Guangzhou, 
 
 AirBadminton was developed to provide a better experience of playing Badminton outdoors by addressing some key issues found when playing Badminton outside such as:
 
-* The shuttlecock being affected by wind
-* Possible injuries from playing on unsuitable ground
-* Visibility of the shuttlecock in sunlight
+- The shuttlecock being affected by wind
+- Possible injuries from playing on unsuitable ground
+- Visibility of the shuttlecock in sunlight
 
 AirBadminton solves a lot of these problems by changing some of the dynamics of Badminton in subtle and not-so-subtle ways. We have an article that covers the problems with [playing Badminton outdoors](/blog/can-badminton-be-played-outdoors/) and how to get around some of them.
 
@@ -38,9 +38,9 @@ AirBadminton solves a lot of these problems by changing some of the dynamics of 
 
 If you know how to play Badminton then you know a lot of what you already need to know for playing AirBadminton. There are three formats to play which are:
 
-* Singles (1 vs 1)
-* Doubles (2 vs 2)
-* Triples (3 vs 3)
+- Singles (1 vs 1)
+- Doubles (2 vs 2)
+- Triples (3 vs 3)
 
 Singles and doubles are standard formats from traditional Badminton, triples is a new and we’ll come back to that later. The aim of the game is to beat your opponents in the best of five games. One game is nine points. You swap sides after each game unless it’s the fifth game and then you switch again one final time after the first player hits five points.
 
@@ -48,9 +48,9 @@ It’s rally scoring which means you can score when you’re serving and when th
 
 The rules for scoring are the same in AirBadminton and traditional Badminton it’s just the number of points and games are different. There are other differences in rules though. Most of the changes are because of the new court layout. These changes include:
 
-* No more centre line. This means the players can serve anywhere into the opponent's court that is considered “in”.
-* The dead zone. There is a 2-meter zone marked out at the front of the court if the AirShuttle lands in this zone it’s considered a fault.
-* The service line. There is a marker at the sideline to indicate where the service must be struck behind.
+- No more centre line. This means the players can serve anywhere into the opponent's court that is considered “in”.
+- The dead zone. There is a 2-meter zone marked out at the front of the court if the AirShuttle lands in this zone it’s considered a fault.
+- The service line. There is a marker at the sideline to indicate where the service must be struck behind.
 
 If you look at the diagram below you can see the differences between an AirBadminton and a normal Badminton court.
 
@@ -74,22 +74,22 @@ If you can’t hit the shuttle twice then you can’t just stay at the back and 
 
 As we’ve already mentioned, AirBadminton has a different court setup compared to traditional Badminton. AirBadminton can also be set up on three different surfaces which are grass, sand and hard court. Here is a list of equipment you’ll need to set up on a hard court such as asphalt or concrete:
 
-* A set of boundary lines (ones that can stick to the floor)
-    * Two lines of 16m
-    * Four shorter lines of 6m
-* Four small cones
-* A net system
+- A set of boundary lines (ones that can stick to the floor)
+  - Two lines of 16m
+  - Four shorter lines of 6m
+- Four small cones
+- A net system
 
 For playing on grass and sand you’ll need some extra pieces of equipment which are:
 
-* A set of boundary lines that are weather-resistant (these differ from the hardcourt boundary lines in colour and material)
-    * Two lines of 16m
-    * Four shorter lines of 6m
-* A small hammer
-* Four sand anchors for sand court
-* Anchor spikes
-    * Four for a sand court
-    * Eight for a grass court
+- A set of boundary lines that are weather-resistant (these differ from the hardcourt boundary lines in colour and material)
+  - Two lines of 16m
+  - Four shorter lines of 6m
+- A small hammer
+- Four sand anchors for sand court
+- Anchor spikes
+  - Four for a sand court
+  - Eight for a grass court
 
 That is all the equipment you’ll need to set up an AirBadminton court. Now let’s look at how to set it up.
 
@@ -131,7 +131,9 @@ The BWF released a full video on how to set up an AirBadminton court and you can
 
 ## Where can I buy AirBadminton equipment?
 
-The BWF is currently working with Badminton equipment brands around the world to finalise the manufacturing process for the AirShuttle and the court equipment used for AirBadminton. That means currently there’s nowhere in-store or online to get the equipment you need.
+The BWF is currently working with Badminton equipment brands around the world to finalise the manufacturing process for the AirShuttle and the court equipment used for AirBadminton.
+
+There's currently nowhere in-store or online to get the court equipment you need to play AirBadminton properly. However, the AirShuttle is available from [AirShuttle.One](https://airshuttle.one/) online right now. They're the first store in the world to stock the new AirShuttle, head on over to grab some.
 
 BWF have run some small events in Finland, China and France to let people try out the new format. You can see in these videos below how the court equipment is different from traditional Badminton. The nets are longer and need to be set up on sand, grass or hardcourt. You also need the court marking equipment to set up a court. Because it’s a new form of Badminton there isn’t any sports facility anywhere that will have court equipment or court markings for AirBadminton.
 
@@ -141,14 +143,14 @@ Once the wider rollout of AirBadminton commences you can expect to be able to bu
 
 ## The AirShuttle
 
-The AirShuttle has been an entire project in itself for AirBadminton. Five years worth of research, developing and testing prototypes in collaboration with the Institute for Sports Research (ISR) at Nanyang  Technological University, Singapore. The BWF wanted to create a shuttlecock that could be used in an outdoor environment.
+The AirShuttle has been an entire project in itself for AirBadminton. Five years worth of research, developing and testing prototypes in collaboration with the Institute for Sports Research (ISR) at Nanyang Technological University, Singapore. The BWF wanted to create a shuttlecock that could be used in an outdoor environment.
 
 The BWF set some initial criteria for developing the AirShuttle which are:
 
-* The shuttlecocks must be durable and cost-effective to manufacture
-* The shuttlecocks must have similar flight and feel compared to an indoor shuttlecock
-* They must be minimally impacted by humidity levels in the environment
-* The effects of side and axial wind conditions should be minimal
+- The shuttlecocks must be durable and cost-effective to manufacture
+- The shuttlecocks must have similar flight and feel compared to an indoor shuttlecock
+- They must be minimally impacted by humidity levels in the environment
+- The effects of side and axial wind conditions should be minimal
 
 The research took them through over **30 different designs **that were each rigorously tested in independent studies. After finding the right design they were further tested with groups of players from all playing levels. Every level from beginners to elite/Olympic level athletes.
 
@@ -160,15 +162,13 @@ The other thing to notice is the colour. I imagine they’ll come in a variety o
 
 You can also see that the feather/skirt is a lot shorter, definitely to offset the effects of wind blowing it from side to side. Notice there are only five “feathers” compared to a traditional feather shuttlecock which has 16. They’re curved as well possibly to help the shuttlecock spin more as plastic nylon shuttlecocks suffer from this problem.
 
-The BWF hasn’t said much more about the AirShuttle then what’s detailed here but they are working with manufacturers around the world to discuss the production process and to provide feedback.
-
+Fancy playing outside? Whilst the court equipment is still in production the wolrds first online store is now seeling the AirShuttle. Check out [AirShuttle.One](https://airshuttle.one/) to get your hands on some AirShuttles to play with.
 
 ## Where to play AirBadminton right now
 
-The sport of AirBadminton has only had a few promotional events to spread the word about this new format for Badminton. These events have been organised with the BWF and other national Badminton governing bodies which means there isn’t anywhere to play AirBadminton right now. There isn’t anywhere to buy equipment because full retail production hasn’t been finalised yet.
+The sport of AirBadminton has only had a few promotional events to spread the word about this new format for Badminton. These events have been organised with the BWF and other national Badminton governing bodies which means there isn’t anywhere to play AirBadminton right now. There isn’t anywhere to buy all the equipment because full retail production hasn’t been finalised yet.
 
 It’s unclear how long it will be before more people will get the chance to play AirBadminton but make sure to stay in touch with you national or local Badminton governing body to hear any news about events. Hopefully, it won’t be too long before more promotional events appear and people around the world can give AirBadminton a try.
-
 
 ## Related questions
 
