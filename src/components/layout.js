@@ -4,10 +4,12 @@ import styled from "@emotion/styled"
 import { MDXProvider } from "@mdx-js/react"
 import { TwitterTweetEmbed as Tweet } from "react-twitter-embed"
 
+import BirdsEyeCourt from "./interactives/court-birds-eye-view"
+
 import Menu from "./menu"
 import Footer from "./footer"
 
-const shortcodes = { Tweet }
+const shortcodes = { Tweet, BirdsEyeCourt }
 
 const SiteContainer = styled("div")``
 const Main = styled("div")``

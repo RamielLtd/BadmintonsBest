@@ -76,7 +76,20 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: `${__dirname}/content/assets`,
+          include: [
+            `${__dirname}/content/assets`,
+            `${__dirname}/src/components/`,
+          ],
+          omitKeys: [
+            "serif:id",
+            "xmlns:serif",
+            "xmlnsDc",
+            "xmlnsCc",
+            "xmlnsRdf",
+            "xmlnsSvg",
+            "xmlnsSodipodi",
+            "xmlnsInkscape",
+          ],
         },
       },
     },
