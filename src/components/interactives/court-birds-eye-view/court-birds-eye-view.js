@@ -2,7 +2,7 @@ import React from "react"
 import styled from "@emotion/styled"
 
 import { rhythm } from "../../../utils/typography"
-import SVG from "-!svg-react-loader!./court-birds-eye-view.svg"
+import { ReactComponent as SVG } from "./court-birds-eye-view.svg"
 
 const SvgHolder = styled("div")`
   display: block;
@@ -21,7 +21,16 @@ const SvgHolder = styled("div")`
     #Doubles-Area-of-Play,
     #Singles-Area-of-Play,
     #Doubles-Service-Court,
-    #Singles-Service-Court {
+    #Singles-Service-Court,
+    [id^="Even-Service-Court-LS"],
+    [id^="Odd-Service-Court-LS"],
+    [id^="Even-Service-Court-RS"],
+    [id^="Odd-Service-Court-RS"],
+    #Player-Even-LS,
+    #Player-Odd-LS,
+    #Player-Even-RS,
+    #Player-Odd-RS,
+    [id^="Shuttlecock"] {
       display: none;
     }
   }
@@ -30,15 +39,207 @@ const SvgHolder = styled("div")`
     margin-bottom: ${rhythm(1)};
   }
 
-  &.singles {
+  .message {
+    margin-bottom: ${rhythm(0.5)};
   }
 
-  &.doubles {
+  .scoreboard {
+    margin-bottom: ${rhythm(0.5)};
+  }
+
+  &.demonstrate-scoring {
+    &.singles {
+      #Singles-Service-Court {
+        display: initial;
+      }
+
+      &.serving-red {
+        &.red-score-odd {
+          #Player-Odd-LS,
+          #Player-Odd-LS [id^="Shuttlecock"],
+          #Player-Odd-RS,
+          #Singles-Service-Court [id^="Odd-Service-Court-RS"] {
+            display: initial;
+          }
+        }
+
+        &.red-score-even {
+          #Player-Even-LS,
+          #Player-Even-LS [id^="Shuttlecock"],
+          #Player-Even-RS,
+          #Singles-Service-Court [id^="Even-Service-Court-RS"] {
+            display: initial;
+          }
+        }
+      }
+
+      &.serving-blue {
+        &.blue-score-odd {
+          #Player-Odd-RS,
+          #Player-Odd-RS [id^="Shuttlecock"],
+          #Player-Odd-LS,
+          #Singles-Service-Court [id^="Odd-Service-Court-LS"] {
+            display: initial;
+          }
+        }
+
+        &.blue-score-even {
+          #Player-Even-RS,
+          #Player-Even-RS [id^="Shuttlecock"],
+          #Player-Even-LS,
+          #Singles-Service-Court [id^="Even-Service-Court-LS"] {
+            display: initial;
+          }
+        }
+      }
+    }
+
+    &.doubles {
+      #Player-Odd-LS,
+      #Player-Even-LS,
+      #Player-Odd-RS,
+      #Player-Even-RS,
+      #Doubles-Service-Court {
+        display: initial;
+      }
+
+      &.serving-red {
+        &.red-score-odd {
+          #Player-Odd-LS [id^="Shuttlecock"],
+          #Doubles-Service-Court [id^="Odd-Service-Court-RS"] {
+            display: initial;
+          }
+        }
+
+        &.red-score-even {
+          #Player-Even-LS [id^="Shuttlecock"],
+          #Doubles-Service-Court [id^="Even-Service-Court-RS"] {
+            display: initial;
+          }
+        }
+      }
+
+      &.serving-blue {
+        &.blue-score-odd {
+          #Player-Odd-RS [id^="Shuttlecock"],
+          #Doubles-Service-Court [id^="Odd-Service-Court-LS"] {
+            display: initial;
+          }
+        }
+
+        &.blue-score-even {
+          #Player-Even-RS [id^="Shuttlecock"],
+          #Doubles-Service-Court [id^="Even-Service-Court-LS"] {
+            display: initial;
+          }
+        }
+      }
+    }
+  }
+
+  &.demonstrate-service-court {
+    &.singles {
+      #Singles-Service-Court {
+        display: initial;
+      }
+
+      &.serving-red {
+        &.red-score-odd {
+          #Singles-Service-Court [id^="Odd-Service-Court-RS"],
+          #Singles-Service-Court [id^="Odd-Service-Court-LS"] {
+            display: initial;
+          }
+        }
+
+        &.red-score-even {
+          #Singles-Service-Court [id^="Even-Service-Court-RS"],
+          #Singles-Service-Court [id^="Even-Service-Court-LS"] {
+            display: initial;
+          }
+        }
+      }
+
+      &.serving-blue {
+        &.blue-score-odd {
+          #Singles-Service-Court [id^="Odd-Service-Court-LS"],
+          #Singles-Service-Court [id^="Odd-Service-Court-RS"] {
+            display: initial;
+          }
+        }
+
+        &.blue-score-even {
+          #Singles-Service-Court [id^="Even-Service-Court-LS"],
+          #Singles-Service-Court [id^="Even-Service-Court-RS"] {
+            display: initial;
+          }
+        }
+      }
+    }
+
+    &.doubles {
+      #Doubles-Service-Court {
+        display: initial;
+      }
+
+      &.serving-red {
+        &.red-score-odd {
+          #Doubles-Service-Court [id^="Odd-Service-Court-RS"],
+          #Doubles-Service-Court [id^="Odd-Service-Court-LS"] {
+            display: initial;
+          }
+        }
+
+        &.red-score-even {
+          #Doubles-Service-Court [id^="Even-Service-Court-RS"],
+          #Doubles-Service-Court [id^="Even-Service-Court-LS"] {
+            display: initial;
+          }
+        }
+      }
+
+      &.serving-blue {
+        &.blue-score-odd {
+          #Doubles-Service-Court [id^="Odd-Service-Court-LS"],
+          #Doubles-Service-Court [id^="Odd-Service-Court-RS"] {
+            display: initial;
+          }
+        }
+
+        &.blue-score-even {
+          #Doubles-Service-Court [id^="Even-Service-Court-LS"],
+          #Doubles-Service-Court [id^="Even-Service-Court-RS"] {
+            display: initial;
+          }
+        }
+      }
+    }
+  }
+
+  &.demonstrate-area-of-play {
+    &.singles {
+      #Singles-Area-of-Play {
+        display: initial;
+      }
+    }
+
+    &.doubles {
+      #Doubles-Area-of-Play {
+        display: initial;
+      }
+    }
   }
 `
 
 const BirdsEyeCourtComponent = props => {
-  const { spacing, format, redScore, blueScore, serving } = props
+  const {
+    spacing,
+    demonstrate,
+    message,
+    format,
+    redScore,
+    blueScore,
+    serving,
+  } = props
 
   const singles = format === "singles" ? true : false
   const doubles = format === "doubles" ? true : false
@@ -47,12 +248,22 @@ const BirdsEyeCourtComponent = props => {
     <SvgHolder
       className={`
         ${spacing ? `spacing-${spacing}` : ""}
+        ${`demonstrate-${demonstrate}`}
+        ${singles ? "singles" : ""}
         ${doubles ? "doubles" : ""}
+        ${redScore % 2 ? "red-score-odd" : "red-score-even"}
+        ${blueScore % 2 ? "blue-score-odd" : "blue-score-even"}
+        ${`serving-${serving}`}
         `}
     >
-      <p>
-        The score is {redScore} - {blueScore}
-      </p>
+      {(demonstrate === "service-court" || "area-of-play") && message && (
+        <p className="message">{message}</p>
+      )}
+      {demonstrate === "scoring" && (
+        <p className="scoreboard">
+          The score is {redScore} - {blueScore}
+        </p>
+      )}
       <SVG />
     </SvgHolder>
   )
@@ -60,6 +271,8 @@ const BirdsEyeCourtComponent = props => {
 
 BirdsEyeCourtComponent.defaultProps = {
   spacing: "",
+  demonstrate: "scoring",
+  message: null,
   format: "singles",
   redScore: 0,
   blueScore: 0,

@@ -73,23 +73,15 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: "gatsby-plugin-svgr",
       options: {
-        rule: {
-          include: [
-            `${__dirname}/content/assets`,
-            `${__dirname}/src/components/`,
-          ],
-          omitKeys: [
-            "serif:id",
-            "xmlns:serif",
-            "xmlnsDc",
-            "xmlnsCc",
-            "xmlnsRdf",
-            "xmlnsSvg",
-            "xmlnsSodipodi",
-            "xmlnsInkscape",
-          ],
+        prettier: true, // use prettier to format JS code output (default)
+        svgo: true, // use svgo to optimize SVGs (default)
+        svgoConfig: {
+          removeViewBox: true, // remove viewBox when possible (default)
+          cleanupIDs: {
+            remove: false,
+          }, // remove unused IDs and minify remaining IDs (default)
         },
       },
     },

@@ -21,8 +21,8 @@ import {
   MENU_LINK_COLOUR,
 } from "../constants/css-vars"
 
-import OpenIcon from "../../content/assets/open-icon.svg"
-import CloseIcon from "../../content/assets/close-icon.svg"
+import { ReactComponent as OpenIcon } from "../../content/assets/open-icon.svg"
+import { ReactComponent as CloseIcon } from "../../content/assets/close-icon.svg"
 
 const MenuWrapper = styled("header")`
   position: relative;

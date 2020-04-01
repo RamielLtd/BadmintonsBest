@@ -96,9 +96,10 @@ To figure out who is serving is quite simple, if you won the point then you get 
 
 <BirdsEyeCourt
   spacing="normal"
+  demonstrate="scoring"
   format="doubles"
-  redScore={2}
-  blueScore={4}
+  redScore={3}
+  blueScore={6}
   serving="blue"
 />
 
@@ -148,9 +149,33 @@ This is why it’s so important to remember which side you are on.
 
 When serving doubles use the tram lines (the wide service lines, illustrated below) but not the backbox. An easy way to remember this is to remember the service box is wide and short.
 
+<BirdsEyeCourt
+  spacing="normal"
+  demonstrate="service-court"
+  message="When serving and the score is even the areas highlighted in orange are in"
+  format="doubles"
+  redScore={0}
+  serving="red"
+/>
+<BirdsEyeCourt
+  spacing="normal"
+  demonstrate="service-court"
+  message="When serving and the score is odd the areas highlighted in orange are in"
+  format="doubles"
+  redScore={1}
+  serving="red"
+/>
+
 ### Playing the rally, what’s in and out?
 
 In doubles after the service has been returned then everything inside the court is considered in. The only lines you need to worry about are the very outside lines.
+
+<BirdsEyeCourt
+  spacing="normal"
+  demonstrate="area-of-play"
+  message="After the initial serve the areas highlighted in orange are in for doubles"
+  format="doubles"
+/>
 
 Doubles uses with the courts full width and length during the rally so it’s easy to figure if the shuttle is in or out. If it’s inside the court at all then it’s in, if not then it’s out.
 
@@ -165,6 +190,29 @@ You don’t need to remember which side you started the rally on either because 
 ### What’s in and out? Serving and rallies are the same?
 
 In doubles what’s in and out on court changes for during the service and after during the rally. In singles what’s in and out during the serve and rally is the same.
+
+<BirdsEyeCourt
+  spacing="normal"
+  demonstrate="service-court"
+  message="When serving and the score is even the areas highlighted in orange are in"
+  format="singles"
+  redScore={0}
+  serving="red"
+/>
+<BirdsEyeCourt
+  spacing="normal"
+  demonstrate="service-court"
+  message="When serving and the score is odd the areas highlighted in orange are in"
+  format="singles"
+  redScore={1}
+  serving="red"
+/>
+<BirdsEyeCourt
+  spacing="normal"
+  demonstrate="area-of-play"
+  message="After the initial serve the areas highlighted in orange are in for singles"
+  format="singles"
+/>
 
 In singles, the wide boxes (also known as the tramlines) are always out and the boxes at the back of the court are always in.
 
