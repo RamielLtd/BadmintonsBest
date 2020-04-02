@@ -72,19 +72,7 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: "gatsby-plugin-svgr",
-      options: {
-        prettier: true, // use prettier to format JS code output (default)
-        svgo: true, // use svgo to optimize SVGs (default)
-        svgoConfig: {
-          removeViewBox: true, // remove viewBox when possible (default)
-          cleanupIDs: {
-            remove: false,
-          }, // remove unused IDs and minify remaining IDs (default)
-        },
-      },
-    },
+    `gatsby-plugin-svgr`,
     `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-plugin-google-tagmanager",

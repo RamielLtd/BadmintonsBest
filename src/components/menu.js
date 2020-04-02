@@ -81,7 +81,7 @@ const MenuToggle = styled("a")`
 
   text-decoration: none;
 
-  color: transparent;
+  color: transparent !important;
 
   @media ${BREAKPOINTS.MEDIUM} {
     display: none;
