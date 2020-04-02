@@ -97,13 +97,22 @@ To figure out who is serving is quite simple, if you won the point then you get 
 <BirdsEyeCourt
   spacing="normal"
   demonstrate="scoring"
-  format="doubles"
+  format="singles"
   redScore={3}
   blueScore={6}
-  serving="blue"
+  serving="red"
 />
 
 For doubles, this also tells you who will be serving. For example, the opponent was serving but you won the point so now you get to serve, but does your partner serve or you? Same as before, you look at the score and if it’s even the player on the right side of the court serves and if it’s odd then the player on the left.
+
+<BirdsEyeCourt
+  spacing="normal"
+  demonstrate="scoring"
+  format="doubles"
+  redScore={2}
+  blueScore={5}
+  serving="red"
+/>
 
 In doubles you carry on serving for as long as you win points, you don’t alternate with your partner until you lose and regain the service again.
 

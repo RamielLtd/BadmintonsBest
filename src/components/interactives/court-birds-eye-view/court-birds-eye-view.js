@@ -256,9 +256,7 @@ const BirdsEyeCourtComponent = props => {
         ${`serving-${serving}`}
         `}
     >
-      {(demonstrate === "service-court" || "area-of-play") && message && (
-        <p className="message">{message}</p>
-      )}
+      {message && <p className="message">{message}</p>}
       {demonstrate === "scoring" && (
         <p className="scoreboard">
           The score is {redScore} - {blueScore}
