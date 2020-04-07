@@ -7,6 +7,13 @@ featured: "./images/featured.jpg"
 featuredalt: "Badminton net"
 title: "Are Badminton and Volleyball Nets the Same?"
 type: "blog"
+target_keywords:
+  [
+    "are badminton and volleyball nets the same",
+    "badminton net",
+    "badminton net height",
+  ]
+rework: yes
 ---
 
 The Badminton club which I play for uses a school's sports hall as a venue. I turned up for practice one night and saw something I've never seen since. Someone had turned up early and set up the nets ready for people to play when they got there. But this person used Volleyball nets mistakenly with the Badminton posts instead of the actual Badminton nets. The results were strange, to say the least.

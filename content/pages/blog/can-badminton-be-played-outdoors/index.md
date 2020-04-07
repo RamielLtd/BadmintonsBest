@@ -7,6 +7,9 @@ featured: "./images/featured.jpg"
 featuredalt: "Racquet and shuttles on grass"
 title: "Can Badminton be Played Outdoors?"
 type: "blog"
+target_keywords:
+  ["badminton indoor or outdoor", "can badminton be played outdoors"]
+rework: yes
 ---
 
 I used to play Badminton outside, at least what I thought was Badminton. I used to play with a kids set that had plastic shuttles, simple racquets and a popup net. I used to with my brother and sister in the summertime. Looking back now it's not really the Badminton we know and love is it? But it does bring up an interesting question.
@@ -49,7 +52,7 @@ Since 2016 there hasn't been any further mention of the outdoor/beach format at 
 
 Founded by Bill Branded and others who wanted a wind stable version of Badminton. They created the prototypes for equipment to be able to play indoors and outdoors on various surfaces without the need of a net either.
 
-After years of developing as a sport, the ISBO (International Speed Badminton Organisation)  was formed in 2011 to formally organise the sport. This would later be changed to ICO (International Crossminton Organisation) with the name change of the sport in 2016 to be called Crossminton once again.
+After years of developing as a sport, the ISBO (International Speed Badminton Organisation) was formed in 2011 to formally organise the sport. This would later be changed to ICO (International Crossminton Organisation) with the name change of the sport in 2016 to be called Crossminton once again.
 
 Crossminton is more of a mixture of Badminton, Tennis and Squash. The closest relation to Badminton that Crossminton has is the speeder which is the outdoor equivalent of a shuttlecock. There is no net in Crossminton and instead, the two sides of the court are separated by 40 feet of empty space. The aim is to land the speeder in the opponent's court or for the opponent to be unable to return or miss the court, much like Badminton. There are other differences but see our full article covering the sport here.
 

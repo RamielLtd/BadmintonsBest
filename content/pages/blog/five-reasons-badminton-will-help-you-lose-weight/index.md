@@ -5,6 +5,14 @@ date: "2018-07-10"
 description: "Everybody wants to be trim, everybody wants to stay in shape but not everybody enjoys going to the gym, I believe the best answer is finding a sport you love is the best way to get in shape as you’ll enjoy getting a sweat on more and it won’t feel like such a chore."
 title: "5 Reasons Badminton Will Help You Lose Weight"
 type: "blog"
+target_keywords:
+  [
+    "badminton for weight loss",
+    "badminton weight loss",
+    "does badminton help lose belly fat",
+    "is badminton good for weight loss",
+  ]
+rework: yes
 ---
 
 Everybody wants to be trim, everybody wants to stay in shape but not everybody enjoys going to the gym, I believe the best answer is finding a sport you love is the best way to get in shape as you’ll enjoy getting a sweat on more and it won’t feel like such a chore.

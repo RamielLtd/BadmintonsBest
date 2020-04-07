@@ -5,6 +5,15 @@ date: "2019-02-19"
 description: "You see it all the time on the world stage for badminton. Elite level players are capable of defending smashes of over 350kmph. They're capable of picking up deceptive shots when wrong-footed. They're capable of incredible feats of speed and agility! The best elite players are able to keep up with the pace of the game thanks to stupidly fast reaction times. So how do you improve your reaction time in Badminton?"
 title: "How to Improve Your Reaction Time in Badminton"
 type: "blog"
+target_keywords:
+  [
+    "improve your reaction time badminton",
+    "why speed is important in badminton",
+    "why is reaciton time important in badminton",
+    "hand eye coordination drills badminton",
+    "reaction time badminton",
+  ]
+rework: yes
 ---
 
 You see it all the time on the world stage for badminton. Elite level players are capable of defending smashes of over 350kmph. They're capable of picking up deceptive shots when wrong-footed. They're capable of incredible feats of speed and agility! The best elite players are able to keep up with the pace of the game thanks to stupidly fast reaction times.
@@ -21,19 +30,19 @@ We can break these exercises down into three different categories. Exercises to 
 
 ### Eye exercises
 
-*   **Juggling balls** - A great exercise for hand-eye coordination. Juggling three or more balls requires good coordination and improves your spatial awareness. Knowing where each ball is in the air or in your hand and continuing the juggle trains your eyes by tracking multiple objects and switching between them. This can be learnt at home at any time and as a plus is always a good party trick!
-*   **Surprise catch** - This exercise does require another person and the game is simple. The other person needs to hold two objects (make sure they're not fragile), one in each hand. The other person then needs to stand in front of you at arms length and drop one of the objects and you need to catch it. Which item they drop and when should be random so you can't guess which one they will drop. Your eyes will need to see the object and process it and then coordinate to catch the object. Simple but effective.
-*   **Playing first-person shooter video games** - This one might surprise you. Studies prove that playing first-person shooter games moderately can improve your hand-eye coordination and general reaction time. Keeping track of everything going on in the game trains your brain to react to stimuli on screen with greater speed and accuracy. So now you have a good reason to pick up a controller and not feel guilty about it!
+- **Juggling balls** - A great exercise for hand-eye coordination. Juggling three or more balls requires good coordination and improves your spatial awareness. Knowing where each ball is in the air or in your hand and continuing the juggle trains your eyes by tracking multiple objects and switching between them. This can be learnt at home at any time and as a plus is always a good party trick!
+- **Surprise catch** - This exercise does require another person and the game is simple. The other person needs to hold two objects (make sure they're not fragile), one in each hand. The other person then needs to stand in front of you at arms length and drop one of the objects and you need to catch it. Which item they drop and when should be random so you can't guess which one they will drop. Your eyes will need to see the object and process it and then coordinate to catch the object. Simple but effective.
+- **Playing first-person shooter video games** - This one might surprise you. Studies prove that playing first-person shooter games moderately can improve your hand-eye coordination and general reaction time. Keeping track of everything going on in the game trains your brain to react to stimuli on screen with greater speed and accuracy. So now you have a good reason to pick up a controller and not feel guilty about it!
 
 ### Muscular response exercises
 
-*   **Plyometric training** - These are normally bodyweight exercises and they're exercises that require maximum muscle exertion. These exercises help improve your explosive strength and power so naturally, this improves how fast you can move out of the blocks.
-*   **Agility drills** - Training using ladders drills, bleep tests or footwork drills all help towards building speed and agility. All of these will help make you quicker and lighter on your feet improving your acceleration.
-*   **Sprinting** - Sprinters have incredible reactions and speed. Especially 100m sprinters where every millisecond counts in the race. These guys train to be the fastest they can be out of the blocks to get the best start possible. So sprinting not only improves your muscle response time but also makes you faster once moving.
+- **Plyometric training** - These are normally bodyweight exercises and they're exercises that require maximum muscle exertion. These exercises help improve your explosive strength and power so naturally, this improves how fast you can move out of the blocks.
+- **Agility drills** - Training using ladders drills, bleep tests or footwork drills all help towards building speed and agility. All of these will help make you quicker and lighter on your feet improving your acceleration.
+- **Sprinting** - Sprinters have incredible reactions and speed. Especially 100m sprinters where every millisecond counts in the race. These guys train to be the fastest they can be out of the blocks to get the best start possible. So sprinting not only improves your muscle response time but also makes you faster once moving.
 
 ### Combination exercises
 
-*   **Directed shuttle runs** - Shuttle runs are where you set a stack of shuttles in six areas of the court. Two shuttles at the front of the court on either side (either in on along the tramlines). Two in the middle and two at the back of the court in the same way. Then starting from the middle you run or chasse to one of the placed shuttles and touch it before returning to the middle again as fast as you can. This is great on its own for building speed but we can also train our reactions with the help of another person. The other person's job is to point to the shuttle for you to move to next but they only point as you get back to the centre. This requires concentration and good reactions to keep moving quickly.
+- **Directed shuttle runs** - Shuttle runs are where you set a stack of shuttles in six areas of the court. Two shuttles at the front of the court on either side (either in on along the tramlines). Two in the middle and two at the back of the court in the same way. Then starting from the middle you run or chasse to one of the placed shuttles and touch it before returning to the middle again as fast as you can. This is great on its own for building speed but we can also train our reactions with the help of another person. The other person's job is to point to the shuttle for you to move to next but they only point as you get back to the centre. This requires concentration and good reactions to keep moving quickly.
 
 ## Double time training
 
@@ -51,7 +60,7 @@ Reaction time is important for pretty much every aspect in badminton. From defen
 
 The elite players of the world all have incredibly fast reactions. They've trained themselves to the point where their responses are instinctive. In certain scenarios, they react in practised responses so they become more consistent.
 
-The speed of the rallies at which elite players play is so fast they can't afford to be behind during any phase of the rally. Any delay and they'll find themselves more and more under pressure. A  lot of players adapt to this with a combination of fast reactions and anticipation, both combined make the difference.
+The speed of the rallies at which elite players play is so fast they can't afford to be behind during any phase of the rally. Any delay and they'll find themselves more and more under pressure. A lot of players adapt to this with a combination of fast reactions and anticipation, both combined make the difference.
 
 ## The science behind reaction time
 

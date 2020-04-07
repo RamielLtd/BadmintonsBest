@@ -5,6 +5,14 @@ date: "2018-09-09"
 description: "Fun fact, I once had the honour of training and playing with the Olympic silver medalists Gail Emms and Nathan Robertson, true story. At the time Gail Emms was expecting her first child which would turn out to be a boy and despite being heavily pregnant at the time was still able and willing to do the group training session I was attending alongside Nathan. Despite being very heavily pregnant she managed to do the training session helping other and managed a shortened mixed game at the end playing against Nathan and each of them playing with someone from the session. Obviously being an Olympian level athlete and previous world champion to boot, a short match for fun should be no problem, right? You can still play Badminton while pregnant, right?"
 title: "Can I Play Badminton Whilst Pregnant?"
 type: "blog"
+target_keywords:
+  [
+    "badminton during pregnancy",
+    "playing badminton while trying to conceive",
+    "is it safe to play badminton during pregnancy",
+    "can I play badminton whilst pregnant",
+  ]
+rework: yes
 ---
 
 Fun fact, I once had the honour of training and playing with the Olympic silver medalists Gail Emms and Nathan Robertson, true story. At the time Gail Emms was expecting her first child which would turn out to be a boy and despite being heavily pregnant at the time was still able and willing to do the group training session I was attending alongside Nathan. Despite being very heavily pregnant she managed to do the training session helping other and managed a shortened mixed game at the end playing against Nathan and each of them playing with someone from the session. Obviously being an Olympian level athlete and previous world champion to boot, a short match for fun should be no problem, right? You can still play Badminton while pregnant, right?

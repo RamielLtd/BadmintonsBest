@@ -5,6 +5,14 @@ date: "2019-06-13"
 description: "Tennis and Badminton are often compared to one another in various ways. They’re both racquet sports, they both require great speed and agility, to play well you need to have good hand-eye coordination and so on. Like many sports, they’re easy to start but difficult to master. So is Tennis or Badminton harder?"
 title: "Is Tennis or Badminton Harder? (The Answer Will Surprise You)"
 type: "blog"
+target_keywords:
+  [
+    "is tennis or badminton harder",
+    "badminton vs tennis",
+    "tennis vs badminton",
+    "difference between tennis and badminton",
+  ]
+rework: yes
 ---
 
 Tennis and Badminton are often compared to one another in various ways. They’re both racquet sports, they both require great speed and agility, to play well you need to have good hand-eye coordination and so on. Like many sports, they’re easy to start but difficult to master.
@@ -55,11 +63,11 @@ Handling a powerful shot coming at you requires strong wrists. Tennis racquets a
 
 Controlling spin is a challenge in Tennis. Playing the ball requires observing the spin of the ball and being able to counter or control the spin. This is a difficult skill. Playing the ball with different slices and spins creates a lot of variation. The weight of the ball means you need a good technique to handle the return properly. Here is a list of some Tennis shots:
 
-* Topspin shots
-* Slice shots
-* Overhead serve
-* Lob shot
-* Drop shot
+- Topspin shots
+- Slice shots
+- Overhead serve
+- Lob shot
+- Drop shot
 
 ### Badminton shots
 
@@ -67,14 +75,14 @@ Badminton has a wide variety of shots and you can play them from different posit
 
 Badminton requires both power and finesse. It’s explosive and the variety of shots show that you need aggression and control. Here is a list of some Badminton shots:
 
-* Forehand serve
-* Backhand serve
-* Clear
-* Lift
-* Drop shots
-* Smash
-* Netshot
-* Drive shots
+- Forehand serve
+- Backhand serve
+- Clear
+- Lift
+- Drop shots
+- Smash
+- Netshot
+- Drive shots
 
 These are just some of the shots in Badminton. It's worth bearing in mind that there can be variations of each shot. The Badminton smash is a good example where there is the power smash, the stick smash, the half smash and sliced smashes etc. This is where deception then plays a big role in Badminton. It’s very difficult to master but if you can make one shot look just like another you can keep your opponents on the backfoot. You can deceive them, send them the wrong way and disrupt their footwork.
 
