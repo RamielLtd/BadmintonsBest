@@ -25,6 +25,12 @@ wordpress2015Theme.overrideThemeStyles = () => {
     "li > p": {
       display: `inline`,
     },
+    "blockquote p": {
+      marginBottom: 0,
+    },
+    "blockquote cite": {
+      display: `block`,
+    },
     [MOBILE_MEDIA_QUERY]: {
       "ul, ol": {
         marginLeft: 0,
