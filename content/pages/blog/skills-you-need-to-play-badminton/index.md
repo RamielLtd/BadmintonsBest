@@ -9,21 +9,22 @@ featured_attribute: "Photo by Frame Harirak on Unsplash"
 # <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@framemily?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Frame Harirak"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Frame Harirak</span></a>
 title: "The 9 Skills You Need to Play Badminton"
 type: "blog"
+rework: yes
 ---
 
 To be good at any sport you need to master the basics. Mastering the basic techniques and skills allows you to play consistently and improve. Badminton is a very beginner-friendly sport but difficult to master. Anybody can learn and master the basic skills for Badminton.
 
 So what are the basic skills you need to play Badminton? **Here are nine basic skills you need to learn to play Badminton:**
 
-* **Knowing how to warm up properly**
-* **The basic forehand and backhand grip**
-* **The basic six corners footwork**
-* **The split sep/the ready stance**
-* **The basic shots**
-* **Perception and anticipation**
-* **Hand-eye coordination**
-* **Rhythm and timing**
-* **Tactical thinking**
+- **Knowing how to warm up properly**
+- **The basic forehand and backhand grip**
+- **The basic six corners footwork**
+- **The split sep/the ready stance**
+- **The basic shots**
+- **Perception and anticipation**
+- **Hand-eye coordination**
+- **Rhythm and timing**
+- **Tactical thinking**
 
 This list is just the basics and doesn’t cover any advanced skills and tactics. There is a lot to master even with these basic skills. Some of these skills are harder to master than others and some have different levels of mastery. If you want to master these skills then read on.
 
@@ -33,9 +34,9 @@ Warming up is a combination of skill and a bit of know-how. Players of any level
 
 Warm-ups don’t have to take that long either. You can perform a solid warm-up in less than five minutes. Here are some simple routines that really get the blood pumping:
 
-* High speed skipping for five minutes (try to go fast without losing consistency and tripping over the rope)
-* A simple set of jumping jacks, squats, burpees, lunges and knee tucks each for one minute
-* Jog around the hall at a quick pace for five minutes
+- High speed skipping for five minutes (try to go fast without losing consistency and tripping over the rope)
+- A simple set of jumping jacks, squats, burpees, lunges and knee tucks each for one minute
+- Jog around the hall at a quick pace for five minutes
 
 You get the idea, anything that gets you moving without overstretching. It should get your heart pumping and as my coach used to say; “you should have little beads of sweat from the forehead”.
 
@@ -57,12 +58,12 @@ I wouldn’t go as far as they do in principals but I still believe footwork is 
 
 If you can master these six pieces of footwork for Badminton then you’re off to a good start. The six pieces of footwork are:
 
-* Travelling to the forehand side of the net
-* Travelling to the backhand side of the net
-* Covering the forehand mid-court
-* Covering the backhand mid-court
-* Moving to the forehand rear-court
-* Moving to the backhand rear-court
+- Travelling to the forehand side of the net
+- Travelling to the backhand side of the net
+- Covering the forehand mid-court
+- Covering the backhand mid-court
+- Moving to the forehand rear-court
+- Moving to the backhand rear-court
 
 Badminton Exercises channel on YouTube has a great video on covering the six corners of the court. It’s worth watching in full.
 
@@ -80,13 +81,13 @@ So how do you do the split step? It’s simple but can be tricky to master. When
 
 There are so many varieties of shots in Badminton. Variants of shots include slicing the shuttle, tumbling the shuttle or hitting it at different angles with different swings. But they all have one original basic shot. For beginners here is a list of basic shots you should master first.
 
-* The serve (forehand or backhand)
-* The lift (sometimes called a lob)
-* The net shot
-* The block
-* The drop shot
-* The smash
-* The clear
+- The serve (forehand or backhand)
+- The lift (sometimes called a lob)
+- The net shot
+- The block
+- The drop shot
+- The smash
+- The clear
 
 That’s eight shots in total. It’s quite a lot when you’re just starting out and they can all be played backhand and forehand. These seven shots cover the majority of situations you’ll face in a match. Master these and you’ll have a good base in which to build on and start learning more advanced shots and variations.
 
@@ -112,9 +113,9 @@ When you master juggling two items then you can move onto three then four etc. A
 
 Believe it or not but there are specific exercises that you can do to exercise your eyes! They basically help strengthen the muscles in and around your eyes. They mainly help with focusing your vision which in turn will help with your hand-eye coordination. Some examples of eye exercises are.
 
-* Focus change
-* Near and far focus
-* Figure eight
+- Focus change
+- Near and far focus
+- Figure eight
 
 HealthLine.com has a [great article](https://www.healthline.com/health/eye-health/eye-exercises#exercises) covering this in-depth. They’re quick and easy to do and if you did them for only five minutes a day you’d see a difference.
 
