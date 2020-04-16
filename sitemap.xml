@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://www.badmintonsbest.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/blog/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/blog/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/blog/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/blog/page/5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/blog/page/6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/blog/page/7</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/blog/badminton-faults/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/blog/badminton-lets/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.badmintonsbest.com/blog/badminton-faults/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/blog/badminton-rules-serving/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/blog/badminton-rules-scoring/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/blog/badminton-rules/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -28,8 +21,8 @@
 <url> <loc>https://www.badmintonsbest.com/recommended-gear/best-badminton-bags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/recommended-gear/best-badminton-shoes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/recommended-gear/best-badminton-racquets/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/recommended-gear/best-badminton-books/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/recommended-gear/best-badminton-accessories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.badmintonsbest.com/recommended-gear/best-badminton-books/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/recommended-gear/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/blog/gutting-in-badminton/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/blog/best-badminton-string-for-smashing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -54,15 +47,5 @@
 <url> <loc>https://www.badmintonsbest.com/blog/five-reasons-badminton-will-help-you-lose-weight/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/blog/which-badminton-racquet-is-best-for-me/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/beginners-info/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/badminton-rules/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/common-questions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/you-tube/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/podcasts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/yonex/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/complete-guides/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/news/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/air-badminton/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.badmintonsbest.com/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.badmintonsbest.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
