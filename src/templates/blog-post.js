@@ -12,6 +12,7 @@ import About from "../components/content/about"
 import Bio from "../components/bio"
 import RelatedContent from "../components/content/related-content"
 
+import Attribution from "../components/attribution"
 import Constrain from "../components/constrain"
 import Box from "../components/box"
 import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
@@ -28,6 +29,8 @@ class BlogPostTemplate extends React.Component {
     const categories = post.frontmatter.categories
     const dateModified = post.parent.mtime
     const datePublished = post.frontmatter.date
+    const featuredImgAlt = post.frontmatter.featuredalt
+    const featuredImgAttribution = post.frontmatter.featured_attribute
     const featuredImgFluid = post.frontmatter.featured
       ? post.frontmatter.featured.childImageSharp.fluid
       : null
@@ -65,12 +68,20 @@ class BlogPostTemplate extends React.Component {
             <RightSideBarLayout>
               <MainContent>
                 {featuredImgFluid && (
-                  <Img
+                  <figure
                     style={{
                       marginBottom: rhythm(1),
                     }}
-                    fluid={featuredImgFluid}
-                  />
+                  >
+                    <Img
+                      style={{
+                        marginBottom: rhythm(0.25),
+                      }}
+                      fluid={featuredImgFluid}
+                      alt={featuredImgAlt}
+                    />
+                    <Attribution content={featuredImgAttribution} />
+                  </figure>
                 )}
                 <MDXRenderer>{post.body}</MDXRenderer>
                 <hr
@@ -136,6 +147,8 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         categories
+        featuredalt
+        featured_attribute
         featured {
           childImageSharp {
             fluid(maxWidth: 700) {
