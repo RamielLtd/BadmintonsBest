@@ -1,10 +1,59 @@
 import React from "react"
 import styled from "@emotion/styled"
+import { css } from "@emotion/core"
 
 import { rhythm } from "../../../utils/typography"
 import { ReactComponent as SVG } from "./court-birds-eye-view.svg"
 
+const dynamicStyle = ({
+  positions: {
+    red: { playerOne: redOne, playerTwo: redTwo = null },
+    blue: { playerOne: blueOne, playerTwo: blueTwo = null },
+  },
+}) =>
+  css`
+    &.demonstrate-positioning {
+      ${redOne &&
+        `#Player-Even-LS {
+        transform: translate3d(${redOne.x}, ${redOne.y}, 0);
+        ${redOne.hitting &&
+          `[id^="Shuttlecock"] {
+          display: initial;
+        }`}
+      }`}
+
+      ${redTwo &&
+        `#Player-Odd-LS {
+        transform: translate3d(${redTwo.x}, ${redTwo.y}, 0);
+        ${redTwo.hitting &&
+          `[id^="Shuttlecock"] {
+          display: initial;
+        }`}
+      }`}
+
+      ${blueOne &&
+        `#Player-Even-RS {
+        transform: translate3d(${blueOne.x}, ${blueOne.y}, 0);
+        ${blueOne.hitting &&
+          `[id^="Shuttlecock"] {
+          display: initial;
+        }`}
+      }`}
+
+      ${blueTwo &&
+        `#Player-Odd-RS {
+        transform: translate3d(${blueTwo.x}, ${blueTwo.y}, 0);
+        ${blueTwo.hitting &&
+          `[id^="Shuttlecock"] {
+          display: initial;
+        }`}
+      }`}
+    }
+  `
+
 const SvgHolder = styled("div")`
+  ${dynamicStyle}
+
   display: block;
   padding: ${rhythm(1)};
 
@@ -228,6 +277,24 @@ const SvgHolder = styled("div")`
       }
     }
   }
+
+  &.demonstrate-positioning {
+    &.singles {
+      #Player-Even-LS,
+      #Player-Even-RS {
+        display: initial;
+      }
+    }
+
+    &.doubles {
+      #Player-Even-LS,
+      #Player-Odd-LS,
+      #Player-Even-RS,
+      #Player-Odd-RS {
+        display: initial;
+      }
+    }
+  }
 `
 
 const BirdsEyeCourtComponent = props => {
@@ -239,6 +306,7 @@ const BirdsEyeCourtComponent = props => {
     redScore,
     blueScore,
     serving,
+    positions,
   } = props
 
   const singles = format === "singles" ? true : false
@@ -255,6 +323,7 @@ const BirdsEyeCourtComponent = props => {
         ${blueScore % 2 ? "blue-score-odd" : "blue-score-even"}
         ${`serving-${serving}`}
         `}
+      positions={positions}
     >
       {message && <p className="message">{message}</p>}
       {demonstrate === "scoring" && (
@@ -275,6 +344,16 @@ BirdsEyeCourtComponent.defaultProps = {
   redScore: 0,
   blueScore: 0,
   serving: "red",
+  positions: {
+    red: {
+      playerOne: { x: 0, y: 0 },
+      playerTwo: { x: 0, y: 0 },
+    },
+    blue: {
+      playerOne: { x: 0, y: 0 },
+      playerTwo: { x: 0, y: 0 },
+    },
+  },
 }
 
 export default BirdsEyeCourtComponent
