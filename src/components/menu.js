@@ -196,14 +196,18 @@ const MenuNavigationLink = styled(Link)`
 
   color: ${MENU_BACKGROUND_COLOUR};
 
-  &:visited {
+  &:visited,
+  &:hover,
+  &:focus {
     color: ${MENU_BACKGROUND_COLOUR};
   }
 
   @media ${BREAKPOINTS.MEDIUM} {
     color: ${MENU_LINK_COLOUR};
 
-    &:visited {
+    &:visited,
+    &:hover,
+    &:focus {
       color: ${MENU_LINK_COLOUR};
     }
   }
