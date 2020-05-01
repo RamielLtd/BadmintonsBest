@@ -45,15 +45,17 @@ wordpress2015Theme.scaleRatio = 2
 wordpress2015Theme.googleFonts = [
   {
     name: "Open Sans",
-    styles: ["700"],
+    styles: ["600"],
   },
   {
     name: "Open Sans",
-    styles: ["400", "400i", "700", "700i"],
+    styles: ["400", "400i", "600", "600i"],
   },
 ]
 wordpress2015Theme.headerFontFamily = ["Open Sans", "sans-serif"]
 wordpress2015Theme.bodyFontFamily = ["Open Sans", "sans-serif"]
+wordpress2015Theme.headerWeight = "600"
+wordpress2015Theme.boldWeight = 600
 
 const typography = new Typography(wordpress2015Theme)
 
@@ -66,3 +68,6 @@ export default typography
 export const rhythm = typography.rhythm
 export const scale = typography.scale
 export const CONSTRAIN = rhythm(36)
+export const CONSTRAIN_CONTENT = rhythm(22)
+export const CONSTRAIN_CONTENT_HALF = rhythm(11)
+export const CONSTRAIN_CONTENT_DIVIDERS = rhythm(26)

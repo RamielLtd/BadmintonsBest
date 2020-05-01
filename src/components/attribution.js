@@ -7,6 +7,7 @@ const AttributionParagraph = styled("p")`
   display: block;
 
   p {
+    display: inline;
     font-size: ${rhythm(0.5)} !important;
   }
 
@@ -18,7 +19,7 @@ const AttributionParagraph = styled("p")`
 
 const Attribution = ({ content }) => (
   <AttributionParagraph>
-    <em dangerouslySetInnerHTML={{ __html: content }} />
+    <em dangerouslySetInnerHTML={{ __html: `Image credit: ${content}` }} />
   </AttributionParagraph>
 )
 

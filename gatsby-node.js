@@ -29,7 +29,21 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const pageTemplate = path.resolve(`./src/templates/page.js`)
   const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
+  const pillarTemplate = path.resolve(`./src/templates/pillar.js`)
   const categoryTemplate = path.resolve("src/templates/category.js")
+
+  const getPageTemplate = frontmatterType => {
+    if (frontmatterType === "blog") {
+      return blogPostTemplate
+    }
+
+    if (frontmatterType === "pillar") {
+      return pillarTemplate
+    }
+
+    return pageTemplate
+  }
+
   const result = await graphql(
     `
       {
@@ -89,8 +103,7 @@ exports.createPages = async ({ graphql, actions }) => {
     createPage({
       path: page.node.fields.slug,
       // Swap template based of field value
-      component:
-        page.node.frontmatter.type === "blog" ? blogPostTemplate : pageTemplate,
+      component: getPageTemplate(page.node.frontmatter.type),
       context: {
         slug: page.node.fields.slug,
         previous,

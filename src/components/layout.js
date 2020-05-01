@@ -5,11 +5,18 @@ import { MDXProvider } from "@mdx-js/react"
 import { TwitterTweetEmbed as Tweet } from "react-twitter-embed"
 
 import BirdsEyeCourt from "./interactives/court-birds-eye-view"
+import PillarSectionTitle from "./blocks/pillar-section-title"
+import PillarSectionEnd from "./blocks/pillar-section-end"
 
 import Menu from "./menu"
 import Footer from "./footer"
 
-const shortcodes = { Tweet, BirdsEyeCourt }
+const shortcodes = {
+  BirdsEyeCourt,
+  PillarSectionEnd,
+  PillarSectionTitle,
+  Tweet,
+}
 
 const SiteContainer = styled("div")``
 const Main = styled("div")``
