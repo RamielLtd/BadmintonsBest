@@ -127,15 +127,15 @@ export function useMatch() {
     }
   }
 
-  const getCurrentReceivingTeam = () => {
-    const { currentReceiver } = getCurrentGame()
+  // const getCurrentReceivingTeam = () => {
+  //   const { currentReceiver } = getCurrentGame()
 
-    if (currentReceiver) {
-      return players.find(player => player.id === currentReceiver).team
-    } else {
-      return TEAM_TWO
-    }
-  }
+  //   if (currentReceiver) {
+  //     return players.find(player => player.id === currentReceiver).team
+  //   } else {
+  //     return TEAM_TWO
+  //   }
+  // }
 
   const getCurrentPlayerFormation = () => {
     let { homeOddPlayer, homeEvenPlayer, awayOddPlayer, awayEvenPlayer } = ""
