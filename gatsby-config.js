@@ -44,6 +44,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/src/pages`,
+        name: `srcPages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
       },
@@ -123,7 +130,13 @@ module.exports = {
         // Exclude specific pages or groups of pages using glob parameters
         // See: https://github.com/isaacs/minimatch
         // The example below will exclude the single `path/to/page` and all routes beginning with `category`
-        exclude: [`/categories`, `/categories/*`, `/blog`, `/blog/page/*`],
+        exclude: [
+          `/categories`,
+          `/categories/*`,
+          `/blog`,
+          `/blog/page/*`,
+          `/tools/*`,
+        ],
       },
     },
   ],
