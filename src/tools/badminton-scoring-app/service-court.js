@@ -19,45 +19,75 @@ const Container = styled("div")`
 
   border: 2px solid ${COURT_LINES_COLOUR};
 
-  //   overflow: hidden;
-  //   text-overflow: ellipsis;
-  //   white-space: nowrap;
+  text-align: center;
+
+  cursor: pointer;
+  user-select: none;
+
+  @media (orientation: portrait) {
+    width: 50%;
+  }
 
   &.is-${SERVICE_SITUATION_SERVE} {
     background-color: ${SCOREBOARD_BG_COLOUR_HIGHLIGHT};
   }
 
   &.is-${SERVICE_SITUATION_RECEIVE} {
+    color: ${SCOREBOARD_BG_COLOUR_HIGHLIGHT};
   }
 
   &.is-${SERVICE_SITUATION_INACTIVE} {
   }
 `
 
-// const serviceSituation = (player, serving) => {
-//   if (player === serving) {
-//     return SERVICE_SITUATION_SERVE
-//   }
+const ServiceCourt = ({
+  player: { id: playerdId, name },
+  server: { id: serverId },
+  receiver: { id: receiverId },
+  side,
+}) => {
+  let is = SERVICE_SITUATION_INACTIVE
 
-//   return SERVICE_SITUATION_INACTIVE
-// }
+  if (playerdId === serverId) {
+    is = SERVICE_SITUATION_SERVE
+  } else if (playerdId === receiverId) {
+    is = SERVICE_SITUATION_RECEIVE
+  }
 
-const ServiceCourt = ({ is, player: { name }, side }) => {
   return <Container className={`is-${is}`}>{name}</Container>
 }
 
 ServiceCourt.propTypes = {
-  is: PropTypes.string,
   player: PropTypes.shape({
     id: PropTypes.number,
     name: PropTypes.string,
     team: PropTypes.string,
   }),
+  server: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    team: PropTypes.string,
+  }),
   side: PropTypes.string,
+  receiver: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    team: PropTypes.string,
+  }),
 }
 
 ServiceCourt.defaultProps = {
   player: {
+    id: null,
+    name: null,
+    team: null,
+  },
+  server: {
+    id: null,
+    name: null,
+    team: null,
+  },
+  receiver: {
     id: null,
     name: null,
     team: null,

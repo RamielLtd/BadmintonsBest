@@ -14,7 +14,8 @@ const ScoringApp = () => {
   const {
     getCurrentGame,
     getCurrentPlayerFormation,
-    getCurrentServingTeam,
+    getCurrentReceivingPlayer,
+    getCurrentServingPlayer,
     newMatch,
     wonPoint,
   } = useMatch()
@@ -31,7 +32,8 @@ const ScoringApp = () => {
     awaySide,
   } = getCurrentGame()
 
-  const currentServingTeam = getCurrentServingTeam()
+  const currentServingPlayer = getCurrentServingPlayer()
+  const currentReceivingPlayer = getCurrentReceivingPlayer()
 
   const {
     homeOddPlayer,
@@ -52,19 +54,39 @@ const ScoringApp = () => {
     <ScoreBoard>
       <Court>
         <CourtSide onClick={() => homeSideWonPoint()}>
-          <ServiceCourt side="odd" player={homeOddPlayer} />
-          <ServiceCourt side="even" player={homeEvenPlayer} />
+          <ServiceCourt
+            side="odd"
+            player={homeOddPlayer}
+            server={currentServingPlayer}
+            receiver={currentReceivingPlayer}
+          />
+          <ServiceCourt
+            side="even"
+            player={homeEvenPlayer}
+            server={currentServingPlayer}
+            receiver={currentReceivingPlayer}
+          />
         </CourtSide>
         <CourtSide onClick={() => awaySideWonPoint()}>
-          <ServiceCourt side="even" player={awayEvenPlayer} />
-          <ServiceCourt side="odd" player={awayOddPlayer} />
+          <ServiceCourt
+            side="even"
+            player={awayEvenPlayer}
+            server={currentServingPlayer}
+            receiver={currentReceivingPlayer}
+          />
+          <ServiceCourt
+            side="odd"
+            player={awayOddPlayer}
+            server={currentServingPlayer}
+            receiver={currentReceivingPlayer}
+          />
         </CourtSide>
       </Court>
       <Score
         teamOne={currentHomeScore}
         teamTwo={currentAwayScore}
         game={currentGameNumber}
-        servingTeam={currentServingTeam}
+        server={currentServingPlayer}
       />
     </ScoreBoard>
   )

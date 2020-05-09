@@ -22,6 +22,8 @@ const Container = styled("div")`
   flex-wrap: nowrap;
   align-items: center;
 
+  user-select: none;
+
   @media (orientation: portrait) {
     flex-direction: column;
   }
@@ -96,7 +98,7 @@ const Vs = styled("div")`
   }
 `
 
-const Score = ({ game, servingTeam, teamOne, teamTwo }) => {
+const Score = ({ game, server: { team: servingTeam }, teamOne, teamTwo }) => {
   const swapSides =
     game === 2 || (game === 3 && (teamOne >= 11 || teamTwo >= 11))
       ? true
@@ -125,9 +127,21 @@ const Score = ({ game, servingTeam, teamOne, teamTwo }) => {
 
 Score.propTypes = {
   game: PropTypes.number,
-  servingTeam: PropTypes.string,
+  server: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    team: PropTypes.string,
+  }),
   teamOne: PropTypes.number,
   teamTwo: PropTypes.number,
+}
+
+Score.defaultProps = {
+  server: {
+    id: null,
+    name: null,
+    team: null,
+  },
 }
 
 export default Score

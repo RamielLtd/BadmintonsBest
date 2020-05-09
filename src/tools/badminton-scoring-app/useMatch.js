@@ -99,12 +99,6 @@ export function useMatch() {
     setEvent(event)
   }
 
-  // const getPlayerById = id => {
-  //   return players.find(player => player.id === id).name
-  // }
-
-  // const getCurrentServer = () => {}
-
   const getCurrentGame = () => {
     return games[games.length - 1]
   }
@@ -118,24 +112,44 @@ export function useMatch() {
   }
 
   const getCurrentServingTeam = () => {
-    const { currentServer } = getCurrentGame()
+    const currentServer = getCurrentServingPlayer()
 
     if (currentServer) {
-      return players.find(player => player.id === currentServer).team
+      return currentServer.team
     } else {
       return TEAM_ONE
     }
   }
 
-  // const getCurrentReceivingTeam = () => {
-  //   const { currentReceiver } = getCurrentGame()
+  const getCurrentServingPlayer = () => {
+    const { currentServer } = getCurrentGame()
 
-  //   if (currentReceiver) {
-  //     return players.find(player => player.id === currentReceiver).team
-  //   } else {
-  //     return TEAM_TWO
-  //   }
-  // }
+    if (currentServer !== null || undefined) {
+      return players.find(player => player.id === currentServer)
+    } else {
+      return undefined
+    }
+  }
+
+  const getCurrentReceivingTeam = () => {
+    const currentReceiver = getCurrentServingPlayer()
+
+    if (currentReceiver) {
+      return currentReceiver.team
+    } else {
+      return TEAM_TWO
+    }
+  }
+
+  const getCurrentReceivingPlayer = () => {
+    const { currentReceiver } = getCurrentGame()
+
+    if (currentReceiver !== null || undefined) {
+      return players.find(player => player.id === currentReceiver)
+    } else {
+      return undefined
+    }
+  }
 
   const getCurrentPlayerFormation = () => {
     let { homeOddPlayer, homeEvenPlayer, awayOddPlayer, awayEvenPlayer } = ""
@@ -340,6 +354,9 @@ export function useMatch() {
     getCurrentGame,
     getCurrentPlayerFormation,
     getCurrentServingTeam,
+    getCurrentServingPlayer,
+    getCurrentReceivingTeam,
+    getCurrentReceivingPlayer,
     newMatch,
     wonPoint,
   }

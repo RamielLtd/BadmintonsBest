@@ -12,9 +12,18 @@ const Court = styled("div")`
   border: 2px solid ${COURT_LINES_COLOUR};
   background-color: ${COURT_BG_COLOUR};
 
+  @media (orientation: portrait) {
+    flex-direction: column;
+  }
+
   > * {
     flex: 1 1 50%;
     width: 50%;
+
+    @media (orientation: portrait) {
+      height: 50%;
+      width: 100%;
+    }
   }
 `
 

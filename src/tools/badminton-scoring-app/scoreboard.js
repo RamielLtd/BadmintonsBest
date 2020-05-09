@@ -20,5 +20,9 @@ const ScoreBoard = styled("div")`
   font-size: 10vh;
   font-weight: 900;
   line-height: 1;
+
+  @media (orientation: portrait) {
+    font-size: 10vw;
+  }
 `
 export default ScoreBoard
