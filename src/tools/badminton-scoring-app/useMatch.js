@@ -299,7 +299,7 @@ export function useMatch() {
 
   const wonPoint = team => {
     let {
-      game: gameNumber,
+      gameNumber,
       currentHomeScore,
       currentAwayScore,
       currentServer,
@@ -307,7 +307,6 @@ export function useMatch() {
       homeSide,
       awaySide,
     } = getCurrentGame()
-
     if (team === TEAM_ONE) {
       if (canScore(currentHomeScore, currentAwayScore)) {
         scoreHomePoint()
