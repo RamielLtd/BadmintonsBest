@@ -8,10 +8,10 @@ import {
   SCOREBOARD_TEXT_COLOUR_CONTRAST,
   TEAM_ONE,
   TEAM_TWO,
-} from "./constants"
+} from "../constants"
 
 const Container = styled("div")`
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

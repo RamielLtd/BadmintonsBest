@@ -1,94 +1,73 @@
-import React, { useEffect } from "react"
+import React, { useState } from "react"
 
-import ScoreBoard from "./scoreboard"
-import Court from "./court"
-import CourtSide from "./court-side"
-import ServiceCourt from "./service-court"
-import Score from "./score"
+import ScoringAppContainer from "./scoring-app-container"
+import ScoreBoard from "./scoreboard/"
+import Welcome from "./welcome/"
 
-import { EVENTS } from "./constants"
-
-import { useMatch } from "./useMatch"
+import { MATCH_TYPE } from "./constants"
 
 const ScoringApp = () => {
-  const {
-    getCurrentGame,
-    getCurrentPlayerFormation,
-    getCurrentReceivingPlayer,
-    getCurrentServingPlayer,
-    newMatch,
-    wonPoint,
-  } = useMatch()
+  const [playerOne, setPlayerOne] = useState("")
+  const [playerTwo, setPlayerTwo] = useState("")
+  const [playerThree, setPlayerThree] = useState("")
+  const [playerFour, setPlayerFour] = useState("")
+  const [matchType, setMatchType] = useState("")
+  const [matchStarted, setMatchStarted] = useState(false)
 
-  useEffect(() => {
-    newMatch(["Liam", "Gemma"], ["Lee Chong Wei", "Lin Dan"], EVENTS.XD)
-  }, [])
+  const doublesEvents = [MATCH_TYPE.MD, MATCH_TYPE.WD, MATCH_TYPE.XD]
+  const isDoubles = doublesEvents.includes(matchType) ? true : false
 
-  const {
-    currentAwayScore,
-    currentHomeScore,
-    gameNumber: currentGameNumber,
-    homeSide,
-    awaySide,
-  } = getCurrentGame()
+  const teamOne = isDoubles ? [playerOne, playerTwo] : [playerOne]
+  const teamTwo = isDoubles ? [playerThree, playerFour] : [playerThree]
 
-  const currentServingPlayer = getCurrentServingPlayer()
-  const currentReceivingPlayer = getCurrentReceivingPlayer()
-
-  const {
-    homeOddPlayer,
-    homeEvenPlayer,
-    awayOddPlayer,
-    awayEvenPlayer,
-  } = getCurrentPlayerFormation()
-
-  const homeSideWonPoint = () => {
-    wonPoint(homeSide)
+  const updatePlayerOne = event => {
+    setPlayerOne(event.target.value)
   }
 
-  const awaySideWonPoint = () => {
-    wonPoint(awaySide)
+  const updatePlayerTwo = event => {
+    setPlayerTwo(event.target.value)
+  }
+
+  const updatePlayerThree = event => {
+    setPlayerThree(event.target.value)
+  }
+
+  const updatePlayerFour = event => {
+    setPlayerFour(event.target.value)
+  }
+
+  const updateMatchType = event => {
+    setMatchType(event.target.value)
+  }
+
+  const startMatch = event => {
+    event.preventDefault()
+
+    setMatchStarted(true)
+  }
+
+  const welcomeProps = {
+    matchType,
+    playerOne,
+    playerTwo,
+    playerThree,
+    playerFour,
+    updatePlayerOne,
+    updatePlayerTwo,
+    updatePlayerThree,
+    updatePlayerFour,
+    updateMatchType,
+    startMatch,
   }
 
   return (
-    <ScoreBoard>
-      <Court>
-        <CourtSide onClick={() => homeSideWonPoint()}>
-          <ServiceCourt
-            side="odd"
-            player={homeOddPlayer}
-            server={currentServingPlayer}
-            receiver={currentReceivingPlayer}
-          />
-          <ServiceCourt
-            side="even"
-            player={homeEvenPlayer}
-            server={currentServingPlayer}
-            receiver={currentReceivingPlayer}
-          />
-        </CourtSide>
-        <CourtSide onClick={() => awaySideWonPoint()}>
-          <ServiceCourt
-            side="even"
-            player={awayEvenPlayer}
-            server={currentServingPlayer}
-            receiver={currentReceivingPlayer}
-          />
-          <ServiceCourt
-            side="odd"
-            player={awayOddPlayer}
-            server={currentServingPlayer}
-            receiver={currentReceivingPlayer}
-          />
-        </CourtSide>
-      </Court>
-      <Score
-        teamOne={currentHomeScore}
-        teamTwo={currentAwayScore}
-        game={currentGameNumber}
-        server={currentServingPlayer}
-      />
-    </ScoreBoard>
+    <ScoringAppContainer>
+      {!matchStarted ? (
+        <Welcome {...welcomeProps} />
+      ) : (
+        <ScoreBoard teamOne={teamOne} teamTwo={teamTwo} matchType={matchType} />
+      )}
+    </ScoringAppContainer>
   )
 }
 

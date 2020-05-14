@@ -8,7 +8,7 @@ import {
   SERVICE_SITUATION_SERVE,
   SERVICE_SITUATION_RECEIVE,
   SERVICE_SITUATION_INACTIVE,
-} from "./constants"
+} from "../constants"
 
 const Container = styled("div")`
   display: flex;

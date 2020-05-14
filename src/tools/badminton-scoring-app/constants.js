@@ -1,7 +1,7 @@
 export const COURT_BG_COLOUR = "rgb(67,134,51)"
 export const COURT_LINES_COLOUR = "white"
 
-export const EVENTS = {
+export const MATCH_TYPE = {
   MS: "mens-singles",
   WS: "womens-singles",
   MD: "mens-doubles",

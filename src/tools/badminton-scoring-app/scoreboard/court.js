@@ -1,6 +1,6 @@
 import styled from "@emotion/styled"
 
-import { COURT_BG_COLOUR, COURT_LINES_COLOUR } from "./constants"
+import { COURT_BG_COLOUR, COURT_LINES_COLOUR } from "../constants"
 
 const Court = styled("div")`
   display: flex;

@@ -2,27 +2,20 @@ import styled from "@emotion/styled"
 
 import { SCOREBOARD_BG_COLOUR, SCOREBOARD_TEXT_COLOUR } from "./constants"
 
-const ScoreBoard = styled("div")`
+const ScoringAppContainer = styled("div")`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
 
-  height: 100vh;
+  position: relative;
+  min-height: 100vh;
   width: 100vw;
   padding: 1rem;
-  overflow: hidden;
 
   background-color: ${SCOREBOARD_BG_COLOUR};
   color: ${SCOREBOARD_TEXT_COLOUR};
-
-  font-size: 10vh;
-  font-weight: 900;
-  line-height: 1;
-
-  @media (orientation: portrait) {
-    font-size: 10vw;
-  }
 `
-export default ScoreBoard
+
+export default ScoringAppContainer
