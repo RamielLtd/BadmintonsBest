@@ -9,6 +9,7 @@ const ButtonLink = styled(Link)`
   border: 1px solid;
   border-radius: 5px;
 
+  cursor: pointer;
   text-decoration: none;
 `
 

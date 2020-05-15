@@ -11,16 +11,17 @@ import { SCOREBOARD_BG_COLOUR, SCOREBOARD_TEXT_COLOUR } from "../constants"
 import { useMatch } from "../useMatch"
 
 const ScoreBoardContainer = styled("div")`
+  position: absolute;
+  overflow: hidden;
+
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-
-  position: relative;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  padding: 1rem;
 
   background-color: ${SCOREBOARD_BG_COLOUR};
   color: ${SCOREBOARD_TEXT_COLOUR};

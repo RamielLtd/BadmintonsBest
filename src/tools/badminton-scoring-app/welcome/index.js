@@ -2,10 +2,56 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "@emotion/styled"
 
-import { MATCH_TYPE } from "../constants"
+import { rhythm } from "../../../utils/typography"
+import Button from "../../../components/ui/button"
+import { COURT_LINES_COLOUR, MATCH_TYPE } from "../constants"
 
 const WelcomeContainer = styled("div")`
   max-width: 30rem;
+`
+
+const WelcomeTitle = styled("h1")`
+  margin-top: 0;
+`
+
+const WelcomeSection = styled("div")`
+  & + & {
+    margin-top: ${rhythm(1.5)};
+  }
+`
+
+const WelcomeSubSection = styled("div")`
+  & + & {
+    margin-top: ${rhythm(0.5)};
+  }
+`
+
+const WelcomeSectionHeading = styled("p")`
+  margin-bottom: ${rhythm(0.5)};
+`
+
+const FormInputCombo = styled("div")`
+  > label {
+    display: block;
+  }
+
+  > input {
+    display: block;
+    width: 100%;
+    padding: ${rhythm(0.25)};
+  }
+
+  & + & {
+    margin-top: ${rhythm(0.5)};
+  }
+`
+
+const FormSelect = styled("select")`
+  display: block;
+  width: 100%;
+  padding: ${rhythm(0.25)};
+
+  background-color: ${COURT_LINES_COLOUR};
 `
 
 const Welcome = ({
@@ -23,14 +69,28 @@ const Welcome = ({
 }) => {
   const doublesEvents = [MATCH_TYPE.MD, MATCH_TYPE.WD, MATCH_TYPE.XD]
   const isDoubles = doublesEvents.includes(matchType) ? true : false
+  const canSubmit =
+    matchType &&
+    (isDoubles
+      ? playerOne && playerTwo && playerThree && playerFour
+      : playerOne && playerThree)
+      ? true
+      : false
 
   return (
     <WelcomeContainer>
-      <h1>Welcome to the BadmintonsBest Scoring App</h1>
+      <WelcomeTitle>Welcome to the BadmintonsBest Scoring App</WelcomeTitle>
       <form onSubmit={startMatch}>
-        <div>
-          <p>To get started please select the match type you'll be playing:</p>
-          <select value={matchType} onChange={updateMatchType} required>
+        <WelcomeSection>
+          <WelcomeSectionHeading>
+            To get started please select the match type you'll be playing:
+          </WelcomeSectionHeading>
+          <FormSelect
+            name="matchType"
+            value={matchType}
+            onChange={updateMatchType}
+            required
+          >
             <option value="" disabled>
               Select event
             </option>
@@ -39,62 +99,72 @@ const Welcome = ({
             <option value={MATCH_TYPE.MD}>Mens doubles</option>
             <option value={MATCH_TYPE.WD}>Womens doubles</option>
             <option value={MATCH_TYPE.XD}>Mixed doubles</option>
-          </select>
-        </div>
+          </FormSelect>
+        </WelcomeSection>
 
-        <div>
-          <p>Now enter the names of the players</p>
+        {matchType && (
+          <WelcomeSection>
+            <WelcomeSectionHeading>
+              Now enter the names of the players:
+            </WelcomeSectionHeading>
 
-          <strong>Team One</strong>
-          <div>
-            <label>Server name</label>
-            <input
-              type="text"
-              name="playerOne"
-              value={playerOne}
-              onChange={updatePlayerOne}
-              required
-            />
-          </div>
-          {isDoubles && (
-            <div>
-              <label>Partner name</label>
-              <input
-                type="text"
-                name="playerTwo"
-                value={playerTwo}
-                onChange={updatePlayerTwo}
-              />
-            </div>
-          )}
+            <WelcomeSubSection>
+              <strong>Team One</strong>
+              <FormInputCombo>
+                <label htmlFor="playerOne">Server name</label>
+                <input
+                  type="text"
+                  name="playerOne"
+                  value={playerOne}
+                  onChange={updatePlayerOne}
+                  required
+                />
+              </FormInputCombo>
+              {isDoubles && (
+                <FormInputCombo>
+                  <label htmlFor="playerTwo">Partner name</label>
+                  <input
+                    type="text"
+                    name="playerTwo"
+                    value={playerTwo}
+                    onChange={updatePlayerTwo}
+                  />
+                </FormInputCombo>
+              )}
+            </WelcomeSubSection>
 
-          <strong>Team Two</strong>
-          <div>
-            <label>Receiver name</label>
-            <input
-              type="text"
-              name="playerThree"
-              value={playerThree}
-              onChange={updatePlayerThree}
-              required
-            />
-          </div>
-          {isDoubles && (
-            <div>
-              <label>Partner name</label>
-              <input
-                type="text"
-                name="playerFour"
-                value={playerFour}
-                onChange={updatePlayerFour}
-              />
-            </div>
-          )}
-        </div>
+            <WelcomeSubSection>
+              <strong>Team Two</strong>
+              <FormInputCombo>
+                <label htmlFor="playerThree">Receiver name</label>
+                <input
+                  type="text"
+                  name="playerThree"
+                  value={playerThree}
+                  onChange={updatePlayerThree}
+                  required
+                />
+              </FormInputCombo>
+              {isDoubles && (
+                <FormInputCombo>
+                  <label htmlFor="playerFour">Partner name</label>
+                  <input
+                    type="text"
+                    name="playerFour"
+                    value={playerFour}
+                    onChange={updatePlayerFour}
+                  />
+                </FormInputCombo>
+              )}
+            </WelcomeSubSection>
+          </WelcomeSection>
+        )}
 
-        <div>
-          <button type="submit">Start Match</button>
-        </div>
+        {canSubmit && (
+          <WelcomeSection>
+            <Button type="submit">Start Match</Button>
+          </WelcomeSection>
+        )}
       </form>
     </WelcomeContainer>
   )
