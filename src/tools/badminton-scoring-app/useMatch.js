@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-import { TEAM_ONE, TEAM_TWO } from "./constants"
+import { MATCH_TYPE, TEAM_ONE, TEAM_TWO } from "./constants"
 
 const GAME_TEMPLATE = {
   gameNumber: 1,
@@ -44,7 +44,10 @@ const canScore = (scorer, opponent) => {
 export function useMatch() {
   const [players, setPlayers] = useState([])
   const [games, setGames] = useState([GAME_TEMPLATE])
-  const [, setEvent] = useState(null)
+  const [matchType, setMatchType] = useState(null)
+
+  const doublesEvents = [MATCH_TYPE.MD, MATCH_TYPE.WD, MATCH_TYPE.XD]
+  const isDoubles = doublesEvents.includes(matchType) ? true : false
 
   const createGame = (
     currentGameNumber,
@@ -96,7 +99,7 @@ export function useMatch() {
     setGames([gameOne])
 
     // Set event
-    setEvent(event)
+    setMatchType(event)
   }
 
   const getCurrentGame = () => {
@@ -238,41 +241,71 @@ export function useMatch() {
       homeOddPlayer,
     } = getCurrentPlayerFormation()
 
-    if (scoringTeam === currentGame.homeSide) {
-      // Check if serve changes side
-      if (scoringTeam !== getCurrentServingTeam()) {
-        // Update receiver before server changes
-        currentGame.currentReceiver = isNumEven(currentGame.currentHomeScore)
-          ? awayEvenPlayer.id
-          : awayOddPlayer.id
+    if (isDoubles) {
+      if (scoringTeam === currentGame.homeSide) {
+        // Check if serve changes side
+        if (scoringTeam !== getCurrentServingTeam()) {
+          // Update receiver before server changes
+          currentGame.currentReceiver = isNumEven(currentGame.currentHomeScore)
+            ? awayEvenPlayer.id
+            : awayOddPlayer.id
 
-        // Update server
-        currentGame.currentServer = isNumEven(currentGame.currentHomeScore)
-          ? homeEvenPlayer.id
-          : homeOddPlayer.id
+          // Update server
+          currentGame.currentServer = isNumEven(currentGame.currentHomeScore)
+            ? homeEvenPlayer.id
+            : homeOddPlayer.id
+        } else {
+          // Update receiver
+          currentGame.currentReceiver = isNumEven(currentGame.currentHomeScore)
+            ? awayOddPlayer.id
+            : awayEvenPlayer.id
+        }
       } else {
-        // Update receiver
-        currentGame.currentReceiver = isNumEven(currentGame.currentHomeScore)
-          ? awayOddPlayer.id
-          : awayEvenPlayer.id
+        // Check if serve changes side
+        if (scoringTeam !== getCurrentServingTeam()) {
+          // Update receiver before server changes
+          currentGame.currentReceiver = isNumEven(currentGame.currentAwayScore)
+            ? homeEvenPlayer.id
+            : homeOddPlayer.id
+
+          // Update server
+          currentGame.currentServer = isNumEven(currentGame.currentAwayScore)
+            ? awayEvenPlayer.id
+            : awayOddPlayer.id
+        } else {
+          // Update receiver
+          currentGame.currentReceiver = isNumEven(currentGame.currentAwayScore)
+            ? homeOddPlayer.id
+            : homeEvenPlayer.id
+        }
       }
     } else {
-      // Check if serve changes side
-      if (scoringTeam !== getCurrentServingTeam()) {
-        // Update receiver before server changes
-        currentGame.currentReceiver = isNumEven(currentGame.currentAwayScore)
-          ? homeEvenPlayer.id
-          : homeOddPlayer.id
+      if (scoringTeam === currentGame.homeSide) {
+        // Check if serve changes side
+        if (scoringTeam !== getCurrentServingTeam()) {
+          // Update receiver before server changes
+          currentGame.currentReceiver = awayEvenPlayer
+            ? awayEvenPlayer.id
+            : awayOddPlayer.id
 
-        // Update server
-        currentGame.currentServer = isNumEven(currentGame.currentAwayScore)
-          ? awayEvenPlayer.id
-          : awayOddPlayer.id
+          // Update server
+          currentGame.currentServer = homeEvenPlayer
+            ? homeEvenPlayer.id
+            : homeOddPlayer.id
+        }
       } else {
-        // Update receiver
-        currentGame.currentReceiver = isNumEven(currentGame.currentAwayScore)
-          ? homeOddPlayer.id
-          : homeEvenPlayer.id
+        // Check if serve changes side
+        if (scoringTeam !== getCurrentServingTeam()) {
+          // Update receiver before server changes
+          currentGame.currentReceiver = homeEvenPlayer
+            ? homeEvenPlayer.id
+            : homeOddPlayer.id
+
+          // Update server
+          currentGame.currentServer = awayEvenPlayer
+            ? awayEvenPlayer.id
+            : awayOddPlayer.id
+        }
       }
     }
 
