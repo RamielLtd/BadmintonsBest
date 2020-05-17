@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "@emotion/styled"
 
+import { ReactComponent as Shuttlecock } from "./shuttlecock.svg"
 import {
   COURT_LINES_COLOUR,
   SCOREBOARD_BG_COLOUR_HIGHLIGHT,
@@ -30,8 +31,22 @@ const Container = styled("div")`
     width: 50%;
   }
 
+  .shuttlecock {
+    display: none;
+  }
+
   &.is-${SERVICE_SITUATION_SERVE} {
     color: ${SCOREBOARD_BG_COLOUR_HIGHLIGHT};
+
+    .shuttlecock {
+      display: inline-block;
+      width: auto;
+      height: 0.6em;
+      margin-right: 0.2em;
+      vertical-align: middle;
+
+      fill: ${SCOREBOARD_BG_COLOUR_HIGHLIGHT};
+    }
   }
 
   &.is-${SERVICE_SITUATION_RECEIVE} {
@@ -56,7 +71,11 @@ const ServiceCourt = ({
     is = SERVICE_SITUATION_RECEIVE
   }
 
-  return <Container className={`is-${is}`}>{name}</Container>
+  return (
+    <Container className={`is-${is}`}>
+      <Shuttlecock className="shuttlecock" /> {name}
+    </Container>
+  )
 }
 
 ServiceCourt.propTypes = {
