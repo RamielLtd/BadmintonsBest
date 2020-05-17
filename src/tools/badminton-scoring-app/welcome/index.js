@@ -12,6 +12,7 @@ const WelcomeContainer = styled("div")`
 
 const WelcomeTitle = styled("h1")`
   margin-top: 0;
+  text-align: center;
 `
 
 const WelcomeSection = styled("div")`

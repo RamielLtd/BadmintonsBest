@@ -5,6 +5,7 @@ import styled from "@emotion/styled"
 import Court from "./court"
 import CourtSide from "./court-side"
 import ServiceCourt from "./service-court"
+import Settings from "./settings/"
 import Score from "./score"
 
 import { SCOREBOARD_BG_COLOUR, SCOREBOARD_TEXT_COLOUR } from "../constants"
@@ -113,6 +114,7 @@ const ScoreBoard = ({ teamOne, teamTwo, matchType }) => {
         game={currentGameNumber}
         server={currentServingPlayer}
       />
+      <Settings />
     </ScoreBoardContainer>
   )
 }

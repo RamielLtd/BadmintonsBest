@@ -16,6 +16,7 @@ const Container = styled("div")`
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  overflow: hidden;
 
   border: 2px solid ${COURT_LINES_COLOUR};
 
@@ -23,17 +24,18 @@ const Container = styled("div")`
 
   cursor: pointer;
   user-select: none;
+  word-break: break-word;
 
   @media (orientation: portrait) {
     width: 50%;
   }
 
   &.is-${SERVICE_SITUATION_SERVE} {
-    background-color: ${SCOREBOARD_BG_COLOUR_HIGHLIGHT};
+    color: ${SCOREBOARD_BG_COLOUR_HIGHLIGHT};
   }
 
   &.is-${SERVICE_SITUATION_RECEIVE} {
-    color: ${SCOREBOARD_BG_COLOUR_HIGHLIGHT};
+    background-color: ${SCOREBOARD_BG_COLOUR_HIGHLIGHT};
   }
 
   &.is-${SERVICE_SITUATION_INACTIVE} {
