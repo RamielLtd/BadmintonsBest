@@ -3,11 +3,11 @@ import PillarSectionTitle from "../pillar-section-title/lazy"
 import WallPost from "../../svgs/wall-post/lazy"
 
 const PillarSectionEndComponent = props => {
-  const { content } = props
+  const { content, title } = props
 
   return (
     <PillarSectionTitle>
-      <h2>Now it's your turn</h2>
+      <h2>{title}</h2>
 
       <WallPost />
 
@@ -19,6 +19,7 @@ const PillarSectionEndComponent = props => {
 }
 
 PillarSectionEndComponent.defaultProps = {
+  title: "Now it's your turn",
   content: [
     "That’s all for this guide.",
     "Now I’d like to hear from you:",

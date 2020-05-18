@@ -16,7 +16,9 @@ class ScoringAppContainer extends React.Component {
       <div>
         <SEO
           title={"Badminton Scoring App"}
-          description={"Some descriptino here"}
+          description={
+            "Welcome to the BadmintonsBest Scoring App. Use this Badminton Scoring App as your campanion for any game. It's free with no download needed."
+          }
           image={featuredImgFluidSocial}
           schemaType="BlogPosting"
           url={url}
@@ -32,7 +34,7 @@ export default ScoringAppContainer
 export const pageQuery = graphql`
   query {
     featuredSocial: file(
-      relativePath: { eq: "tools/badminton-scoring-app/images/bear.jpg" }
+      relativePath: { eq: "tools/badminton-scoring-app/images/featured.png" }
     ) {
       childImageSharp {
         fluid(maxWidth: 1200, maxHeight: 675, cropFocus: CENTER) {

@@ -80,7 +80,9 @@ class BlogPostTemplate extends React.Component {
                       fluid={featuredImgFluid}
                       alt={featuredImgAlt}
                     />
-                    <Attribution content={featuredImgAttribution} />
+                    {featuredImgAttribution && (
+                      <Attribution content={featuredImgAttribution} />
+                    )}
                   </figure>
                 )}
                 <MDXRenderer>{post.body}</MDXRenderer>

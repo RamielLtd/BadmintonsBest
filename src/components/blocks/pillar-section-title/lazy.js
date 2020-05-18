@@ -81,12 +81,12 @@ const SectionContent = styled("div")`
     text-align: center;
   }
 
-  img,
+  .gatsby-resp-image-wrapper,
   .wall-post {
     @media ${BREAKPOINTS.MEDIUM} {
       float: right;
-      margin: 0 0 0 ${rhythm(1)};
-      max-width: 60%;
+      margin: 0 0 ${rhythm(1)} ${rhythm(1)} !important;
+      width: 50%;
     }
   }
 `

@@ -64,7 +64,7 @@ class PillarTemplate extends React.Component {
           )}
         </HeroPillar>
         <PillarMainContent>
-          {featuredImgFluid && (
+          {featuredImgAttribution && (
             <Attribution
               style={{
                 marginBottom: rhythm(1),
