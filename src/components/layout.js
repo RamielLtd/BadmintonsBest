@@ -3,6 +3,7 @@ import { Global, css } from "@emotion/core"
 import styled from "@emotion/styled"
 import { MDXProvider } from "@mdx-js/react"
 import { TwitterTweetEmbed as Tweet } from "react-twitter-embed"
+import { default as Gram } from "react-instagram-embed"
 
 import BirdsEyeCourt from "./interactives/court-birds-eye-view"
 import PillarSectionTitle from "./blocks/pillar-section-title"
@@ -13,6 +14,7 @@ import Footer from "./footer"
 
 const shortcodes = {
   BirdsEyeCourt,
+  Gram,
   PillarSectionEnd,
   PillarSectionTitle,
   Tweet,
