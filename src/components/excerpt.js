@@ -31,6 +31,7 @@ class Excerpt extends React.Component {
             }}
             to={node.fields.slug}
             data-gtm={dataGtm}
+            data-gtm-click-text={title}
           >
             <Img fluid={featuredImgFluid} />
           </Link>
