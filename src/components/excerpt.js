@@ -12,11 +12,13 @@ const ExcerptContainer = styled("div")`
 
 class Excerpt extends React.Component {
   render() {
-    const { node, variant } = this.props
+    const { dataGtm = "", node, variant } = this.props
     const title = node.frontmatter.title || node.fields.slug
     const featuredImgFluid = node.frontmatter.featured
       ? node.frontmatter.featured.childImageSharp.fluid
       : false
+
+    const isRelatedContent = variant && variant === "mini" ? true : false
 
     return (
       <ExcerptContainer>
@@ -28,17 +30,22 @@ class Excerpt extends React.Component {
               marginBottom: rhythm(1),
             }}
             to={node.fields.slug}
+            data-gtm={dataGtm}
           >
             <Img fluid={featuredImgFluid} />
           </Link>
         )}
-        {variant && variant === "mini" ? (
+        {isRelatedContent ? (
           <h4
             style={{
               marginTop: 0,
             }}
           >
-            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+            <Link
+              style={{ boxShadow: `none` }}
+              to={node.fields.slug}
+              data-gtm={dataGtm}
+            >
               {title}
             </Link>
           </h4>
