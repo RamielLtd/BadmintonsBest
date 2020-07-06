@@ -5,9 +5,10 @@ import { MDXProvider } from "@mdx-js/react"
 import { TwitterTweetEmbed as Tweet } from "react-twitter-embed"
 import { default as Gram } from "react-instagram-embed"
 
-import BirdsEyeCourt from "./interactives/court-birds-eye-view"
 import PillarSectionTitle from "./blocks/pillar-section-title"
 import PillarSectionEnd from "./blocks/pillar-section-end"
+import YouTube from "./embeds/youtube"
+import BirdsEyeCourt from "./interactives/court-birds-eye-view"
 
 import Menu from "./menu"
 import Footer from "./footer"
@@ -18,6 +19,7 @@ const shortcodes = {
   PillarSectionEnd,
   PillarSectionTitle,
   Tweet,
+  YouTube,
 }
 
 const SiteContainer = styled("div")``
