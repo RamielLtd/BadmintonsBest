@@ -45,7 +45,7 @@ Another area where Yonex excels is the support and safety the shoes provide play
 
 The biggest feature of most Yonex shoes is the Power Cushion Plus technology. Their technology has such incredible shock absorption that they tested dropping an egg from 12 meters above small mat made from the Power Cushion (the same thickness as would be in one of their shoes) and the egg would bounce back without breaking. Check out the video below for proof.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Cc-RflX7LtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="Cc-RflX7LtA" title="Yonex UK - The Power Cushion Egg Test" />
 
 This shock absorption is so important because playing Badminton requires a lot of lunging and jumping which generate a lot of impact for the feet and legs to absorb. Yonex shoes negate a lot of stress that the player would otherwise take through their legs. This reduces the risk of injury in a number of areas including the ankles, shins, knees and hips.
 

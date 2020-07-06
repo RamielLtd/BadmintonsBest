@@ -127,7 +127,7 @@ Singles has a narrower court set up to the full AirBadminton court setup. You on
 
 The BWF released a full video on how to set up an AirBadminton court and you can see that below. The video is very clear and details everything in full as well.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yt0k83Q2QPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="Yt0k83Q2QPc" title="Badminton World TV - How to setup an AirBadminton court" />
 
 ## Where can I buy AirBadminton equipment?
 
@@ -137,7 +137,7 @@ There's currently nowhere in-store or online to get the court equipment you need
 
 BWF have run some small events in Finland, China and France to let people try out the new format. You can see in these videos below how the court equipment is different from traditional Badminton. The nets are longer and need to be set up on sand, grass or hardcourt. You also need the court marking equipment to set up a court. Because it’s a new form of Badminton there isn’t any sports facility anywhere that will have court equipment or court markings for AirBadminton.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/usVF_MURMGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="usVF_MURMGA" title="Badminton World TV - BWF Special Feature, AirBadminton" />
 
 Once the wider rollout of AirBadminton commences you can expect to be able to buy full kits from your usual in-store or online retailers for Badminton equipment.
 
