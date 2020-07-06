@@ -1,4 +1,5 @@
 import React from "react"
+import PropTypes from "prop-types"
 import styled from "@emotion/styled"
 
 const IframeHolder = styled("div")`
@@ -17,13 +18,15 @@ const Iframe = styled("iframe")`
 `
 
 const YouTube = props => {
-  const { id, title } = props
+  const { id, title, start } = props
 
   return (
     <IframeHolder className="gatsby-resp-iframe-wrapper">
       <Iframe
         src={`https://www.youtube.com/embed/${id}`}
-        srcDoc={`<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/${id}?autoplay=1><img src=https://img.youtube.com/vi/${id}/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>`}
+        srcDoc={`<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/${id}?autoplay=1${
+          start !== 0 ? `&start=${start}` : ""
+        }><img src=https://img.youtube.com/vi/${id}/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>`}
         title={title}
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -32,6 +35,16 @@ const YouTube = props => {
       ></Iframe>
     </IframeHolder>
   )
+}
+
+YouTube.defaultProps = {
+  start: 0,
+}
+
+YouTube.propTypes = {
+  id: PropTypes.string,
+  start: PropTypes.number,
+  title: PropTypes.string,
 }
 
 export default YouTube
