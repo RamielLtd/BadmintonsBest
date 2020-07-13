@@ -6,7 +6,6 @@ import Excerpt from "../excerpt"
 import { RelatedContentFactory } from "./related-content-factory"
 import { rhythm } from "../../utils/typography"
 import { BREAKPOINTS } from "../../constants/css-vars"
-import { RELATED_CONTENT_LINK } from "../../constants/gtm"
 
 const RelatedContentContainer = styled("section")``
 
@@ -42,7 +41,6 @@ const RelatedContent = ({ articles }) => (
           type="blog"
           node={article.article.node}
           variant="mini"
-          dataGtm={RELATED_CONTENT_LINK}
           key={i}
         />
       ))}

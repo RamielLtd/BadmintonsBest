@@ -20,7 +20,7 @@ import {
   MENU_BACKGROUND_COLOUR,
   MENU_LINK_COLOUR,
 } from "../constants/css-vars"
-import { MENU_LINK } from "../constants/gtm"
+import { EVENT_CLICK, MENU_LINK_CLICK } from "../constants/gtm"
 
 import { ReactComponent as OpenIcon } from "../../content/assets/open-icon.svg"
 import { ReactComponent as CloseIcon } from "../../content/assets/close-icon.svg"
@@ -277,7 +277,13 @@ class Menu extends Component {
             {menu.map((item, index) => {
               return (
                 <MenuNavigationItem key={index}>
-                  <MenuNavigationLink to={item.link} data-gtm={MENU_LINK}>
+                  <MenuNavigationLink
+                    to={item.link}
+                    data-ga-event={EVENT_CLICK}
+                    data-ga-event-category={MENU_LINK_CLICK}
+                    data-ga-event-action={item.text}
+                    data-ga-event-label={item.link}
+                  >
                     {item.text}
                   </MenuNavigationLink>
                 </MenuNavigationItem>
