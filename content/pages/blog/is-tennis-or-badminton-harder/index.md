@@ -51,7 +51,7 @@ If you look at a Badminton match in comparison there isn’t a lot of wasted tim
 
 It’s worth mentioning briefly the rally lengths of each sport. On average Tennis rallies last longer than in Badminton. Because the player has a larger court, slower projectile and the ball can bounce rallies tend to last longer. Badminton rallies can be long though, especially in doubles with equally matches pairs with strong defences. In Badminton, a 30-second rally would yield about double the amount shots then a 30-second rally in Tennis. So Badminton has a much higher intensity. Players have very little time between shots. Watch the video below, it shows the longest rally in Badminton history. The rally lasts more than **4 minutes and 30 seconds**! They play a total of 255 shots. That definitely takes some endurance.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CIPAhW-Hs0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="CIPAhW-Hs0o" title="Longest Badminton rally, world record" />
 
 ## The technique, mastering the shots
 
@@ -128,11 +128,11 @@ The modern game has faster serves and faster shots in general. This means being 
 
 Badminton is the fastest racquet sport in the world. At the top level players hit smashes at well over 350kmph! The fastest Badminton smash ever recorded was 493kmph in test conditions, 426kmph in competition level. The video below shows Mads Pieler Kolding hitting the famous 426kpmh smash.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wtdeljJh9Qs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="Wa-YHbzrhFw" title="Mads Kolding fastest smash" />
 
 And below is the video showing Tan Boon Heong hitting the biggest smash in history. This was under test conditions testing Yonex's Nanoray Z-Speed.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7C56kivaOV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="7C56kivaOV4" title="Guinness World Book of Record - Fastest Smash" start={9} />
 
 Badminton is all about speed and power but equally about tactical awareness and precision. Beginners find Badminton easy to pick up and get going. As they get better they learn to increase the speed at which they play. The tempo of Badminton can change from rally to rally but the most successful players play at a high pace. They take the initiative and play aggressively to actively win points. It's nearly impossible to win Badminton playing defensively. Players train to be faster on their feet, quicker with their racquet and plan three steps ahead.
 

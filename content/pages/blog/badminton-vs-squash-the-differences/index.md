@@ -32,10 +32,10 @@ Squash is also a racquet sport and can be played with two or four players. Playe
 
 We’ll keep it short but it’s worth mentioning what these two sports share in common so we can better understand their differences. So what do they share in common?
 
-*   They’re both racquet sports
-*   They can both be played with two-four players
-*   They’re both rally scoring, meaning you can score on either player serve
-*   They’re both played indoors
+- They’re both racquet sports
+- They can both be played with two-four players
+- They’re both rally scoring, meaning you can score on either player serve
+- They’re both played indoors
 
 There are just some of the similarities we can draw up. There are more similarities we can mention but these highlights are the most obvious.
 
@@ -103,7 +103,7 @@ The feather shuttlecock has a rounded cork head covered in a thin layer of leath
 
 It’s a high drag projectile which means it falls slower through the air due to its shape and feathers acting as a parachute. Like Squash the shuttlecock comes in various speeds designed for different climates, humidities and environments. Watch the video below on how shuttlecocks are made, it’s a fascinating process.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/irxZlopLgCo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="irxZlopLgCo" title="BWF - Yonex shuttlecocks" />
 
 ## Technical differences
 
@@ -145,7 +145,7 @@ Squash can be played indoors and outdoors but mainly indoors. Outdoor squash cou
 
 The Squash court is a walled environment so the wind takes less effect on the ball. There is no net needed or extra equipment besides the walled court. The only maintenance needed for the courts would be cleaning for the glass walls. ABS Squash talks about [Outdoor Squash](https://asbsquash.com/faq/outdoor-squash/) in more detail. Also, see this concept video below for a Smart Outdoor Squash court that goes beyond the basic outdoor court setup.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nwiP8hB_XKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="nwiP8hB_XKI" title="Outdoor Squash court concept" />
 
 ## Badminton is an Olympic sport, Squash is not… yet
 

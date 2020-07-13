@@ -29,7 +29,7 @@ It’s important to check the grommets on your racquet every time you get it res
 
 Paul Stewart Badminton coach has a great video on grommet replacement, watch below.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/95OZhKF-yTk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="95OZhKF-yTk" title="Paul Stewart - racquet care" />
 
 ## When to Change your Badminton Strings
 
@@ -87,7 +87,7 @@ This technique is used by a lot of players. But what if you don’t have a spare
 
 It’s compatible with iOS and Android and works quite well. Download it and give it a go. Below is a video explaining the app.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v25rHtzQCIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="v25rHtzQCIQ" title="Stringster App promo" />
 
 ## Cleaning/Changing Your Badminton Racquet Grip
 

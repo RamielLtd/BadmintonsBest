@@ -48,7 +48,7 @@ When broadcasting platforms such as YouTube matured this gave the BWF and others
 
 ### Badminton World TV
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WI8Od4jBpUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="WI8Od4jBpUc" title="Badminton World TV" />
 
 The Badminton World Federation (BWF) are the owners of the Badminton World TV channel. It’s the official channel on the YouTube platform to watch and rewatch live Badminton from around the HSBC World Tour circuit. They also publish player and coach interviews with the occasional behind the scenes content and also highlights and \_play of day \_videos from the latest tournament.
 
@@ -58,7 +58,7 @@ Link: [Badminton World TV](https://www.youtube.com/user/bwf)
 
 ### Badminton Europe
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n9z_x7s578M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="n9z_x7s578M" title="Badminton Europe" />
 
 Another official governing body for Badminton, this time it’s Badminton Europe Confederation’s official YouTube channel. Here you can watch live coverage of the latest European international tournaments that don’t make it onto Badminton World TV. They don’t manage to cover every tournament and recently they’ve started to post more on their own platform over at [Badminton Europe TV](https://www.badmintoneurope.tv/en-int/page/home-badminton-europe).
 
@@ -74,7 +74,7 @@ Learning Badminton on YouTube is nothing brand new but more and more educational
 
 ### Coaching Badminton
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k_Aui2oAjY8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="k_Aui2oAjY8" title="Coaching Badminton" />
 
 This list has to start with Lee Jae-Bok’s channel, Coaching Badminton. Lee Jae-Bok is a former Korean singles, doubles and mixed doubles national champion. He’s a coach with 50 years experience of playing and coaching Badminton.
 
@@ -91,7 +91,7 @@ Link to [Coaching Badminton YouTube](https://www.youtube.com/user/coachingbadmin
 
 ### Shuttle Life
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WD18W5098eM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="WD18W5098eM" title="Shuttle Life" />
 
 Mads and Sophie are professional Badminton coaches based in Denmark. They started their YouTube channel as a way to help coaches and players with their daily training. With over 300 videos and nearly 200k subscribers at the time of writing, they’ve definitely fulfilled that goal.
 
@@ -108,7 +108,7 @@ Link to [Shuttle Life YouTube](https://www.youtube.com/channel/UCXYpDcoYJk8CTGLU
 
 ### Badminton Famly
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SoKcbvORdWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="SoKcbvORdWU" title="Badminton Famly" />
 
 Formerly a YouTube channel called Badminton System setup by Rasmus Tran, a Danish Badminton coach teamed up with Badminton Famly to become one. That joining brought on board Thomas Laybourn, a former World and European mixed doubles champion from Denmark and Phillip Ørbæk a Badminton enthusiast and marketing expert.
 
@@ -122,7 +122,7 @@ Link to [Badminton Famly YouTube](https://www.youtube.com/channel/UC57H0Kg7TQpc8
 
 ### BG Badminton Academy
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/92gCzJBNLcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="92gCzJBNLcI" title="BG Badminton Academy" />
 
 Gerald Ong is the creator of BG Badminton Academy on YouTube. He’s a former Singapore international Badminton player but now works as a Badminton coach. Gerald is easily the reason why this channel is so special.
 
@@ -136,7 +136,7 @@ Link to [BG Badminton Academy YouTube](https://www.youtube.com/channel/UCxK48hVt
 
 ### Swift Badminton
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-qXHS1ZY6NE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="-qXHS1ZY6NE" title="Swift Badminton" />
 
 Jonathan from the UK founded Swift Badminton on YouTube and isn’t your normal grassroots Badminton player. Like everyone who’s picked up a racquet, he fell in love with the sport instantly but with no formal coaching he set out to improve without coaching.
 
@@ -154,7 +154,7 @@ Link to [Swift Badminton YouTube](https://www.youtube.com/channel/UC4c1gSN2M8nLU
 
 ### Tobias Wadenka
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4E3Uqc7HflQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="4E3Uqc7HflQ" title="Tobias Wadenka" />
 
 Tobias is a half player, half coach. A former German international player he specialises in men's singles. His YouTube channel excels in creating educational content perfect for beginners by breaking down the very basics of Badminton.
 
@@ -168,7 +168,7 @@ Link to [Tobias Wadenka YouTube](https://www.youtube.com/channel/UCfRMnJ4f02bKXt
 
 ### KC Badminton
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iUREb_aMlY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="iUREb_aMlY0" title="KC Badminton" />
 
 Kowi Chandra is a former Indonesian men’s doubles player and was ranked number one in the country between 2003-2004. He then moved to the United States and won a number of national titles before he became Head Coach at Badminton Bay Center.
 
@@ -182,7 +182,7 @@ Link to [KC Badminton YouTube](https://www.youtube.com/user/kowChan86/)
 
 ### Badminton Connect
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rtbG6K-zInM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="rtbG6K-zInM" title="Badminton Connect" />
 
 A little hidden gem not many people know about, Badminton Connect was a project that featured video tutorials from Peter Rasmussen, former World Champion in mens’ singles, Chen Weihua, former Chinese national player and coach of Lin Dan, Zhao Jianhua, another former World Champion in mens’ singles and Xiao Jie a professor at Capital Institute of Physical Education University in Beijing, China and also former Chinese national player.
 
@@ -199,7 +199,7 @@ Link to [Badminton Connect YouTube](https://www.youtube.com/user/BadmintonConnec
 
 ### Prit Pachu
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DYpfNE48SDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="DYpfNE48SDo" title="Prit Pachu" />
 
 Having over 25 years of experience coaching Badminton, Prit has a lot of wisdom and knowledge to share with his viewers on YouTube. A Level 3 UKCC Badminton Coach with Badminton England sat alongside an MSc. Exercise Physiology & Environmental Medicine and a BKin. Exercise & Sports Science it’s fair to say he’s qualified.
 
@@ -213,7 +213,7 @@ Link to [Prit Pachu YouTube](https://www.youtube.com/channel/UCJ_tI5Vs5L3BPUf5FM
 
 ### Paul Stewart Advanced Badminton Coach
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9D4yDNCfkBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="9D4yDNCfkBs" title="Paul Stewart Advanced Badminton Coach" />
 
 Based in Chesire, UK, Paul has been on the YouTube scene since 2009, he’s an advanced coach with many years of experience. He’s worked with some of the best coaches in the UK and runs highly popular residential courses.
 
@@ -225,7 +225,7 @@ Link to [Paul Stewart Advanced Badminton Coach YouTube](https://www.youtube.com/
 
 ### TAGO KEN
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8Yonod8xDFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="8Yonod8xDFc" title="TAGO KEN" />
 
 Definitely the most unique channel in the education section. TAGO KEN is the YouTube channel of the former player Kenichi Tago of Japan. Since his departure from playing, he’s set himself up as an independent coach. His channel has both educational tutorials and general vlog type stuff documenting his travelling and coaching.
 
@@ -245,7 +245,7 @@ Lucky for Badminton fans there’s a never-ending stream of entertaining content
 
 ### Shuttle Flash
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-HHBnY1-mME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="-HHBnY1-mME" title="Shuttle Flash" />
 
 This list simply could not exist if it didn’t feature Shuttle Flash. Shuttle Flash is definitely the most popular YouTube channel featuring highlights, top lists and elite Badminton montages. Watch any of their videos and it’s not hard to see why they have over 300k subscribers and more than 75 million total views on their channel.
 
@@ -255,7 +255,7 @@ Link to [Shuttle Flash YouTube](https://www.youtube.com/channel/UCnGHt9C1lHpCcSx
 
 ### Shuttle Amazing
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w7kM6hrx_CI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="w7kM6hrx_CI" title="Shuttle Amazing" />
 
 Shuttle Amazing is a channel you want to go to when you want to see Badminton at a better angle then they show it on TV. They collect videos of matches where they’ve been filmed from the crowd where they’re lower to the ground and also off to one side.
 
@@ -265,7 +265,7 @@ Link to [Shuttle Amazing YouTube](https://www.youtube.com/channel/UC3oV6PiHq4Qzx
 
 ### MADminton
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KhVJx3BOTJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="KhVJx3BOTJI" title="MADminton" />
 
 You can find a mixture of different content on MADminton but they all share one thing in common, they all look at the best players in the world. You won’t find any how-to or tutorial videos here except if it’s analysing the top players.
 
@@ -275,7 +275,7 @@ Link to [MADminton YouTube](https://www.youtube.com/channel/UCxQtOWSozHPvXP2scWe
 
 ### Badminton Universe
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_25bkdVbO6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="_25bkdVbO6Y" title="Badminton Universe" />
 
 Not publishing often but Badminton Universe is another great channel to visit when you want to see nice angle videos. Recording from the crowd at the Denmark Open from various years there are some great matches to revisit.
 
@@ -285,7 +285,7 @@ Link to [Badminton Universe YouTube](https://www.youtube.com/user/BadmintonUnive
 
 ### Badminton with Jeffrey
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/etF2M5O03Ek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="etF2M5O03Ek" title="Badminton with Jeffrey" />
 
 Jeffrey is a Badminton fan through and through, he’s not trying to sell people anything, he’s not trying to coach people techniques and skills, he’s a Badminton player simply documenting his playing journey and striving to get better.
 
@@ -297,7 +297,7 @@ Link to [Badminton with Jeffrey YouTube](https://www.youtube.com/channel/UCGq4Fs
 
 ### Poison Cobra
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mIRyEloMD28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="mIRyEloMD28" title="Poison Cobra" />
 
 Unlike any other Badminton content out there Poison Cobra entertains with bizarre and unique content nobody else would even think of. His comedy isn’t for everyone but he does stand out as a unique content creator that edits his videos really well.
 
@@ -307,7 +307,7 @@ Link to [Poison Cobra YouTube](https://www.youtube.com/user/binweevilpoisoncobra
 
 ### Anders Antonsen
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J9AhLqdzeQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="J9AhLqdzeQg" title="Anders Antonsen" />
 
 A professional men’s singles player from Denmark, Anders Antonsen has been ranked as high as number three in the world and is still an active player today. Only 22 years old and he has made a big impact on the World Tour and also on YouTube. Amassing 20k subscribers his channel functions as a vlog for his journeys on the World Tour.
 
@@ -317,7 +317,7 @@ Link to [Anders Antonsen YouTube](https://www.youtube.com/channel/UCFMahNgeKGjYC
 
 ### Viktor Axelsen
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H2uafRddb7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="H2uafRddb7s" title="Viktor Axelsen" />
 
 Another current Danish men’s singles player, Viktor Axelsen has been number one in the world and also World Champion. His channel has been a mixture of different content including vlog like videos much like Anders Antonsen’s. His videos also include question and answer type videos and trick shot tutorials.
 

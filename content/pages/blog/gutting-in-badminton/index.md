@@ -23,14 +23,14 @@ Gutting your racquet is necessary whenever the strings break or they begin to fr
 
 Strings can snap for a number of reasons. These include:
 
-* **Cold weather.** Strings are made to be elastic. If your racquets have been stored in a very cold environment then the strings are going to be cold. The strings are likely to snap when put under pressure as they become harder when cold.
-* **Hitting off the sweet spot.** When stringing to high tensions, 27-28lbs and over, it's easy to break a string when hitting the shuttle off the sweet spot. The sweet spot is the optimal spot on the racquet to hit the shuttle. Hitting off the sweet spot puts more pressure on the strings near the edge of the frame. The strings get stretched under more pressure and will eventually give way.
-* **Damaged grommets.** Grommets are the plastic inserts that sit in the holes that strings pass through. They protect the racquet from the strings digging into it. Grommets can get worn over time as they bear the weight of the tension. If the grommet has split of frayed it will be sharp enough to cut through the string when pressure is applied.
-* **General wear and tear and notching.** When the same strings have been used for a while they begin to fray. This is through general wear and tear. Depending on the frequency of playing and how you hit the shuttle it might take a while to see strings start to fray. The strings fray because they constantly rub against each other. No matter how tightly the strings are done they will always shift and rub against each other. This natural friction wears out the strings over time.
+- **Cold weather.** Strings are made to be elastic. If your racquets have been stored in a very cold environment then the strings are going to be cold. The strings are likely to snap when put under pressure as they become harder when cold.
+- **Hitting off the sweet spot.** When stringing to high tensions, 27-28lbs and over, it's easy to break a string when hitting the shuttle off the sweet spot. The sweet spot is the optimal spot on the racquet to hit the shuttle. Hitting off the sweet spot puts more pressure on the strings near the edge of the frame. The strings get stretched under more pressure and will eventually give way.
+- **Damaged grommets.** Grommets are the plastic inserts that sit in the holes that strings pass through. They protect the racquet from the strings digging into it. Grommets can get worn over time as they bear the weight of the tension. If the grommet has split of frayed it will be sharp enough to cut through the string when pressure is applied.
+- **General wear and tear and notching.** When the same strings have been used for a while they begin to fray. This is through general wear and tear. Depending on the frequency of playing and how you hit the shuttle it might take a while to see strings start to fray. The strings fray because they constantly rub against each other. No matter how tightly the strings are done they will always shift and rub against each other. This natural friction wears out the strings over time.
 
 Restringing a racquet involves taking out all the old string and replacing with new ones. The process of stringing requires a stringing machine stand, the choice of Badminton string and a number of specialised small tools. To learn more about stringing, the equipment needed and how to do it see our full article here. Below is a good video demonstrating how a racquet is restrung.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RBViCtBwbV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="RBViCtBwbV4" title="Stringster, professional stringing" />
 
 ## How often should I restring my racquet?
 

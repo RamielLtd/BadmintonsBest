@@ -62,17 +62,17 @@ Table Tennis and Tennis have some great examples of hand switching being an adva
 
 Table Tennis requires a lot of quick reactions and a delicate touch. It's a fast game much like Badminton in this video you can see how switching hands can work really well. Some points would be over if they had not switched hands!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/239JKqz4YfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="239JKqz4YfY" title="Table Tennis hand switching shots" />
 
 Last but not least, Tennis. The pace of Tennis can be relentless at the top level. But the time between the shot being played and the ball getting to you is a lot more than Badminton. The long distance the ball needs to travel gives the player more time to react. In this time it's easy to switch your racquet to your other hand.
 
 Maria Sharapova is probably the most famous player who is known to be ambidextrous. She's shown on multiple occasions that she can play equally with both hands. She still chooses to be a dominant right handed though. She tends to switch hands only when she'd otherwise struggle to play the shot. The video below is a good collection of footage.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6DmodPqgKXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="6DmodPqgKXg" title="Maria Sharapova switching hands" />
 
-Another example from Tennis but a lesser known player, Cheong-eui Kim solely plays forehand on each side. He switches his racquet on every shot. It looks odd but works very well.
+Another example from Tennis but a lesser known player, Cheong-Eui Kim solely plays forehand on each side. He switches his racquet on every shot. It looks odd but works very well.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9jz3dpcNL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="Y9jz3dpcNL0" title="Cheong-Eui Kim, the ambidextrous Tennis player" />
 
 ## Related questions
 

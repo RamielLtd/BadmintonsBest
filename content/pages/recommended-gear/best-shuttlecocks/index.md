@@ -36,7 +36,7 @@ Cheaper shuttlecocks will either use duck feathers or goose feathers but not of 
 
 Yonex doesn’t skimp on quality for anything. They take amazing attention to detail when creating Badminton equipment. Have a watch of this video below which shows how Yonex shuttlecocks are made. The attention to detail and level of craftsmanship is unparalleled.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/irxZlopLgCo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="irxZlopLgCo" title="BWF - Yonex shuttlecocks" />
 
 Quality runs throughout every inch of a Yonex shuttlecock. They continually improve and innovate products. Aside from the feathers and cork they also have a special formula for the glue they use for shuttlecocks.
 

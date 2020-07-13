@@ -67,7 +67,7 @@ If you can master these six pieces of footwork for Badminton then you’re off t
 
 Badminton Exercises channel on YouTube has a great video on covering the six corners of the court. It’s worth watching in full.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IidZFd6vCJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="IidZFd6vCJk" title="Shuttle Life - Six corners footwork" />
 
 ## The split step/the ready stance
 
@@ -125,7 +125,7 @@ If you watch the top players in the world like Lin Dan, Lee Chong Wei and Kento 
 
 Lee Chong Wei has impeccable timing with his footwork and if you watch the video below you can see how rhythmic his movement is.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5k2SERV89Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="5k2SERV89Kw" title="Badland Movie - Nice Angle Lee Chong Wei, Yonex Japan Open 2012" />
 
 When you play Badminton, especially singles, getting a natural rhythm while you play is key to developing good footwork and creating consistency in your play. When we dance we use the music as our rhythm and that helps us relax and get into the flow. When playing Badminton you need to be able to find a rhythm of play that suits you. This can only come from playing a lot of purposeful practice and playing matches.
 
@@ -149,7 +149,7 @@ Anticipation is a very important skill in Badminton because if you can read your
 
 You see top players Hendra Setiawan and Lin Dan do this very well. Before their opponent has played their shot they’re already anticipating their next move. Watch this video below and watch how Lin Dan changes the positioning of his feet in order to move faster to the next shot. As you can see he doesn’t always get it right but is able to recover and stay in the rally.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dli_GpG3rog" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="dli_GpG3rog" title="Lin Dans legendary footwork" />
 
 ## Tactical and strategic thinking
 

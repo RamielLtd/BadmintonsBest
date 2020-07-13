@@ -30,7 +30,7 @@ A Tennis ball in comparison weighs around 60 grams. Twelve times heavier than a 
 
 Here's an extreme and extremely funny example of the shuttlecock and wind.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AD0dID7T4f8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="AD0dID7T4f8" title="Man playing Badminton in high wind" />
 
 As well as the weight of the shuttlecock being a problem the shape of a shuttlecock is a problem as well. Shuttlecocks are designed to decelerate after being hit. Their cone shape acts like a parachute, slowing the shuttles decent. The aerodynamics of a shuttlecock is designed to travel in a singular direction. Unlike balls which are spherical and can spin and roll and have equal air drag on all sides.
 

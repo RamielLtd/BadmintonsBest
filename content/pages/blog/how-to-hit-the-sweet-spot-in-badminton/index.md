@@ -72,7 +72,7 @@ This one requires some setup but could be the best method for practising solo. T
 
 See the video below for how the hanging shuttlecock is done in a facility where you can suspend it from the ceiling.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S3OpR3hX6X4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="S3OpR3hX6X4" title="KC Badminton - Hanging the shuttlecock" />
 
 An alternative is to use a fishing pole and rig a stand so the fishing pole acts as a scaffold to hang the shuttlecock from the fishing line. You can set this up for forecourt shots like lifts, midcourt shots like drives, rear court shots like clears, drops and smashes and everything in between.
 

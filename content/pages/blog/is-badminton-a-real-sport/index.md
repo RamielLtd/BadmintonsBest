@@ -24,7 +24,7 @@ If the Olympics is considered sports highest achievement then surely every sport
 
 Badminton has had great popularity throughout all it’s Olympic appearances and has witnessed some amazing moments. One of Badminton’s greatest rivalries flourished at the Olympics, Lin Dan vs Lee Chong Wei. Fans were treated to three epic encounters in 2008, 2012 and 2016, arguably three of the best matches of mens singles of all time.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ytjD4f_I0sc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="ytjD4f_I0sc" title="Olympic Channel - Lin Dan vs Lee Chong Wei 2012 Olympic Final" />
 
 2016 saw win their first-ever Badminton medal and it was also gold. Carolina Marin won the gold in Rio after also becoming the first Spanish player to win the coveted All England and World Championships the previous year as well.
 
@@ -32,7 +32,7 @@ Who could forget the emotional win for the legendary Taufik Hidayat of Indonesia
 
 Witness all the winning moments in the video below thanks to the Olympic YouTube channel.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/82pKPStTPK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="82pKPStTPK0" title="Olympic Channel - Indonesian Pride" />
 
 ## More than 220 million people play Badminton regularly
 
@@ -46,7 +46,6 @@ The BWF (Badminton World Federation) continues to develop the sport even more wi
 
 We wrote a [complete guide](https://www.badmintonsbest.com/blog/air-badminton-the-complete-guide/) on what AirBadminton is, how to play it, where and how to set up the court, what triples is and much more. [Click here](https://www.badmintonsbest.com/blog/air-badminton-the-complete-guide/) to read the full article.
 
-
 ## Easy to learn, difficult to master
 
 As we mentioned earlier, Badminton is a great pick up and play type of sport. The shuttlecock is a light projectile which makes it easy for beginners to get hitting. The net is high so the shuttlecock has to travel upwards most of the time giving players time to reach the shuttle and hit. Players are confidently hitting with regular play with little to no help.
@@ -55,19 +54,19 @@ The learning curve after the beginner level starts to get very steep. Once playe
 
 Lee Chong Wei has some of the best footwork anyone has ever seen. He combines beautiful footwork with incredible speed and makes it look easy.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V18PynFPLk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="V18PynFPLk4" title="Lee Chong Wei nice angle video" />
 
 There is a huge variety of shots in Badminton and they all require fine-tuning and take a long time to master. Here’s a brief list of shots that players need to learn.
 
-*   Block shot
-*   Defensive lift
-*   Drive
-*   Flick
-*   Jump smash
-*   Dropshot
-*   Clear
-*   Net shot
-*   The serve (backhand and forehand, high and low serve)
+- Block shot
+- Defensive lift
+- Drive
+- Flick
+- Jump smash
+- Dropshot
+- Clear
+- Net shot
+- The serve (backhand and forehand, high and low serve)
 
 All of these shots have variations that use slicing (straight and reverse), hitting with full swing or with a short flick, used in defensive or attacking situations and playing them cross or straight. The combinations are endless.
 
@@ -81,7 +80,7 @@ Fans look up to their sporting heroes in admiration and with inspiration. Badmin
 
 Anyone who’s seen professional Badminton in the last two decades will know the names Lin Dan and Lee Chong Wei. Their rivalry is as epic as any in sporting history but commonly compared to Roger Federer and Rafael Nadal from Tennis. Their names sit beside Peter Gade and Taufik Hidayat and the four of them constitute the “Four Kings” of Badminton in mens singles.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mCk2f3g3fVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="mCk2f3g3fVw" title="Shuttle Flash - Legendary" />
 
 The names don’t stop at mens singles though. The womens singles is packed with talent like never before. Players like Carolina Marin, Nozomi Okuhara, Tai Tzu Ying, Chen Yufei, Ratchanok Intanon, P. V. Sindhu and Saina Nehwal all currently playing in the same period is astonishing. The list of names goes on and on without getting into mens doubles, womens doubles and mixed doubles.
 
@@ -95,7 +94,7 @@ Badminton is the fastest racquet sport in the world, fact. At the highest level,
 
 To compare that, the fastest serve in Tennis was 263kmph. That’s quite a difference in speed. The contenders for fastest projectile after the shuttlecock are Golf balls at 339kmph, Jai Alai balls at 302kmph and Squash balls at 281kmph.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7C56kivaOV4?start=9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="7C56kivaOV4" title="Guinness World Book of Record - Fastest Smash" start={9} />
 
 Badminton is a serious game of speed and power. Players have to be fast, agile and powerful all at the same time. Badminton relies heavily on the anaerobic system during the rallies as players have to move explosively round the court. This makes Badminton one of the best HIIT workouts you can get. Maximal effort during the rally with very minimal stoppage between rallies. It’s perfect for those looking to burn fat.
 

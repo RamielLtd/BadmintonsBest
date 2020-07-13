@@ -114,7 +114,7 @@ It's inspired from what is famously known as the S Serve or the Sidek Serve. The
 
 The toppling serve is inspired by the S serve but is legal in today's game. You serve the shuttle with a normal backhand short serve, you hold the shuttle by the feathers etc everything is the same. The only difference is that when you serve you need to chop the shuttle. Chopping the shuttle means hitting the cork first but then follow through by striking the feathers after. It's like playing a spin net shot where you topple the shuttle. Below is a video with Sukamuljo using this serve.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IEge830cgHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="IEge830cgHs" title="Shuttle Flash - K Serve" />
 
 ### The Sliced Serve
 

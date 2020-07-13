@@ -35,7 +35,7 @@ Give me a lever long enough and a fulcrum on which to place it, and I shall move
 
 Just see this incredible smash by Mads Kolding of Denmark and you can see how everything builds up, but it's the last pronation with the forearm that generates the speed of the racquet and hence more force into the shuttle.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wtdeljJh9Qs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="Wa-YHbzrhFw" title="Mads Kolding fastest smash" />
 
 ### Longer legs, bigger stride
 
@@ -45,7 +45,7 @@ The same advantage applies to badminton but not in terms of speed. Longer legs m
 
 Being able to take longer and fewer steps is more efficient than having to take multiple shorter steps. Here's a great example of Viktor Axelsen showing the ease he covers the court often reaching the shuttle with one lunge!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v-sdKC5h-v0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="v-sdKC5h-v0" title="Victor Axelsen training" />
 
 ## How being tall can be a disadvantage
 
@@ -57,7 +57,7 @@ The counterpart disadvantage of having a better reach than most is that it makes
 
 When players use the body smash they tend to aim for the other players' racquet side hip. Without shifting your defensive stance it can be near impossible to return an accurate body smash like this. You need to shift your body to be able to get your arm out of the way of the racquet to defend that area. Here's a great compilation video of the body smash being used well.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EesI-jabwxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="EesI-jabwxc" title="Badminton body smash compilation" />
 
 ### Long legs, twist and turn
 
@@ -97,7 +97,7 @@ I believe the Badminton equivalent was the legendary men's double player Jung Ja
 
 We were used to seeing him taking the role as the rear court player when playing with Lee Yong-Dae. Despite his lack of height, he was able to hit incredible smashes with both power and steepness. A powerful athlete he was able to jump so high to hit smashes that it didn't matter that he measured only 1.68 meters tall. Here's a quick video of his smash in slow motion.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DqthgAaeJMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<YouTube id="DqthgAaeJMY" title="Jung Jae Sung smash" />
 
 ## Related questions
 
