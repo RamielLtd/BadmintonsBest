@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import { useStaticQuery, Link } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import styled from "@emotion/styled"
 
 import { rhythm } from "../utils/typography"

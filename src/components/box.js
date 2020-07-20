@@ -33,6 +33,7 @@ class Box extends React.Component {
         <Constrain
           css={css`
             padding: ${rhythm(1)} ${rhythm(1 / 2)};
+
             @media ${BREAKPOINTS.MEDIUM} {
               padding-top: ${rhythm(2)};
               padding-bottom: ${rhythm(2)};

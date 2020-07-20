@@ -12,9 +12,18 @@ export const BRAND_HIGHLIGHT_LIGHT = "#3E92CC"
 
 export const BUTTON_BACKGROUND_COLOUR = BRAND_PRIMARY
 export const BUTTON_TEXT_COLOUR = "white"
+export const BUTTON_CTA_BACKGROUND_COLOUR = "forestgreen"
+export const BUTTON_CTA_TEXT_COLOUR = "white"
 
 export const MENU_BACKGROUND_COLOUR = "white"
 export const MENU_LINK_COLOUR = "#333333"
+
+export const FEATURED_BACKGROUND_COLOUR = BRAND_SECONDARY
+export const FEATURED_BACKGROUND_COLOUR_FADE = BRAND_PRIMARY
+export const FEATURED_TEXT_COLOUR = "white"
+
+export const FORM_MESSAGE_BACKGROUND_COLOUR = BRAND_HIGHLIGHT
+export const FORM_MESSAGE_TEXT_COLOUR = "white"
 
 // Media Queries
 const BREAKPOINT_SIZES = {

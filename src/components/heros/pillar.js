@@ -1,5 +1,5 @@
 import styled from "@emotion/styled"
-import { rgba } from "emotion-rgba"
+import Color from "color"
 
 import { CONSTRAIN_CONTENT_DIVIDERS, rhythm } from "../../utils/typography"
 import { BRAND_PRIMARY, BREAKPOINTS } from "../../constants/css-vars"
@@ -72,7 +72,9 @@ const HeroPillar = styled("header")`
         background-image: linear-gradient(
           to right,
           ${BRAND_PRIMARY},
-          ${rgba(BRAND_PRIMARY, 0.3)}
+          ${Color(BRAND_PRIMARY)
+            .alpha(0.3)
+            .string()}
         );
 
         content: "";
