@@ -132,10 +132,12 @@ module.exports = {
         // See: https://github.com/isaacs/minimatch
         // The example below will exclude the single `path/to/page` and all routes beginning with `category`
         exclude: [
-          `/categories`,
-          `/categories/*`,
+          `/almost-done/`,
           `/blog`,
           `/blog/page/*`,
+          `/categories`,
+          `/categories/*`,
+          `/thanks/`,
           `/tools/*`,
         ],
       },
