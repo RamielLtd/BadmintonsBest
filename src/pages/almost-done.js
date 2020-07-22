@@ -31,7 +31,7 @@ class AlmostDonePage extends React.Component {
           </p>
           <p>(It’s easy)</p>
           <p>
-            Just go your inbox, open the email from BadmintonsBest, and click
+            Just go to your inbox, open the email from BadmintonsBest, and click
             the link.
           </p>
           <Image
