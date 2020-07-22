@@ -44,7 +44,7 @@ const HomepageSignup = () => {
       <form
         method="post"
         action={url}
-        class="sendfox-form"
+        className="sendfox-form"
         id={formId}
         data-async="true"
       >
@@ -62,9 +62,9 @@ const HomepageSignup = () => {
             <input
               type="text"
               name="a_password"
-              tabindex="-1"
-              value=""
-              autocomplete="off"
+              tabIndex="-1"
+              defaultValue=""
+              autoComplete="off"
             />
           </div>
           <Button cta type="submit">
