@@ -1,8 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "src/components/layout"
+import SEO from "src/components/seo"
+
+import Box from "src/components/box"
+
+import EssentialReading from "src/components/homepage/essential-reading"
+import BeginnerReading from "src/components/homepage/beginner-reading"
 
 class NotFoundPage extends React.Component {
   render() {
@@ -13,8 +18,21 @@ class NotFoundPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="404: Not Found" url={url} />
-        <h1>Not Found</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+        <Box theme="hero">
+          <h1 style={{ marginTop: 0 }}>
+            Awesome Badminton content not found 🏸 🕵️‍♂️
+          </h1>
+          <p style={{ marginBottom: 0 }}>
+            This can happen when juggling too many shuttles at once. Why not try
+            some of our best reads below.
+          </p>
+        </Box>
+        <Box>
+          <EssentialReading />
+        </Box>
+        <Box>
+          <BeginnerReading />
+        </Box>
       </Layout>
     )
   }
