@@ -83,6 +83,7 @@ const BlogPostSignup = () => {
           <FormTitle>Enjoy the content?</FormTitle>
           <FormContent>
             Get access to exclusive tips and strategies not found on the blog.
+            Sign up below{" "}
             <span role="img" aria-label="arrow pointing down">
               ⬇️
             </span>
