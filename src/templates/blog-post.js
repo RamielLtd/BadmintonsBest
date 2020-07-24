@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import { Disqus } from "gatsby-plugin-disqus"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import Layout from "../components/layout"
@@ -37,11 +36,6 @@ class BlogPostTemplate extends React.Component {
     const featuredImgFluidSocial = post.frontmatter.featuredSocial
       ? post.frontmatter.featuredSocial.childImageSharp.fluid
       : null
-    const disqusConfig = {
-      url: `${siteUrl + this.props.location.pathname}`,
-      identifier: post.id,
-      title: post.title,
-    }
 
     return (
       <Layout location={this.props.location}>
@@ -113,7 +107,6 @@ class BlogPostTemplate extends React.Component {
                     marginBottom: rhythm(1.5),
                   }}
                 />
-                <Disqus config={disqusConfig} />
               </MainContent>
               <SideBar>
                 <About />

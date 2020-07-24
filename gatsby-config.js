@@ -97,12 +97,6 @@ module.exports = {
         defaultDataLayer: { platform: "gatsby" },
       },
     },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `badmintonsbest`,
-      },
-    },
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed-mdx`,
     {
