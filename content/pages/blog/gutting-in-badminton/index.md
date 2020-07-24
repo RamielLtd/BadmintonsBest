@@ -68,4 +68,4 @@ If you're struggling to find anything on Badminton specific on Google then try g
 
 **Should I replace the factory string on my new racquet?** I would recommend replacing the factory string for almost everyone. The string and tension racquets come with from the factory are very cheap and not done to a high standard. For an absolute beginner or recreational player, these should suffice.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

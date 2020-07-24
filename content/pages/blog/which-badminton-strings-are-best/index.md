@@ -21,11 +21,11 @@ Looking at the list of players and seeing that most of them are using similar st
 
 Asking people I know who do stringing for me and other players and have been doing it for years, some longer than I’ve been alive have told me more about strings and how they work with the racquet with tension and elasticity. They weren’t surprised that even the best in the world are using strings that are widely available for all players of all standards. They told me about the three characteristics to look at when picking a string which are:
 
-* The string durability
+- The string durability
 
-* The amount of repulsion the string has
+- The amount of repulsion the string has
 
-* And the feel of the string
+- And the feel of the string
 
 So let’s start off now with the first one.
 
@@ -67,4 +67,12 @@ High tension and thin strings are always going to cause the string to break soon
 
 ## So which should you buy?
 
-A lot of this is down to personal preference, it’s always better to try a wide variety of recommended strings to find which works best for you. What’s best for one person isn’t always best for another, everyone’s different. Every player has different touch, technique and play styles and they should try to find what’s right for them. My personal recommendations as I have tried many string types are the three mentioned at the beginning; Yonex BG80, Yonex BG65 Ti and Yonex BG66 Ultimax are all great strings and if you want a more detailed look at each strings attributes then take a look at the [Yonex catalogue](http://www.yonex.co.uk/_assets/files/18617_2018-UK-Badminton-Catalogue_Web.pdf) under the strings section. If this was helpful or if you know of any other great strings that other people might like that I have not covered please leave a comment below and share the badminton knowledge!
+A lot of this is down to personal preference, it’s always better to try a wide variety of recommended strings to find which works best for you. What’s best for one person isn’t always best for another, everyone’s different.
+
+Every player has different touch, technique and play styles and they should try to find what’s right for them.
+
+My personal recommendations as I have tried many string types are the three mentioned at the beginning; Yonex BG80, Yonex BG65 Ti and Yonex BG66 Ultimax are all great strings and if you want a more detailed look at each strings attributes then take a look at the [Yonex catalogue](http://www.yonex.co.uk/_assets/files/18617_2018-UK-Badminton-Catalogue_Web.pdf) under the strings section.
+
+## Get in touch
+
+If this was helpful or if you know of any other great strings that other people might like that I have not covered please let us know on Twitter, Facebook or Instagram.

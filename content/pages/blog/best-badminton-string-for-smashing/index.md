@@ -49,10 +49,10 @@ For the average player, the best tension would be 24-27 pounds of tension. This 
 
 I played with Yonex BG65 To strings for a long time and was very happy with them. It wasn't until I was trying someone new to string my racquet that they recommended me to try another string. Seeing how I played and knowing roughly what my standard was they recommended I try the BG80 Power strings at a slightly higher tension then what I was playing with. It was a great recommendation and I've never gone back. I've tried others before and since then and have asked other players what they use. So here is my list of strings I'd recommend for getting more out of your smash.
 
-* **Yonex BG80 Power.**
-* **Yonex BG66 Force.**
-* **Yonex Aerosonic.**
-* **Ashaway ZyMax Fire 66.**
+- **Yonex BG80 Power.**
+- **Yonex BG66 Force.**
+- **Yonex Aerosonic.**
+- **Ashaway ZyMax Fire 66.**
 
 ## Related questions
 
@@ -60,4 +60,4 @@ I played with Yonex BG65 To strings for a long time and was very happy with them
 
 **How often should I restring my Badminton racquet?** It's best to restring whenever the strings start to fray or when there is a noticeable drop in tension. Frayed strings will break sooner or later and a loss of tension will affect your shot precision.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

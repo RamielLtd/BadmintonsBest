@@ -93,4 +93,4 @@ Nike doesn’t develop specific Badminton shoes per se but they do make indoor c
 
 Badminton shoes have many design features optimised for playing Badminton. Features include; specific radial grip to provide traction in all directions, cushioned heel for impact absorption, the elasticity of impact material to provide bounce-back after landing. Read our blog on [Tennis shoes vs Badminton shoes](/blog/tennis-shoes-for-badminton/) for more detail.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

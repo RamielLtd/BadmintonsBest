@@ -15,13 +15,13 @@ I’ve only ever bought one bad pair of Badminton shoes. I didn’t have much mo
 
 Having said that, not everybody has a lot of money to spend on equipment. If you’re new to the sport you might want to get some quality equipment without breaking the bank. The good news is you don’t have to, you can get quality Badminton shoes for great prices if you know which ones to buy. **So here are the seven best Badminton shoes for any player on any budget.**
 
-* **Adidas Essence Court Shoes**
-* **Yonex Power Cushion 35 Mens Badminton Shoes (Black-Blue)**
-* **Mizuno Wave Fang SL Indoor Court Shoes**
-* **Asics Gel Rocket 8 Mens Court Shoes (Black-White)**
-* **Yonex Power Cushion 03ZMX Mens Badminton Shoes (White or Coral Red)**
-* **Yonex Power Cushion Aerus 2 Mens Badminton Shoes (Navy, Red or Pink)**
-* **Yonex Power Cushion Aerus 3 Mens Badminton Shoes (Black or Blue)**
+- **Adidas Essence Court Shoes**
+- **Yonex Power Cushion 35 Mens Badminton Shoes (Black-Blue)**
+- **Mizuno Wave Fang SL Indoor Court Shoes**
+- **Asics Gel Rocket 8 Mens Court Shoes (Black-White)**
+- **Yonex Power Cushion 03ZMX Mens Badminton Shoes (White or Coral Red)**
+- **Yonex Power Cushion Aerus 2 Mens Badminton Shoes (Navy, Red or Pink)**
+- **Yonex Power Cushion Aerus 3 Mens Badminton Shoes (Black or Blue)**
 
 The list goes from lowest to highest price. All of these shoes are top quality, the prices vary as some have extra features that are nice to have but not essential. Some of these shoes are designed for more advanced players looking to gain every little advantage they can get. Let’s have a look at each pair to see what makes them great.
 
@@ -97,4 +97,4 @@ With all of these Yonex has created a nearly perfect Badminton shoe. The pricies
 
 **Can you use badminton shoes for running?** You can’t use Badminton shoes for running. Running shoes are designed for forwards and backwards movement. They’re not designed for lateral (side-to-side and diagonal) movements. You’re at risk of injuring yourself wearing running shoes for Badminton. Instead, get one of the quality pair of Badminton shoes listed here to protect yourself.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

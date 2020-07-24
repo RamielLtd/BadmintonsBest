@@ -13,11 +13,11 @@ There are plenty of articles out there listing the best Badminton racquets out n
 
 So which are the best Badminton racquets you can buy right now? **My top five best Badminton racquets for 2019 are:**
 
-* **Yonex Voltric Z Force 2**
-* **Yonex Arcsaber 11**
-* **Yonex Duora 10**
-* **Victor Jetspeed S10**
-* **Li-Ning N7II**
+- **Yonex Voltric Z Force 2**
+- **Yonex Arcsaber 11**
+- **Yonex Duora 10**
+- **Victor Jetspeed S10**
+- **Li-Ning N7II**
 
 All of these racquets are outstanding. Some of them suit certain play styles better or are better for doubles or singles etc. If you're not sure which Badminton racquet type is meant for you we have a guide which details everything you need to know about selecting a racquet. Let's have a closer look at what makes these five racquets the best in 2019.
 
@@ -31,14 +31,14 @@ It’s a head heavy racquet with an extra stiff shaft so it’s ideal for single
 
 **Pros:**
 
-* Incredible power and swing speed
-* Easy to manoeuvre despite being head heavy
-* Still easily available to buy and comes in various weights and grip sizes
+- Incredible power and swing speed
+- Easy to manoeuvre despite being head heavy
+- Still easily available to buy and comes in various weights and grip sizes
 
 **Cons:**
 
-* Hard to control without practice and good technique
-* Can be fatiguing to play with
+- Hard to control without practice and good technique
+- Can be fatiguing to play with
 
 I’ve played with this racquet now for about four years, it was difficult to get used to at first. After practice and playing with it for a couple of months I started to see how much power and speed I could get in my shots with good technique. It’s an incredible racquet, there isn’t any other racquet like it. If you love hitting big smashes and speedy shots then this racquet is for you. You can buy it from various Badminton retailers or find it <a href="https://www.amazon.com/Yonex-Voltric-Badminton-Racket-Strung/dp/B00IU87SI6/ref=as_li_ss_tl?crid=3EQQVUMR09I1D&dchild=1&keywords=yonex+z+force+2&qid=1585424813&sprefix=yonex+z+force,aps,215&sr=8-1&th=1&psc=1&linkCode=ll1&tag=badmintonsbes-20&linkId=952cbfb3525c9b8530adcec1c716864b&language=en_US" rel="nofollow">here on Amazon</a>.
 
@@ -52,13 +52,13 @@ A even balanced racquet with a large head shape this racquet is easy to control 
 
 **Pros:**
 
-* Light and balanced racquet, easy to play with and control
-* Large head makes consistent clean shots easier
-* Speedy to play driving shots with
+- Light and balanced racquet, easy to play with and control
+- Large head makes consistent clean shots easier
+- Speedy to play driving shots with
 
 **Cons:**
 
-* Lacking next-level kind of power for smashes
+- Lacking next-level kind of power for smashes
 
 Yonex Arcsaber 11 is a classic, it’s a great all rounder which makes it suitable for doubles where you need a little bit of everything. You can’t really go wrong with this racquet, it’s an all-rounder for a reason and suitable for most. You can find it <a href="https://www.amazon.com/Yonex-Arcsaber-Badminton-Racket-Strung/dp/B075FF13K3/ref=as_li_ss_tl?dchild=1&keywords=yonex+arcsaber+11&qid=1585424884&sr=8-1&th=1&psc=1&linkCode=ll1&tag=badmintonsbes-20&linkId=5e7c48fab127a0e9777feb98920db1d9&language=en_US" rel="nofollow">here on Amazon</a>.
 
@@ -72,14 +72,14 @@ Like the Voltric Z Force 2, this was an incredibly popular racquet with top play
 
 **Pros:**
 
-* The aerodynamic side is amazingly quick for short sharp shots
-* The boxed side provides solid hitting power
-* Easy to play in the defence
-* More forgiving stiffness and balance, easier to play with
+- The aerodynamic side is amazingly quick for short sharp shots
+- The boxed side provides solid hitting power
+- Easy to play in the defence
+- More forgiving stiffness and balance, easier to play with
 
 **Cons:**
 
-* Easy power but feels limited compared to heavier, stiffer racquets
+- Easy power but feels limited compared to heavier, stiffer racquets
 
 I’ve played with this racquet before and you don’t need to play with it long to realise why so many people loved this racquet and still do. Although top players may have moved on this is still overall one of the best racquets you can buy. Still easily available you can find it <a href="https://www.amazon.com/Yonex-Badminton-Racket-Unstrung-Strung/dp/B075FHZFN2/ref=as_li_ss_tl?dchild=1&keywords=yonex+duora+10&qid=1585424928&sr=8-1&th=1&psc=1&linkCode=ll1&tag=badmintonsbes-20&linkId=385bea0bffe41f544329d76953c4c72f&language=en_US" rel="nofollow">here on Amazon</a>.
 
@@ -93,13 +93,13 @@ All top men's doubles players they favoured the sheer speed this racquet has. A 
 
 **Pros:**
 
-* So light and so speedy to play with
-* Still delivers power in the smashes
-* Easy to manoeuvre and responsive
+- So light and so speedy to play with
+- Still delivers power in the smashes
+- Easy to manoeuvre and responsive
 
 **Cons:**
 
-* Smaller head frame, more chance to mishit the shuttle
+- Smaller head frame, more chance to mishit the shuttle
 
 Nobody can argue this is still a top racquet even in 2019. Most would still favour playing with this racquet despite its age and get incredible results with it. I’d recommend this to anybody who focuses on playing doubles. If it’s good enough for the best and is easy to play with, why not? You can find it <a href="https://www.amazon.com/s/ref=as_li_ss_tl?k=victor+jetspeed+10&ref=nb_sb_noss&linkCode=ll2&tag=badmintonsbes-20&linkId=d6f7134ea7dfa7d4c636f332189f513b&language=en_US" rel="nofollow">here on Amazon</a>.
 
@@ -111,14 +111,14 @@ Famously Zhang Nan used this racquet and he’s one of the best mens and mixed d
 
 **Pros:**
 
-* Beautifully detailed racquet, simply stunning
-* Good speed, power and control
-* Even balance and medium flex makes it so easy to play with
-* Great for frontcourt play
+- Beautifully detailed racquet, simply stunning
+- Good speed, power and control
+- Even balance and medium flex makes it so easy to play with
+- Great for frontcourt play
 
 **Cons:**
 
-* Has power but is limited by the flexible shaft
+- Has power but is limited by the flexible shaft
 
 I’d say out of this list that this is the easiest to recommend. This racquet has everything and is coupled with a beautiful design. With so much quality it’s an easy buy. Find it <a href="https://www.racketline.co.uk/badminton-c1/badminton-rackets-c5/li-ning-n7ii-ultra-sharp-turbo-n7-ii-wh-racket-p3868" rel="nofollow">here on Racketline</a>.
 
@@ -130,4 +130,4 @@ I’d say out of this list that this is the easiest to recommend. This racquet h
 
 **Which is the best badminton racquets for a beginner?** I always recommend even balanced, flexible shaft racquets for beginners. Playing with an all-around quality racquet that has a good amount of flex helps beginners by being easy to play with and easy to generate power. See our racquets for beginners guide for a list of the best racquets and why they’re good for beginners.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

@@ -153,4 +153,4 @@ I’ve always taken good care of my racquets using all the information I’ve sh
 
 **Can badminton rackets be repaired? **Depending on the severity of the damage to the racquet, Badminton racquets can be repaired. If there is a crack in the frame this can be repaired using an epoxy filling technique combined with carbon fibre. [Click here](https://www.youtube.com/watch?v=WcRHMpeKFFs) to see a video on how it’s done.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

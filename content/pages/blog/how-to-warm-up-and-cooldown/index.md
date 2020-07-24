@@ -95,4 +95,6 @@ Something often unmentioned is the benefits of a good night's sleep in relation 
 
 Here at Badminton's Best we always look at the best players in the world to learn from and every single one of them will do warm-ups and cooldowns. Why would you avoid something that is so fundamental to keeping fit and injury free?
 
-Take away these routines and try them next time your at badminton or training as a way to warm-up and cooldown. These are the basics and there are countless ways to do both. If you enjoyed this article or found it useful please leave a comment and share with other badminton fans. If you have a good warm-up and/or cooldown routines please feel free to share in the comments below.
+Take away these routines and try them next time your at badminton or training as a way to warm-up and cooldown. These are the basics and there are countless ways to do both.
+
+If you found this useful let us know on Twitter, Facebook or Instagram and share with other badminton fans. If you have a good warm-up and/or cooldown routines please reach out and let us know.

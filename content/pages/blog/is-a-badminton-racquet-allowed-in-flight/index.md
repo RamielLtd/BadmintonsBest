@@ -55,11 +55,11 @@ But what should you do if you're the unlucky few to experience damages or lost l
 
 Most airlines have processes set out for filing a damage complaint normally called a PIR (Property Irregularity Report). This form must be filled out and submitted to the airline you flew with within 7 days although this length of time can vary. There are normally a number of exceptions for things you can't claim for such as:
 
-*   Superficial damage
-*   Damage due to overpacking
-*   From weather damage such as rain or snow
-*   Fragile items being broken if packed in a container designed for shipping
-*   A long list of excluded fragile items packed in luggage such as jewellery and electronics
+- Superficial damage
+- Damage due to overpacking
+- From weather damage such as rain or snow
+- Fragile items being broken if packed in a container designed for shipping
+- A long list of excluded fragile items packed in luggage such as jewellery and electronics
 
 No two airlines have the same policies when it comes to damaged luggage so it's always best to check with your individual airline before flying.
 
@@ -67,10 +67,10 @@ Alternative to claiming directly through the airline most travel insurance cover
 
 To avoid any mishaps with luggage and potential damage here are some simple tips:
 
-*   Don't overpack for luggage, could lead to bursting
-*   Pick a suitcase with recessed wheels
-*   Choose a fabric suitcase over a plastic or hard suitcase. Plastic/hard suitcases can crack in cold weather or from being crushed by other luggage
-*   Buy a cover to protect from scraping and zippers being caught
+- Don't overpack for luggage, could lead to bursting
+- Pick a suitcase with recessed wheels
+- Choose a fabric suitcase over a plastic or hard suitcase. Plastic/hard suitcases can crack in cold weather or from being crushed by other luggage
+- Buy a cover to protect from scraping and zippers being caught
 
 ### Lost luggage
 
@@ -78,24 +78,24 @@ The process for reporting luggage lost is largely the same except you normally h
 
 Compensation won't cover the entire contents of your luggage. One tip is to keep anything expensive or valuable in your carry on luggage if allowed. Compensation is normally limited to:
 
-*   Bare essentials such as toiletries and clothing
-*   Partial cost or replacing lost luggage contents
+- Bare essentials such as toiletries and clothing
+- Partial cost or replacing lost luggage contents
 
 It's advisable to have photographic evidence of the contents of your luggage. So always take some photos as an inventory whilst packing. They often ask for receipts for any expensive items so try and keep e-receipts and photograph physical receipts. Airlines usually won't pay out for:
 
-*   "New for old" replacement
-*   Anything valuable, fragile or perishable
-*   Stress or inconvenience caused
+- "New for old" replacement
+- Anything valuable, fragile or perishable
+- Stress or inconvenience caused
 
 ### Making the claim
 
 When you have the PIR form whether your luggage is damaged or lost make sure to have all of this information available:
 
-*   Flight details; dates, flight number etc
-*   Whether your luggage is damaged or lost
-*   Your total monetary claim
-*   A full list of damaged or lost items
-*   List of items you had to purchase because of lost items. Toiletries etc
+- Flight details; dates, flight number etc
+- Whether your luggage is damaged or lost
+- Your total monetary claim
+- A full list of damaged or lost items
+- List of items you had to purchase because of lost items. Toiletries etc
 
 Once you've submitted your claim make sure to be proactive on chasing the airline. They'll happily take their time to deal with your case if you don't chase them. The results of them taking their time or being quick about it will roughly be the same in the end so don't be too polite, chase them each day.
 
@@ -103,4 +103,4 @@ Once you've submitted your claim make sure to be proactive on chasing the airlin
 
 **What items are not allowed in hand luggage?** Items such as sporting equipment, sharp objects, alcohol, flammable items etc are all banned for hand luggage. These items are pretty obvious but Skyscanner has a [comprehensive guide](https://www.skyscanner.net/news/flights/airline-carry-on-restrictions-and-prohibited-items-on-board) on carry-on restrictions.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

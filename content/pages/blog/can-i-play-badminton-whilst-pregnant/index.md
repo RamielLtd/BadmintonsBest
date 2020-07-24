@@ -70,5 +70,3 @@ So all of this strengthens the argument of avoiding badminton whilst you are pre
 ## In conclusion
 
 It's sad news that it's just not safe to play badminton whilst pregnant but it's never 100% safe for everyone anyway. I'd recommend on taking a step back from badminton to really enjoy the important thing here which is the pregnancy itself. Life comes and goes so quickly that we'll often miss things if we're distracted or busy etc. Enjoy the time during pregnancy as it is one of the most special experiences in life and that's worth missing badminton for a little while.
-
-Thanks for reading, as usual, please feel free to leave a comment below. Am I right about this? If there is anything I might have missed or if there are mistakes need rectifying or you have something useful to contribute then please contribute and leave a comment.

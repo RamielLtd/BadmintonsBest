@@ -59,4 +59,6 @@ Let’s face it, it can be often overlooked that the enjoyment of an activity of
 
 The research backs this as people who do little and often and keep a consistent routine with exercise do better in the long run with weight loss than those who try to make big changes in short spaces of time. In the book “The Power of Habit” there is something called the Habit Loop where there is a cue, the routine and the reward. In our case with Badminton, the cue is that we want to lose weight, the routine is going off to Badminton and the reward is the delight of winning, exercising and giving our body a good workout, socializing with the people we play with and much more. The point is that you’ll more likely stick to it because it creates the perfect habit loop.
 
-Those are just five reasons why Badminton will help you lose weight. Please feel free to leave a comment below and let me know if this gets you excited to start playing or to play more! Maybe there is another weight loss benefit I haven’t covered?
+## Wrapping things up
+
+Those are just five reasons why Badminton will help you lose weight. Let me know if this gets you excited to start playing or to play more! Maybe there is another weight loss benefit I haven’t covered? Reach out and let us know on Twitter, Facebook or Instagram.

@@ -89,4 +89,4 @@ One tip with this serve, it's easier to get good length by holding the shuttleco
 
 **What are the types of service in Badminton?** There are two ways of serving in Badminton. Forehand and backhand. With these two you can then serve short to the net or serve long to the back service line (the line differs for singles and doubles)
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

@@ -74,4 +74,4 @@ If you watch all three players you’ll see that they all share similar traits i
 
 I hope this information will serve you well, the split step is one thing I’m still working on as a player even after all these years and everything always has room for improvement. Learn the split step, it’s a fundamental technique in Badminton and practice, practice, practice till it becomes second nature.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice around the split step please leave feedback and share your help with other below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice around the split step please leave feedback and share your help with other below. Thanks again for reading.

@@ -107,4 +107,4 @@ We were used to seeing him taking the role as the rear court player when playing
 
 **Who is the tallest badminton player?** Mads Pieler Kolding is the tallest elite Badminton player. Measuring in a 2.05 meters tall (which is just over 6.2 feet) he a giant in the world of Badminton.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

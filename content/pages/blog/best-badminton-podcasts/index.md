@@ -15,10 +15,10 @@ The trend for podcasts has been growing year on year without any signs of slowin
 
 So what are the best Badminton podcasts out there? **The best Badminton podcasts in 2020 are:**
 
-*   **Badminton Beat**
-*   **The Badminton Podcast**
-*   **BEC Podcast**
-*   **A Year On Tour With Vittinghus**
+- **Badminton Beat**
+- **The Badminton Podcast**
+- **BEC Podcast**
+- **A Year On Tour With Vittinghus**
 
 These are the four best Badminton podcasts I listen to in 2020. This is not an exhaustive list of all the Badminton podcasts out there. A list of honourable mentions can be found at the end of this article. So, let’s see what makes these podcasts so great.
 
@@ -36,9 +36,9 @@ Sadly, they don’t post as often as they used to but are still active with the 
 
 Links to the Badminton Beat podcast on various platforms and services below:
 
-*   [Badminton Beat website](http://badmintonbeat.blubrry.net/)
-*   [Google Podcasts](https://podcasts.google.com/?feed=aHR0cDovL2JhZG1pbnRvbmJlYXQuYmx1YnJyeS5uZXQvZmVlZC9wb2RjYXN0Lw&ved=0CAAQ4aUDahcKEwjIxqeQhtvnAhUAAAAAHQAAAAAQAQ&hl=en-GB)
-*   [Apple Podcasts](https://podcasts.apple.com/us/podcast/badminton-beat/id1297809130)
+- [Badminton Beat website](http://badmintonbeat.blubrry.net/)
+- [Google Podcasts](https://podcasts.google.com/?feed=aHR0cDovL2JhZG1pbnRvbmJlYXQuYmx1YnJyeS5uZXQvZmVlZC9wb2RjYXN0Lw&ved=0CAAQ4aUDahcKEwjIxqeQhtvnAhUAAAAAHQAAAAAQAQ&hl=en-GB)
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/badminton-beat/id1297809130)
 
 ## The Badminton Podcast
 
@@ -50,7 +50,7 @@ They founded their brand Volant Wear back in 2018 with the aim of producing the 
 
 After founding their brand they also started The Badminton Podcast. Less than six months old at the time of writing and they have nearly 30 episodes already! Their podcast episodes range from 40-60 minutes but are regularly around 55 minutes long. Their value proposition is this:
 
->The podcast for badminton players, by badminton players, where we celebrate local heroes, interview players from all walks of life and push you to grow as a player and a person.
+> The podcast for badminton players, by badminton players, where we celebrate local heroes, interview players from all walks of life and push you to grow as a player and a person.
 
 Their podcast delivers interviews with Badminton players we know and loves like Hans Kristen Vittinghus and Gronya Sommerville but they don’t just stop with interviewing players, they interview coaches, Badminton YouTube creators and high profile business executives that happen to be big Badminton fans.
 
@@ -58,12 +58,12 @@ Variety is the spice of life and this podcast is definitely spicy. Each episode 
 
 Links to The Badminton Podcast on various platforms and services below:
 
-*   [Volant Wear website](https://www.volantwear.com/)
-*   [Google Podcasts](https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jOGY5M2U0L3BvZGNhc3QvcnNz&ved=0CAQQrrcFahcKEwiQ4-iuitvnAhUAAAAAHQAAAAAQBQ)
-*   [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-badminton-podcast/id1481218876)
-*   [Spotify](https://open.spotify.com/show/42fJTgrLWNJTFQ19AtMn04)
-*   [Stitcher](https://www.stitcher.com/podcast/jeffrey-tho/the-badminton-podcast)
-*   [Anchor](https://anchor.fm/thebadmintonpodcast/)
+- [Volant Wear website](https://www.volantwear.com/)
+- [Google Podcasts](https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9jOGY5M2U0L3BvZGNhc3QvcnNz&ved=0CAQQrrcFahcKEwiQ4-iuitvnAhUAAAAAHQAAAAAQBQ)
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-badminton-podcast/id1481218876)
+- [Spotify](https://open.spotify.com/show/42fJTgrLWNJTFQ19AtMn04)
+- [Stitcher](https://www.stitcher.com/podcast/jeffrey-tho/the-badminton-podcast)
+- [Anchor](https://anchor.fm/thebadmintonpodcast/)
 
 ## BEC Podcast
 
@@ -79,11 +79,11 @@ They have over 50 episodes lasting between 15-30 minutes long so are the perfect
 
 Links to BEC Podcast on various platforms and services below:
 
-*   [Badminton Europe website](http://www.badmintoneurope.com/Cms/)
-*   [Soundcloud](https://soundcloud.com/user-298148835)
-*   [Google Podcasts](https://podcasts.google.com/?feed=aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MzQ0NTE5OTgxL3NvdW5kcy5yc3M&ved=0CAAQ4aUDahcKEwjottW079vnAhUAAAAAHQAAAAAQAQ&hl=en-GB)
-*   [Apple Podcasts](https://podcasts.apple.com/gb/podcast/bec-podcast/id1341621072)
-*   [Spotify](https://open.spotify.com/show/121UMw4YXjOSjegFfRgQtR)
+- [Badminton Europe website](http://www.badmintoneurope.com/Cms/)
+- [Soundcloud](https://soundcloud.com/user-298148835)
+- [Google Podcasts](https://podcasts.google.com/?feed=aHR0cDovL2ZlZWRzLnNvdW5kY2xvdWQuY29tL3VzZXJzL3NvdW5kY2xvdWQ6dXNlcnM6MzQ0NTE5OTgxL3NvdW5kcy5yc3M&ved=0CAAQ4aUDahcKEwjottW079vnAhUAAAAAHQAAAAAQAQ&hl=en-GB)
+- [Apple Podcasts](https://podcasts.apple.com/gb/podcast/bec-podcast/id1341621072)
+- [Spotify](https://open.spotify.com/show/121UMw4YXjOSjegFfRgQtR)
 
 ## A Year On Tour With Vittinghus
 
@@ -99,9 +99,9 @@ I’ve been a long time Vittinghus fan so this review may be a little biased, bu
 
 Links to A Year On Tour With Vittinghus on various platforms and services below:
 
-*   [Podbean](https://vittinghus.podbean.com/)
-*   [Google Podcasts](https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3ZpdHRpbmdodXMvZmVlZC54bWw&ved=0CAAQ4aUDahcKEwi4l-Wg8dvnAhUAAAAAHQAAAAAQAQ&hl=en-GB)
-*   [Apple Podcasts](https://podcasts.apple.com/us/podcast/id1493710088)
+- [Podbean](https://vittinghus.podbean.com/)
+- [Google Podcasts](https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3ZpdHRpbmdodXMvZmVlZC54bWw&ved=0CAAQ4aUDahcKEwi4l-Wg8dvnAhUAAAAAHQAAAAAQAQ&hl=en-GB)
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/id1493710088)
 
 ## Honourable mentions
 
@@ -127,4 +127,4 @@ Another podcast that has had sporadic episode posting is The Mid-Game Interval. 
 
 It’s a podcast more like listening to a group of Badminton friends from your local club. If they ramp up the production quality and polish the structure of each episode they could have something really different to listen to. Their episodes are available on [Anchor](https://anchor.fm/themid-gameinterval), [Google Podcasts](https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy9hYjg5ZjBjL3BvZGNhc3QvcnNz&ved=0CAAQ4aUDahcKEwiIuLrA_dvnAhUAAAAAHQAAAAAQAQ&hl=en-GB) and [Spotify](https://open.spotify.com/show/0RCdfPiOYtrXDn8E8ENmec).
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

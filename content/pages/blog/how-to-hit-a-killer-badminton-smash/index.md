@@ -65,4 +65,4 @@ Following through with your body gives you more balance and more momentum so is 
 
 After reading all of this there is nothing left to do but go out there and practise. I would always recommend finding a good coach who can coach the fundamentals extremely well. Practise is only worth doing if it is good quality practise, spending hours and hours practising something the wrong way won’t improve anything. Practise with purpose, practise with patience and an open mind and practise with 100% effort and enjoy it, it’s proven we excel more easily in the things that we enjoy then the things we don’t.
 
-Keep watching the best in badminton and try and pick out some of the things mentioned here, learn from them as they’re the best for a reason. If you have anything you think would help somebody else or if I’ve missed something vital in this breakdown article please comment below and if you found this interesting and useful please share with those who’d also appreciate and gain from it. Thank you.
+Keep watching the best in badminton and try and pick out some of the things mentioned here, learn from them as they’re the best for a reason.

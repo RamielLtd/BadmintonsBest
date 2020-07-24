@@ -174,4 +174,4 @@ It’s unclear how long it will be before more people will get the chance to pla
 
 **What is AirBadminton and Triples?** AirBadminton is the new outdoor format for Badminton developed by the BWF. Triples is the new playing format for AirBadminton where there are three players on each side. The biggest difference between Triples and Doubles is that the same person cannot hit it twice in a row.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

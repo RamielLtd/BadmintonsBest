@@ -21,14 +21,14 @@ There are more people who claim to be ambidextrous who are actually not. They ar
 
 So being ambidextrous sounds like a good thing right off the bat right? Let's outline some advantages it can have in Badminton:
 
-*   **You don't have a backhand or a forehand side.** If you're able to switch hands during the rally then you can play forehand, or backhand, on either side! That would really confuse the opponent!
-*   **Play any shot from the net forehand.** You won't need to step across and use your backhand, you can just switch hands and play it with a forehand.
+- **You don't have a backhand or a forehand side.** If you're able to switch hands during the rally then you can play forehand, or backhand, on either side! That would really confuse the opponent!
+- **Play any shot from the net forehand.** You won't need to step across and use your backhand, you can just switch hands and play it with a forehand.
 
 It sounds like reasonable logic right? Most people would prefer to play most shots forehand or backhand. Such as smashing, if you could smash on your forehand side every time it's more effective. Or playing defence, most people prefer to use the backhand to defend. It sounds logical but can it work in practice? Here are the possible disadvantages.
 
-*   **Nobody at the top level has ever played switching hands.** Throughout my research, I've never found a player to play whilst switching hands. A result of this is that nobody would know how to coach someone who would want to play this way.
-*   **Switching hands during a fast rally would be really difficult.** Badminton is a fast game, sometimes you have less than seconds to react. Switching hands would require time to see the shuttle and then also to choose whether to switch hands or not.
-*   **Confused coordination.** Switching hands constantly might confuse the opponent but is more likely to confuse yourself. Footwork is different for left and right-handed players so coordinating footwork will be difficult.
+- **Nobody at the top level has ever played switching hands.** Throughout my research, I've never found a player to play whilst switching hands. A result of this is that nobody would know how to coach someone who would want to play this way.
+- **Switching hands during a fast rally would be really difficult.** Badminton is a fast game, sometimes you have less than seconds to react. Switching hands would require time to see the shuttle and then also to choose whether to switch hands or not.
+- **Confused coordination.** Switching hands constantly might confuse the opponent but is more likely to confuse yourself. Footwork is different for left and right-handed players so coordinating footwork will be difficult.
 
 From analysis and using common sense, there doesn't look to be much benefit from being able to switch hands. However, with it being so uncommon nobody can say for sure that it couldn't work.
 
@@ -36,7 +36,7 @@ From analysis and using common sense, there doesn't look to be much benefit from
 
 You see in Tennis that a lot of players, including the elite players, play some shots with a two-handed grip. Is this any use in Badminton? Not really. You mostly see players use two hands to play backhand shots in Tennis. This is to stabilise the racquet more upon hitting the ball. A Tennis racquet and ball is much heavier than a Badminton racquet and shuttlecock.
 
-It's a lot harder in practice to play a Tennis backhand one handed and still control the ball then if you used one hand. Most players are taught to play two-handed as it's easier and more common. The same can't be said for Badminton. The racquets and shuttles are much lighter so the impact of playing shots doesn't need a lot of bracing behind them  
+It's a lot harder in practice to play a Tennis backhand one handed and still control the ball then if you used one hand. Most players are taught to play two-handed as it's easier and more common. The same can't be said for Badminton. The racquets and shuttles are much lighter so the impact of playing shots doesn't need a lot of bracing behind them
 
 There is more range of motions and strokes in Badminton from both the forehand and backhand sides. You play shots from high, low, wide and in front of you. This requires more reach and flexibility. If you have both hands on the racquet you can't naturally extend yourself to reach the shuttle. It's a big disadvantage for no gain.
 
@@ -80,4 +80,4 @@ Another example from Tennis but a lesser known player, Cheong-Eui Kim solely pla
 
 **Can I switch my racquet mid-rally?** You can switch your racquet mid-rally. You see it happen quite a lot in world level Badminton. A player breaks a string or clashes with his partners' racquet making playing on near impossible. They'll have a racquet out ready by the side of the court for when this happens. They'll rush off mid-rally and try and get the new racquet so they can carry on and try to win the point.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

@@ -39,10 +39,10 @@ For Badminton it also very important to have a impact reducing flooring for the 
 
 There are four main flooring systems used in sports. These are:
 
-*   Point elastic
-*   Mixed elastic
-*   Area elastic
-*   Combined elastic
+- Point elastic
+- Mixed elastic
+- Area elastic
+- Combined elastic
 
 These four systems have set characteristics and are designed with either particular sports or general use in mind. Out of the four systems, only one is not suitable for Badminton which is the point elastic system. This system is normally a synthetic flooring material (usually a wet poured polyurethane) to cover an existing surface such as concrete. The point elastic systems create a more uniform playing surface and create some impact reduction for players but because it is only a top layer the are of displacement when the impact happens is only very small.
 
@@ -66,4 +66,4 @@ Tennis originated as an outdoor lawn sport and has been adapted to be played in 
 
 **What's the difference Badminton and Tennis shoes?** Tennis shoes have thicker padding on the heels of the shoe because of the amount of running done. They also don't have non-marking gum soles on the bottom of the shoes which are designed for indoor sports. These two differences mean they're not well suited for Badminton where you need more grip and more manoeuvrability for the foot.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I've missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

@@ -171,4 +171,4 @@ If you plan on how you’re going to win the match or plan how you’re going to
 
 **Why is a serve important in badminton?** The serve is the only shot in Badminton to have 100% control over. If you can serve well you can have the advantage from the beginning of the rally. It’s rare to score a point from a serve like in Tennis but it can happen.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

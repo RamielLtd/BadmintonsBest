@@ -104,4 +104,4 @@ Players need to execute technically difficult shots with pinpoint accuracy all a
 
 **How long is an average badminton game?** The average length of a Badminton match on the World Tour is [roughly 43 minutes](https://twitter.com/BadmintonStats/status/1208391188170072065?s=20). This can vary between doubles and doubles and will be longer for elite players and shorter for beginners.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

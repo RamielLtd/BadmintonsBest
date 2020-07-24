@@ -88,4 +88,4 @@ It’s got a smaller margin for error. Use the racquet for a couple of practices
 
 I don’t recommend it for everyone as I believe the exercises with your own racquet will be better for most rather than switching back and forth. If you’re interested you can find the [Black Knight Sweet Spot Trainer](http://blackknight.ca/index.php?route=product/product&product_id=612) on their website.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

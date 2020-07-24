@@ -78,4 +78,4 @@ With this difference established we now understand how our reactions work. We un
 
 **What can affect your reaction time?** There are various factors that can affect your reaction time. Some include things you can't change such as your age, gender and personality type. Other factors that you can change such as physical fitness, fatigue levels, concentration and alcohol level.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

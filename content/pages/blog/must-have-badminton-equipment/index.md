@@ -11,11 +11,11 @@ You need equipment with any sport. Without equipment, you can’t play, unfortun
 
 So, what are the essential pieces of equipment for Badminton? **You only need five pieces of equipment to get started with Badminton. These are:**
 
-* **A Badminton net and two posts**
-* **At least two Badminton racquets**
-* **Some shuttlecocks**
-* **Good Badminton shoes**
-* **The right sports clothing**
+- **A Badminton net and two posts**
+- **At least two Badminton racquets**
+- **Some shuttlecocks**
+- **Good Badminton shoes**
+- **The right sports clothing**
 
 So you don’t need much to get started then. For a lot of people, you’ll be able to borrow most of these items from a local sports centre. Some people would say that you only need the first three items of this list, I’d disagree. The last items on the list are key to playing safely. Read on to find out why and how safety comes into a sport like Badminton.
 
@@ -85,4 +85,4 @@ Players like Nathan Robertson made them part of their look and you can get some 
 
 **What are the regulations for the equipment for Badminton?** There are regulations for racquets, nets, courts and shuttlecocks set by the BWF. The BWF detail the approval process for these [here](https://corporate.bwfbadminton.com/events/equipment-approval-scheme/). This page has the regulation details for all equipment.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

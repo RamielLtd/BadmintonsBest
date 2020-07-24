@@ -21,10 +21,10 @@ Badminton is accessible for all to pick up and play. If you’re joining a club,
 
 The absolute basics to wear for Badminton are:
 
-*   Good quality cotton sports socks
-*   A pair of sports shorts or a skirt
-*   A light sports T-shirt
-*   A quality pair of Badminton shoes
+- Good quality cotton sports socks
+- A pair of sports shorts or a skirt
+- A light sports T-shirt
+- A quality pair of Badminton shoes
 
 Good quality socks are often overlooked for sports but they can be the difference between a comfortable, enjoyable playing experience and a blister prone nightmare that can wear out your socks before you know it.
 
@@ -94,4 +94,4 @@ Not so much a dress code but for modesty, I’d recommend that if you were to we
 
 Some sports brands now have _skorts_ which are skirts with shorts attached underneath like swim shorts for men. These are great because you don’t need to have separate shorts and skirts to layer up.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

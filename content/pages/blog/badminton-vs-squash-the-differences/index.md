@@ -159,4 +159,4 @@ Squash, unfortunately, has yet to make its appearance at the Olympics despite it
 
 **Can you use a Squash racquet for Badminton?** You can’t use a squash racquet for Badminton. Besides being ineffective for playing Badminton (a lot heavier than a Badminton racquet) the dimensions of a squash racquet go against the rules stated for Badminton racquets.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

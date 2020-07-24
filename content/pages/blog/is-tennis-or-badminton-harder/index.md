@@ -150,4 +150,4 @@ Comparing Tennis and Badminton is like comparing apples and pears. They have sim
 
 **Is Badminton good exercise?** Badminton is excellent exercise at any level. If you're a beginner or a more advanced player it's a sport that gets you moving. Humans are adapted to constant movement, we're not made for sitting still. Badminton gets you moving in most ways you can imagine so it's very well rounded exercise.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.

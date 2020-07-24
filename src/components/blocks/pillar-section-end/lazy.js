@@ -25,7 +25,7 @@ PillarSectionEndComponent.defaultProps = {
     "Now I’d like to hear from you:",
     "Did you learn something new?",
     "Which tip are you going to use first?",
-    "Either way, let me know by leaving a comment.",
+    "Either way, let us know on Twitter, Facebook or Instagram",
   ],
 }
 

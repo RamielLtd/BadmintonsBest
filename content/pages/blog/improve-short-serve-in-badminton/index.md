@@ -130,4 +130,4 @@ Using the sliced serve well decreases the amount of time the shuttle is travelli
 
 **Can you smash a serve in Badminton?** It's possible to play a smash from a high serve in Badminton. If the other player is serving short or serving low then it's going to be nearly impossible to play a smash. If the opponent serves high enough for you to smash it then it's perfectly legal to do so.
 
-If you found this article useful or know someone who might find this useful please leave a comment and share. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
