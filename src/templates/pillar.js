@@ -13,7 +13,6 @@ import PillarMainContent from "../components/layouts/pillar-main-content"
 
 class PillarTemplate extends React.Component {
   render() {
-    const siteUrl = this.props.data.site.siteMetadata.siteUrl
     const post = this.props.data.mdx
     const url = this.props.location.href
     const dateModified = post.parent.mtime
@@ -87,7 +86,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
-        siteUrl
       }
     }
     mdx(fields: { slug: { eq: $slug } }) {
