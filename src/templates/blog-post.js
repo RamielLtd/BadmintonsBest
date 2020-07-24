@@ -3,25 +3,25 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Layout from "src/components/layout"
+import SEO from "src/components/seo"
+import { rhythm } from "src/utils/typography"
 
-import About from "../components/content/about"
-import Bio from "../components/bio"
-import RelatedContent from "../components/content/related-content"
+import About from "src/components/content/about"
+import Bio from "src/components/bio"
+import RelatedContent from "src/components/content/related-content"
 
-import Attribution from "../components/attribution"
-import Constrain from "../components/constrain"
-import Box from "../components/box"
-import RightSideBarLayout from "../components/layouts/right-sidebar-layout"
-import MainContent from "../components/layouts/main-content"
-import SideBar from "../components/layouts/sidebar"
-import ContentHeader from "../components/content-header"
+import Attribution from "src/components/attribution"
+import BlogPostSignup from "src/components/embeds/blogpost-signup"
+import Box from "src/components/box"
+import Constrain from "src/components/constrain"
+import RightSideBarLayout from "src/components/layouts/right-sidebar-layout"
+import MainContent from "src/components/layouts/main-content"
+import SideBar from "src/components/layouts/sidebar"
+import ContentHeader from "src/components/content-header"
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const siteUrl = this.props.data.site.siteMetadata.siteUrl
     const post = this.props.data.mdx
     const slug = post.fields.slug
     const url = this.props.location.href
@@ -86,6 +86,13 @@ class BlogPostTemplate extends React.Component {
                     marginBottom: rhythm(1.5),
                   }}
                 />
+                <BlogPostSignup />
+                <hr
+                  style={{
+                    marginTop: rhythm(1.5),
+                    marginBottom: rhythm(1.5),
+                  }}
+                />
                 <Bio />
                 {categories.length > 0 && (
                   <>
@@ -127,7 +134,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
-        siteUrl
       }
     }
     mdx(fields: { slug: { eq: $slug } }) {
