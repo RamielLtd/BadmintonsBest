@@ -16,15 +16,15 @@ To be good at any sport you need to master the basics. Mastering the basic techn
 
 So what are the basic skills you need to play Badminton? **Here are nine basic skills you need to learn to play Badminton:**
 
-- **Knowing how to warm up properly**
-- **The basic forehand and backhand grip**
-- **The basic six corners footwork**
-- **The split sep/the ready stance**
-- **The basic shots**
-- **Perception and anticipation**
-- **Hand-eye coordination**
-- **Rhythm and timing**
-- **Tactical thinking**
+- **[Knowing how to warm up properly](#knowing-how-to-warm-up-properly)**
+- **[The basic forehand and backhand grip](#the-basic-forehand-and-backhand-grip)**
+- **[The basic six corners footwork](#the-basic-six-corners-footwork)**
+- **[The split step or the ready stance](#the-split-stepthe-ready-stance)**
+- **[The basic shots](#the-basic-shots)**
+- **[Perception and anticipation](#perception-and-anticipation)**
+- **[Hand-eye coordination](#hand-eye-coordination)**
+- **[Rhythm and timing](#rhythm-and-timing)**
+- **[Tactical and strategic thinking](#tactical-and-strategic-thinking)**
 
 This list is just the basics and doesn’t cover any advanced skills and tactics. There is a lot to master even with these basic skills. Some of these skills are harder to master than others and some have different levels of mastery. If you want to master these skills then read on.
 
@@ -165,10 +165,8 @@ Why is it important to learn about tactics and strategies? Taking a quote from S
 
 If you plan on how you’re going to win the match or plan how you’re going to cope with your opponents' big smash then you’re already a step ahead. You need to learn how to harness your best shots to gain the initiative and win points. It’s partly visualization if you can visualize how you can win then you’re more likely to win.
 
-## Related questions
+## It's your turn
 
-**How do I get better at badminton?** The simple answer is through lots of practice and hard work. But you need to deliberate, focused and purposeful practice to get better faster. I recommend reading Matthew Syed’s book [Bounce](/recommended-gear/best-badminton-books/) to get a better understanding of deliberate practice.
+Use this list, practice and master these skills and your Badminton game will hit the next level.
 
-**Why is a serve important in badminton?** The serve is the only shot in Badminton to have 100% control over. If you can serve well you can have the advantage from the beginning of the rally. It’s rare to score a point from a serve like in Tennis but it can happen.
-
-If you found this article helpful return the favour and share it with a friend. If you feel I’ve missed anything out or have other advice, please leave feedback and share your help with others below. Thanks again for reading.
+We love to hear from our readers so share your Badminton journey and progress with us on Twitter, Facebook or Instagram.
