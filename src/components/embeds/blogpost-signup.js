@@ -83,10 +83,10 @@ const BlogPostSignup = () => {
           <FormTitle>Enjoy the content?</FormTitle>
           <FormContent>
             Don't miss the next one{" "}
-            <span rel="image" aria-label="arrow pointing down">
+            <span role="img" aria-label="arrow pointing down">
               ⬇️
             </span>
-            <span rel="image" aria-label="finger pointing down">
+            <span role="img" aria-label="finger pointing down">
               👇
             </span>
           </FormContent>
