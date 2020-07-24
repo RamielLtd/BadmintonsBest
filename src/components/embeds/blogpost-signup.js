@@ -82,7 +82,7 @@ const BlogPostSignup = () => {
         <FormElements>
           <FormTitle>Enjoy the content?</FormTitle>
           <FormContent>
-            Don't miss the next one{" "}
+            Get access to exclusive tips and strategies not found on the blog.
             <span role="img" aria-label="arrow pointing down">
               ⬇️
             </span>
