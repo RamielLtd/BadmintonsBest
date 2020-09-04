@@ -47,6 +47,7 @@ const HomepageSignup = () => {
         className="sendfox-form"
         id={formId}
         data-async="true"
+        data-recaptcha="true"
       >
         <FormElements>
           <EmailInput type="email" placeholder="Email" name="email" required />

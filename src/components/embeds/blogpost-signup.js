@@ -77,6 +77,7 @@ const BlogPostSignup = () => {
         className="sendfox-form"
         id={formId}
         data-async="true"
+        data-recaptcha="true"
         style={{ margin: 0 }}
       >
         <FormElements>
