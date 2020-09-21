@@ -106,12 +106,13 @@ const Footer = () => {
           <FooterSection>
             <h3>Legal Information</h3>
             <p>
-              This site is owned and operated by Ramiel Ltd. Ramiel Ltd is a
-              participant in the Amazon Services LLC Associates Program, an
-              affiliate advertising program designed to provide a means for
-              sites to earn advertising fees by advertising and linking to
-              Amazon.com. Ramiel Ltd is compensated for referring traffic and
-              business to these companies. Copyright © Ramiel Ltd
+              This site is owned and operated by BadmintonsBest Ltd.
+              BadmintonsBest Ltd is a participant in the Amazon Services LLC
+              Associates Program, an affiliate advertising program designed to
+              provide a means for sites to earn advertising fees by advertising
+              and linking to Amazon.com. BadmintonsBest Ltd is compensated for
+              referring traffic and business to these companies. Copyright ©
+              BadmintonsBest Ltd
             </p>
             <ul>
               <li>

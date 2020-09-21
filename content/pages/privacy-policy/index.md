@@ -1,9 +1,9 @@
 ---
-title: "Privacy Policy of Ramiel Ltd"
+title: "Privacy Policy of BadmintonsBest Ltd"
 date: "2019-04-01"
 ---
 
-Ramiel Ltd operates the https://www.badmintonsbest.com website, which provides the SERVICE.
+BadmintonsBest Ltd operates the https://www.badmintonsbest.com website, which provides the SERVICE.
 
 This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the Badmintons Best website.
 
@@ -29,10 +29,10 @@ Our website uses these "cookies" to collection information and to improve our Se
 
 We may employ third-party companies and individuals due to the following reasons:
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+- To facilitate our Service;
+- To provide the Service on our behalf;
+- To perform Service-related services; or
+- To assist us in analyzing how our Service is used.
 
 We want to inform our Service users that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
 
